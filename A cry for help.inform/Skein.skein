@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x7f7b90005b30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x55aa489fffb0"/>
+  <item nodeId="node-0x7f7b90005b30">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+A cry for help
+An Interactive Fiction by A very silly man
+Release 1 / Serial number 261001 / Inform 7 v10.1.2 / D
+
+in-between
+Swirling mists that appear to exist in between your world and some other place, just out of reach.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55aa499ca410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55aa499ca410">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">in-between
+Swirling mists that appear to exist in between your world and some other place, just out of reach.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55aa48ff00e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55aa48ff00e0">
+    <command xml:space="preserve">eat</command>
+    <result xml:space="preserve">(yourself)
+You&apos;re plainly inedible.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x55aa489fffb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x55aa489fffb0">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
