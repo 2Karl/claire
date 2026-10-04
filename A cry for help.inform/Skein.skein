@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x7f7b90005b30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x5603b21593c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x7f7b90005b30"/>
-  <item nodeId="node-0x7f7b90005b30">
+  <activeNode nodeId="node-0x5603b87cba40"/>
+  <item nodeId="node-0x5603b21593c0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
-A cry for help
+You close your eyes and rest, feeling your breathing slow... listening to the sound of your breath...
+
+in...
+
+out...
+
+your heartbeat slows and you feel relaxed as the stresses of modern life melt away. After a time, you open your eyes.
+
+A Cry For Help
 An Interactive Fiction by A very silly man
-Release 1 / Serial number 261001 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 261004 / Inform 7 v10.1.2 / D
 
-in-between
-Swirling mists that appear to exist in between your world and some other place, just out of reach.
-
-You can see a ball here.
+In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. You hear a faint sound, but you&apos;ll have to actively listen to make sense of it.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -24,27 +30,33 @@ You can see a ball here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55aa499ca410"/>
-      <child nodeId="node-0x55aa493414c0"/>
+      <child nodeId="node-0x5603b21d9aa0"/>
+      <child nodeId="node-0x5603b22a1dc0"/>
+      <child nodeId="node-0x5603b1302f30"/>
+      <child nodeId="node-0x5603b34b73b0"/>
+      <child nodeId="node-0x5603b511ee50"/>
     </children>
   </item>
-  <item nodeId="node-0x55aa499ca410">
+  <item nodeId="node-0x5603b21d9aa0">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">in-between
-Swirling mists that appear to exist in between your world and some other place, just out of reach.
+    <result xml:space="preserve">In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. You hear a faint sound, but you&apos;ll have to actively listen to make sense of it.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55aa48ff00e0"/>
-      <child nodeId="node-0x55aa4924a2c0"/>
+      <child nodeId="node-0x5603b1a7e610"/>
+      <child nodeId="node-0x5603b229f1a0"/>
+      <child nodeId="node-0x5603b351f4f0"/>
+      <child nodeId="node-0x5603b5179180"/>
+      <child nodeId="node-0x5603b5bbefe0"/>
     </children>
   </item>
-  <item nodeId="node-0x55aa48ff00e0">
+  <item nodeId="node-0x5603b1a7e610">
     <command xml:space="preserve">eat</command>
     <result xml:space="preserve">(yourself)
 You&apos;re plainly inedible.
@@ -56,10 +68,10 @@ You&apos;re plainly inedible.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55aa489fffb0"/>
+      <child nodeId="node-0x5603b22b6490"/>
     </children>
   </item>
-  <item nodeId="node-0x55aa489fffb0">
+  <item nodeId="node-0x5603b22b6490">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -70,7 +82,7 @@ You&apos;re plainly inedible.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55aa4924a2c0">
+  <item nodeId="node-0x5603b229f1a0">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -81,9 +93,765 @@ You&apos;re plainly inedible.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55aa493414c0">
+  <item nodeId="node-0x5603b351f4f0">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You strain your ears and hear a vary faint bird song. As you listen the song gets stronger. One voice is joined by another, and another. Suddenly, you notice that you are surrounded by tiny birds, flitting through the mists.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b49b0120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b49b0120">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. You hear a faint sound, but you&apos;ll have to actively listen to make sense of it.
+
+You can see a flock of birds here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b4621b10"/>
+      <child nodeId="node-0x5603b4b6d630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b4621b10">
+    <command xml:space="preserve">look at birds</command>
+    <result xml:space="preserve">Innumerable little birds, pale yellow with a beautiful golden crest, flit playfully through the mist. As you watch, they circle around you and then as one, fly through the swirling tendrils to the north. You feel compelled to follow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b49a5770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b49a5770">
+    <command xml:space="preserve">look at tiny birds</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b52a74b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b52a74b0">
+    <command xml:space="preserve">look at flock</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b4b6d630">
+    <command xml:space="preserve">x birds</command>
+    <result xml:space="preserve">Innumerable little birds, pale yellow with a beautiful golden crest, flit playfully through the mist. As you watch, they circle around you and then as one, fly through the swirling tendrils to the north. You feel compelled to follow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b56d3570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b56d3570">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. You hear a faint sound, but you&apos;ll have to actively listen to make sense of it.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b569d950"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b569d950">
+    <command xml:space="preserve">x birds</command>
+    <result xml:space="preserve">The flew away to the north. You should follow them
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b607feb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b607feb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You follow the flock of birds to the north through the mists. Every so often you lose sight of them, but they soon return to continue leading you onwards. Eventually the mists start to clear...
+
+Calm in the mist
+You find yourself in a grassy clearing. The sun - or some other light source - seems to be threatening to shine down through the mists, casting a wan glow onto a wicker basket in the centre of the clearing.
+
+The flock of tiny birds swirl around the basket, faster and faster in a mesmerising spiral, until finally coalescing into the shape of a larger bird. There is a faint hint of a flash, a heartbeat of blindness, before you look again upon the form of a magnificent kingfisher who perches atop the basket, studying you intently.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b5623870"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b5623870">
+    <command xml:space="preserve">x birds</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b70683e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b70683e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You wander through the mist, but quickly become disoriented and end up exactly where you started
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b5179180">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">nah mate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b5181a70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b5181a70">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">nah mate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b5bbefe0">
+    <command xml:space="preserve">listenb</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b5c58b90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b5c58b90">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You strain your ears and hear a vary faint bird song. As you listen the song gets stronger. One voice is joined by another, and another. Suddenly, you notice that you are surrounded by tiny birds, flitting through the mists.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b5c51f80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b5c51f80">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. The delightful sound of myriad cheeping birds fills your ears.
+
+You can see a flock of birds here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b8a4a1e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b8a4a1e0">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear the delightful cheeping of myriad tiny birds.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b5ee58f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b5ee58f0">
+    <command xml:space="preserve">x birds</command>
+    <result xml:space="preserve">Innumerable little birds, pale yellow with a beautiful golden crest, flit playfully through the mist. As you watch, they circle around you and then as one, fly through the swirling tendrils to the north. You feel compelled to follow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b25f3d90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b25f3d90">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear the flock of birds cheeping somewhere to the north
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b8064c30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b8064c30">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. You hear the flock of birds cheeping somewhere to the north.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b8783210"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b8783210">
+    <command xml:space="preserve">x birds</command>
+    <result xml:space="preserve">They flew away to the north. You should follow them.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b7c49c10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b7c49c10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You follow the flock of birds to the north through the mists. Every so often you lose sight of them, but they soon return to continue leading you onwards. Eventually the mists start to clear...
+
+Calm in the Mist
+You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto a wicker basket in the centre of the clearing.
+
+The flock of tiny birds swirl around the basket, faster and faster in a mesmerising spiral, until finally coalescing into the shape of a larger bird. There is a faint hint of a flash, a heartbeat of blindness, before you look again upon the form of a magnificent kingfisher who perches atop the basket, studying you intently.
+
+You can see a wicker basket (closed) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b5e14bc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b5e14bc0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Calm in the Mist
+You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto a wicker basket in the centre of the clearing.
+
+You can see a wicker basket (closed) here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b7fb67b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b7fb67b0">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear nothing unexpected.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b7fb5ae0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b7fb5ae0">
+    <command xml:space="preserve">x birds</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b80e37f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b80e37f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You wander through the mist, but quickly become disoriented and end up exactly where you started.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b8894a50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b8894a50">
+    <command xml:space="preserve">take basket</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b87cba40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b87cba40">
+    <command xml:space="preserve">open basket</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b22a1dc0">
     <command xml:space="preserve">take ball</command>
     <result xml:space="preserve">I don&apos;t know how this ends
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b1302f30">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] look
+In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. You hear a faint sound, but you&apos;ll have to actively listen to make sense of it.
+
+&gt;[2] listen
+You strain your ears and hear a vary faint bird song. As you listen the song gets stronger. One voice is joined by another, and another. Suddenly, you notice that you are surrounded by tiny birds, flitting through the mists.
+
+&gt;[3] look
+In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. 
+
+You can see a flock of birds here.
+
+&gt;[4] x birds
+Innumerable little birds, pale yellow with a beautiful golden crest, flit playfully through the mist. As you watch, they circle around you and then as one, fly through the swirling tendrils to the north. You feel compelled to follow.
+
+&gt;[5] look
+In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. You hear the flock of birds cheeping somewhere to the north.
+
+&gt;[6] x birds
+They flew away to the north. You should follow them.
+
+&gt;[7] n
+You follow the flock of birds to the north through the mists. Every so often you lose sight of them, but they soon return to continue leading you onwards. Eventually the mists start to clear...
+
+Calm in the Mist
+You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto a wicker basket in the centre of the clearing.
+
+The flock of tiny birds swirl around the basket, faster and faster in a mesmerising spiral, until finally coalescing into the shape of a larger bird. There is a faint hint of a flash, a heartbeat of blindness, before you look again upon the form of a magnificent kingfisher who perches atop the basket, studying you intently.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b34af1b0"/>
+      <child nodeId="node-0x5603b26b9a40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b34af1b0">
+    <command xml:space="preserve">look at birds</command>
+    <result xml:space="preserve">You see nothing special about the flock of birds.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b3761510"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b3761510">
+    <command xml:space="preserve">look at flock</command>
+    <result xml:space="preserve">You see nothing special about the flock of birds.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b3caca50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b3caca50">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You strain your ears and hear a vary faint bird song. As you listen the song gets stronger. One voice is joined by another, and another. Suddenly, you notice that you are surrounded by tiny birds, flitting through the mists.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b45c5290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b45c5290">
+    <command xml:space="preserve">look at birds</command>
+    <result xml:space="preserve">You see nothing special about the flock of birds.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b26b9a40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You wander through the mist, but quickly become disoriented and end up exactly where you started
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b34b73b0">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You strain your ears and hear a vary faint bird song. As you listen the song gets stronger. One voice is joined by another, and another. Suddenly, you notice that you are surrounded by tiny birds, flitting through the mists.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b3d117d0"/>
+      <child nodeId="node-0x5603b474b1a0"/>
+      <child nodeId="node-0x5603b7a2d880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b3d117d0">
+    <command xml:space="preserve">look at birds</command>
+    <result xml:space="preserve">Innumerable little birds, pale yellow with a beautiful golden crest, flit playfully through the mist. As you watch, they circle around you and then as one, fly through the swirling tendrils to the north. You feel compelled to follow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b3597600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b3597600">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. You hear a faint sound, but you&apos;ll have to actively listen to make sense of it.
+
+You can see a flock of birds here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b474b1a0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. You hear a faint sound, but you&apos;ll have to actively listen to make sense of it.
+
+You can see a flock of birds here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b52d4e80"/>
+      <child nodeId="node-0x5603b508ade0"/>
+      <child nodeId="node-0x5603b5b31570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b52d4e80">
+    <command xml:space="preserve">examing birds</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b4befaf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b4befaf0">
+    <command xml:space="preserve">examine birds</command>
+    <result xml:space="preserve">They flew away to the north. You should follow them.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b508ade0">
+    <command xml:space="preserve">look at birds</command>
+    <result xml:space="preserve">Innumerable little birds, pale yellow with a beautiful golden crest, flit playfully through the mist. As you watch, they circle around you and then as one, fly through the swirling tendrils to the north. You feel compelled to follow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b512da30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b512da30">
+    <command xml:space="preserve">look at birds</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b5b31570">
+    <command xml:space="preserve">x birds</command>
+    <result xml:space="preserve">Innumerable little birds, pale yellow with a beautiful golden crest, flit playfully through the mist. As you watch, they circle around you and then as one, fly through the swirling tendrils to the north. You feel compelled to follow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b4dbc050"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b4dbc050">
+    <command xml:space="preserve">x birds</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b7a2d880">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear the delightful cheeping of myriad tiny birds.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b7d246e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b7d246e0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach.  The delightful sound of myriad cheeping birds fills your ears. 
+
+You can see a flock of birds here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b77a4820"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b77a4820">
+    <command xml:space="preserve">look at birds</command>
+    <result xml:space="preserve">Innumerable little birds, pale yellow with a beautiful golden crest, flit playfully through the mist. As you watch, they circle around you and then as one, fly through the swirling tendrils to the north. You feel compelled to follow.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b7a0ace0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b7a0ace0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">In-Between
+You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach.   You hear the flock of birds cheeping somewhere to the north.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b5cf60c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b5cf60c0">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear the flock of birds cheeping somewhere to the north
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x5603b511ee50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b420c580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b420c580">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5603b4244ca0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5603b4244ca0">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">nah mate
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
