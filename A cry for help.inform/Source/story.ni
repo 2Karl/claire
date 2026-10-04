@@ -1,6 +1,6 @@
 "A Cry For Help" by "A very silly man"
 
-Chapter 1 - Introduction
+Chapter 1 - The Mistlands
 
 When play begins, say "You close your eyes and rest, feeling your breathing slow... listening to the sound of your breath...
 
@@ -18,6 +18,8 @@ The Calm in the Mist is a room. "You find yourself in a grassy clearing. The sun
     The flock of tiny birds swirl around the basket, faster and faster in a mesmerising spiral, until finally coalescing into the shape of a larger bird. There is a faint hint of a flash, a heartbeat of blindness, before you look again upon the form of a magnificent kingfisher who perches atop the basket, studying you intently.[end if]"
 
 The Mistlands is a region. The In-Between and the Calm in the Mist are in the Mistlands. Instead of going nowhere in the Mistlands, say "You wander through the mist, but quickly become disoriented and end up exactly where you started."
+
+Instead of listening in the Mistlands, say "The eerie sound of nothing fills your ears. It's not just an absence of sound; it is the literal sound of nothing at all."
 
 Instead of listening in the in-between for the first time:
 	say "You strain your ears and hear a vary faint bird song. As you listen the song gets stronger. One voice is joined by another, and another. Suddenly, you notice that you are surrounded by tiny birds, flitting through the mists.";
