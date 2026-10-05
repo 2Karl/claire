@@ -15,9 +15,12 @@ The In-Between is a room. "You are.. somewhere. Swirling mists curl out of the b
 
 The Calm in the Mist is a room. "You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto a wicker basket in the centre of the clearing.[if unvisited]
 
-    The flock of tiny birds swirl around the basket, faster and faster in a mesmerising spiral, until finally coalescing into the shape of a larger bird. There is a faint hint of a flash, a heartbeat of blindness, before you look again upon the form of a magnificent kingfisher who perches atop the basket, studying you intently.[end if]"
+    The flock of tiny birds swirl around the basket, faster and faster in a mesmerising spiral, until finally coalescing into the shape of a larger bird. There is a faint hint of a flash, a heartbeat of blindness, before you look again upon the form of a magnificent kingfisher who perches atop the basket, studying you intently.[end if][if the kingfisher is on the basket lid] 
+
+A kingfisher sits perched on top of the wicker basket.[end if]"
 
 The Mistlands is a region. The In-Between and the Calm in the Mist are in the Mistlands. Instead of going nowhere in the Mistlands, say "You wander through the mist, but quickly become disoriented and end up exactly where you started."
+The fog is a backdrop. "Swirling tendrils of vapour curl out of the darkness, lending an ethereal quality to your surroundings". The fog is in the Mistlands. understand "mist" as the fog.
 
 Instead of listening in the Mistlands, say "The eerie sound of nothing fills your ears. It's not just an absence of sound; it is the literal sound of nothing at all."
 
@@ -47,12 +50,41 @@ Instead of examining the flock of birds when the flock of birds is in the calm i
 Before going north from the In-between:
 	say "You follow the flock of birds to the north through the mists. Every so often you lose sight of them, but they soon return to continue leading you onwards. Eventually the mists start to clear...";
 	now the flock of birds is nowhere;
+	now the kingfisher is on the basket lid;
 	continue the action;
 
-The wicker basket is a closed openable container in the Calm in the mist. It is locked.
+The kingfisher is an animal. "A magnificent bird, its feathers resplendent shades of deep blue and orange, with white flashes on its neck. It observes you expectantly. You get a sense of deep wisdom in the kingfisher's eyes."
+
+Instead of taking the wicker basket when the kingfisher is on the basket lid, say "As you reach for the basket, the kingfisher flaps its wings and calls out, 'Kew-ahhh! Kew-ahhh!' You retreat from the basket and the kingfisher resumes its inquisitive vigil."
+
+Instead of examining the wicker basket when the kingfisher is on the basket lid, say "It's a wicker basket, about 50 centimetres long and half as wide. It is currently sealed by two combination locks. A kingfisher sits perched atop the basket, apparently guarding it. The bird eyes you expectantly, as if waiting for you to speak."
+
+The wicker basket is a closed openable container in the Calm in the mist. It is locked. 
+Understand "basket", "wicker" as the wicker basket.
+The basket lid is a supporter. It is part of the wicker basket. a container has some text called a combo. the combo of the wicker basket is "1234".
+
 The book is in the wicker basket. The green box is a closed openable container. The green box is locked. It is in the wicker basket.
 
+[just use spin it to from the documentation for now]
+
+Understand "dialling [something] to [a number]" as dialling it to the number. dialling it to the number is an action applying to one thing and one number.
+Check dialling it to the number:
+	if the noun is not a container:
+		say "Have you completely lost your mind?" instead;
+	else if the noun is unlocked:
+		say "[the noun] is already unlocked![the number]" instead.
+	
+[carry out dialling it to the number:
+	if the number is the combo of the noun:
+		now the noun is unlocked;
+		say "You unlock [the noun] with the combination [the number]";
+	else:
+		say "You dial the lock to [the number] but [the noun] remains steadfastly locked.";]
+	
+
 [kingfisher won't let you take the basket until you've given it the password. Solve QR code puzzle to get password]
+
+[kingfisher feather contains a map with the different areas. Holding it and saying the name of the area will take you there. possible to visit area before you're in the right place?]
 
 [Inside the basket is the kingfisher plate and cup (nice tea and biccies?), The box containing the crystals. Each crystal has a coded message (symbols? can I use the old symbols from last year for one of them?) Also make a new necklace for them. The book... how to gate the book? The book code puzzle... Maybe the book doesn't need gating as the book code requires the correct page?
 
