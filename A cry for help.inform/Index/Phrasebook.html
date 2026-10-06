@@ -8,16 +8,16 @@
         /* The default font (family) and size */
 
         body, p, td {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	font-family: sans-serif;
         	-webkit-font-smoothing: antialiased;
-        	font-size: 12px;
+        	font-size: 0.8rem; /* 100/125 */
         }
 
         /* For fixed-point material within text, such as the typing on the Library Card index page */
 
         span.typewritten {
-        	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-        	font-size: 13px;
+        	font-family: monospace;
+        	font-size: 0.867rem; /* 13/12 * 100/125 */
         }
 
         /* For less important material: the small print */
@@ -60,31 +60,31 @@
 
         span.headingpaneltext {
         	color: #222222;
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	font-family: sans-serif;
         	-webkit-font-smoothing: antialiased;
-        	font-size: 20px;
+        	font-size: 1.333rem; /* 20/12 * 100/125 */
         	font-weight: bold;
         }
         span.headingpaneltextalt {
         	color: #ffffff;
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	font-family: sans-serif;
         	-webkit-font-smoothing: antialiased;
-        	font-size: 20px;
+        	font-size: 1.333rem; /* 20/12 * 100/125 */
         	font-weight: bold;
         }
 
         span.headingpanelrubric {
         	color: #222222;
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	font-family: sans-serif;
         	-webkit-font-smoothing: antialiased;
-        	font-size: 11px;
+        	font-size: 0.733rem; /* 11/12 * 100/125 */
         	font-weight: bold;
         }
         span.headingpanelrubricalt {
         	color: #ffffff;
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	font-family: sans-serif;
         	-webkit-font-smoothing: antialiased;
-        	font-size: 11px;
+        	font-size: 0.733rem; /* 11/12 * 100/125 */
         	font-weight: bold;
         }
 
@@ -178,7 +178,7 @@
 
         span.elementtext {
         	color: #ffffff;
-        	font-size: 20px;
+        	font-size: 1.333rem; /* 20/12 * 100/125 */
         	font-weight: bold;
         }
 
@@ -187,14 +187,14 @@
 
         span.elementnumbertext {
         	color: #ffffff;
-        	font-size: 7pt;
+        	font-size: 0.622rem; /* 7/12 * 96/72 * 100/125 */
         }
 
         /* For the text of the element title, to the right of the element box: */
 
         span.elementtitletext {
         	color: #ffffff;
-        	font-size: 9px;
+        	font-size: 0.6rem; /* 9/12 * 100/125 */
         	font-weight: bold;
         }
 
@@ -240,7 +240,7 @@
         	color: #000066;
         }
 
-        /* Used ubiquitously throughout the index for unemphasised text: */
+        /* Used ubiquitously throughout the index and extension documentation: */
 
         span.indexblack {
         	color: #000000;
@@ -367,13 +367,11 @@
         /* Registry index section headings: */
 
         span.registrysectionname {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
         	-webkit-font-smoothing: antialiased;
         	font-size: 16px;
         	line-height: 18px;
         }
         span.registrysubsectionname {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
         	-webkit-font-smoothing: antialiased;
         	font-size: 14px;
         	line-height: 16px;
@@ -382,14 +380,12 @@
         /* These are for the "mark" for a section, usually a section-symbol and number */
 
         span.registrysectionmark {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
         	-webkit-font-smoothing: antialiased;
         	font-size: 16px;
         	line-height: 18px;
         	color: #666;
         }
         span.registrysubsectionmark {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
         	-webkit-font-smoothing: antialiased;
         	font-size: 14px;
         	line-height: 16px;
@@ -399,7 +395,6 @@
         /* Text of an item listed in a registry: */
 
         span.registryitemtext {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
         	-webkit-font-smoothing: antialiased;
         	font-size: 12px;
         	line-height: 16px;
@@ -4454,6 +4449,10 @@
                 <tr>
                     <td>
                         <p><a href="javascript:pasteCode('applied')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;(<span class="phrasetokendesctext">phrase nothing -> value</span>) applied ... <i>value</i></p>
+
+
+                            <p>    This phrase produces the result of applying the given phrase, which must be one which takes no values itself.</p>
+
                         <p><b>See</b> &nbsp;<a href=inform:/doc363.html><img border=0 src=inform:/doc_images/help.png></a>&nbsp;22.3. 22.3. Phrases as values</p>
                         <p><b>Kind:</b> phrase phrase nothing -> K -> K</p>
 
@@ -4468,6 +4467,10 @@
                 <tr>
                     <td>
                         <p><a href="javascript:pasteCode('applied to')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;(<span class="phrasetokendesctext">phrase nothing -> value</span>) applied to (<span class="phrasetokendesctext">value</span>) ... <i>value</i></p>
+
+
+                            <p>    This phrase produces the result of applying the given phrase, which must be one which takes one value itself.</p>
+
                         <p><b>See</b> &nbsp;<a href=inform:/doc363.html><img border=0 src=inform:/doc_images/help.png></a>&nbsp;22.3. 22.3. Phrases as values</p>
                         <p><b>Kind:</b> phrase (phrase K -> L, K) -> L</p>
 
@@ -4482,6 +4485,10 @@
                 <tr>
                     <td>
                         <p><a href="javascript:pasteCode('applied to ... and')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;(<span class="phrasetokendesctext">phrase (nothing, nothing) -> value</span>) applied to (<span class="phrasetokendesctext">value</span>) and (<span class="phrasetokendesctext">value</span>) ... <i>value</i></p>
+
+
+                            <p>    This phrase produces the result of applying the given phrase, which must be one which takes two values itself.</p>
+
                         <p><b>See</b> &nbsp;<a href=inform:/doc363.html><img border=0 src=inform:/doc_images/help.png></a>&nbsp;22.3. 22.3. Phrases as values</p>
                         <p><b>Kind:</b> phrase (phrase (K, L) -> M, K, L) -> M</p>
 
@@ -4496,6 +4503,10 @@
                 <tr>
                     <td>
                         <p><a href="javascript:pasteCode('applied to ... and ... and')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;(<span class="phrasetokendesctext">phrase (nothing, nothing, nothing) -> value</span>) applied to (<span class="phrasetokendesctext">value</span>) and (<span class="phrasetokendesctext">value</span>) and (<span class="phrasetokendesctext">value</span>) ... <i>value</i></p>
+
+
+                            <p>    This phrase produces the result of applying the given phrase, which must be one which takes three values itself.</p>
+
                         <p><b>See</b> &nbsp;<a href=inform:/doc363.html><img border=0 src=inform:/doc_images/help.png></a>&nbsp;22.3. 22.3. Phrases as values</p>
                         <p><b>Kind:</b> phrase (phrase (K, L, M) -> N, K, L, M) -> N</p>
 
@@ -5660,6 +5671,36 @@
                 <tr>
                     <td>
                         <p><a href="javascript:pasteCode('display the boxed quotation')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;display the boxed quotation (<span class="phrasetokendesctext">text</span>)</p>
+
+
+                            <p>This phrase displays the given text on screen in an overlaid box. For reasons to do with the way such quotations are plotted onto the screen, their text is treated literally: no substitutions in square brackets are obeyed. The quo ation will only ever appear once, regardless of the number of times the &quot;display the boxed quotation ...&quot; phrase is reached. Rather than being shown immediately - and thus, probably, scrolling away before it can be seen - the display is held back until the next command prompt is shown to the player. Example:</p>
+                            <!--START CODE "c6"-->
+                            <blockquote class="code"><p class="quoted"><a id="c6"></a>After looking in the Wabe, display the boxed quotation
+                            <br>
+                            &#160;&#160;&#160;&#160;&quot;And 'the wabe' is the grass-plot round
+                            <br>
+                            &#160;&#160;&#160;&#160;a sun-dial, I suppose? said Alice,
+                            <br>
+                            &#160;&#160;&#160;&#160;surprised at her own ingenuity.
+                            </p>
+                            </blockquote>
+                            <!--END CODE-->
+                            <!--START CODE "c7"-->
+                            <blockquote class="code"><p class="quoted"><a id="c7"></a>&#160;&#160;&#160;&#160;Of course it is. It's called 'wabe,'
+                            <br>
+                            &#160;&#160;&#160;&#160;you know, because it goes a long way
+                            <br>
+                            &#160;&#160;&#160;&#160;before it, and a long way behind it --
+                            </p>
+                            </blockquote>
+                            <!--END CODE-->
+                            <!--START CODE "c8"-->
+                            <blockquote class="code"><p class="quoted"><a id="c8"></a>&#160;&#160;&#160;&#160;-- Lewis Carroll&quot;.
+                            </p>
+                            </blockquote>
+                            <!--END CODE-->
+                            <p>This was the original example used in <span class="italic">Trinity</span>, by Brian Moriarty, which invented the idea. A player exploring Kensington Gardens comes upon a location enigmatically called The Wabe; and by way of explanation, this quotation pops up.</p>
+
                         <p><b>See</b> &nbsp;<a href=inform:/doc78.html><img border=0 src=inform:/doc_images/help.png></a>&nbsp;5.12. 5.12. Displaying quotations</p>
                         <p><b>Kind:</b> phrase text -> nothing</p>
 

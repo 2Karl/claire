@@ -61,25 +61,35 @@ Instead of examining the wicker basket when the kingfisher is on the basket lid,
 
 The wicker basket is a closed openable container in the Calm in the mist. It is locked. 
 Understand "basket", "wicker" as the wicker basket.
-The basket lid is a supporter. It is part of the wicker basket. a container has some text called a combo. the combo of the wicker basket is "1234".
+The basket lid is a supporter. It is part of the wicker basket.  The crumpled note unlocks the wicker basket.
+
+The description of the crumpled note is "A crumpled piece of paper with frayed edges and smudged ink. It lists six numbers in two groups of three: 
+
+'[bracket]2, 3, 8[close bracket] [bracket]1, 6, 4[close bracket]'"
+
+understand "talk to [someone]" as talking to. understand "talk to [something]" as talking to. Talking to is an action applying to one visible thing.
+carry out talking to something:
+	if the noun is not a person:
+		say "I doubt you'll get a thrilling conversation from [the noun].";
+	otherwise:
+		continue the action;
+
+	 
+instead of talking to the kingfisher, say "It's probably best if you just say the word"
+
+instead of answering the kingfisher that something, try telling the kingfisher about it.
+
+instead of telling the kingfisher about "cardinal":
+	 say "The kingfisher opens its beak and lets out a keening cry. A feeling of warmth radiates through you as the bird takes to the sky, a solitary blue feather fluttering down to land on top of the basket";
+	
 
 The book is in the wicker basket. The green box is a closed openable container. The green box is locked. It is in the wicker basket.
 
-[just use spin it to from the documentation for now]
+before unlocking the wicker basket with an object when the Kingfisher is on the basket lid, try taking the wicker basket instead.
 
-Understand "dialling [something] to [a number]" as dialling it to the number. dialling it to the number is an action applying to one thing and one number.
-Check dialling it to the number:
-	if the noun is not a container:
-		say "Have you completely lost your mind?" instead;
-	else if the noun is unlocked:
-		say "[the noun] is already unlocked![the number]" instead.
-	
-[carry out dialling it to the number:
-	if the number is the combo of the noun:
-		now the noun is unlocked;
-		say "You unlock [the noun] with the combination [the number]";
-	else:
-		say "You dial the lock to [the number] but [the noun] remains steadfastly locked.";]
+before taking the wicker basket when the wicker basket is closed and the kingfisher is not on the basket lid, say "You should probably open it first." instead.
+
+
 	
 
 [kingfisher won't let you take the basket until you've given it the password. Solve QR code puzzle to get password]

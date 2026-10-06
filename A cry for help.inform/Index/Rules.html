@@ -8,16 +8,16 @@
         /* The default font (family) and size */
 
         body, p, td {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	font-family: sans-serif;
         	-webkit-font-smoothing: antialiased;
-        	font-size: 12px;
+        	font-size: 0.8rem; /* 100/125 */
         }
 
         /* For fixed-point material within text, such as the typing on the Library Card index page */
 
         span.typewritten {
-        	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-        	font-size: 13px;
+        	font-family: monospace;
+        	font-size: 0.867rem; /* 13/12 * 100/125 */
         }
 
         /* For less important material: the small print */
@@ -60,31 +60,31 @@
 
         span.headingpaneltext {
         	color: #222222;
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	font-family: sans-serif;
         	-webkit-font-smoothing: antialiased;
-        	font-size: 20px;
+        	font-size: 1.333rem; /* 20/12 * 100/125 */
         	font-weight: bold;
         }
         span.headingpaneltextalt {
         	color: #ffffff;
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	font-family: sans-serif;
         	-webkit-font-smoothing: antialiased;
-        	font-size: 20px;
+        	font-size: 1.333rem; /* 20/12 * 100/125 */
         	font-weight: bold;
         }
 
         span.headingpanelrubric {
         	color: #222222;
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	font-family: sans-serif;
         	-webkit-font-smoothing: antialiased;
-        	font-size: 11px;
+        	font-size: 0.733rem; /* 11/12 * 100/125 */
         	font-weight: bold;
         }
         span.headingpanelrubricalt {
         	color: #ffffff;
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	font-family: sans-serif;
         	-webkit-font-smoothing: antialiased;
-        	font-size: 11px;
+        	font-size: 0.733rem; /* 11/12 * 100/125 */
         	font-weight: bold;
         }
 
@@ -178,7 +178,7 @@
 
         span.elementtext {
         	color: #ffffff;
-        	font-size: 20px;
+        	font-size: 1.333rem; /* 20/12 * 100/125 */
         	font-weight: bold;
         }
 
@@ -187,14 +187,14 @@
 
         span.elementnumbertext {
         	color: #ffffff;
-        	font-size: 7pt;
+        	font-size: 0.622rem; /* 7/12 * 96/72 * 100/125 */
         }
 
         /* For the text of the element title, to the right of the element box: */
 
         span.elementtitletext {
         	color: #ffffff;
-        	font-size: 9px;
+        	font-size: 0.6rem; /* 9/12 * 100/125 */
         	font-weight: bold;
         }
 
@@ -240,7 +240,7 @@
         	color: #000066;
         }
 
-        /* Used ubiquitously throughout the index for unemphasised text: */
+        /* Used ubiquitously throughout the index and extension documentation: */
 
         span.indexblack {
         	color: #000000;
@@ -367,13 +367,11 @@
         /* Registry index section headings: */
 
         span.registrysectionname {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
         	-webkit-font-smoothing: antialiased;
         	font-size: 16px;
         	line-height: 18px;
         }
         span.registrysubsectionname {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
         	-webkit-font-smoothing: antialiased;
         	font-size: 14px;
         	line-height: 16px;
@@ -382,14 +380,12 @@
         /* These are for the "mark" for a section, usually a section-symbol and number */
 
         span.registrysectionmark {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
         	-webkit-font-smoothing: antialiased;
         	font-size: 16px;
         	line-height: 18px;
         	color: #666;
         }
         span.registrysubsectionmark {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
         	-webkit-font-smoothing: antialiased;
         	font-size: 14px;
         	line-height: 16px;
@@ -399,7 +395,6 @@
         /* Text of an item listed in a registry: */
 
         span.registryitemtext {
-        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
         	-webkit-font-smoothing: antialiased;
         	font-size: 12px;
         	line-height: 16px;
@@ -1193,7 +1188,7 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra3', 'plus3'); return false;"><img border=0 id="plus3" src=inform:/doc_images/extra.png></a>&nbsp;before&nbsp;<a href=inform:/doc98.html><img border=0 src=inform:/doc_images/help.png></a> ... Before rulebook (1 rule)</p>
+        <p class="tightin2"><a href="#" onclick="showExtra('extra3', 'plus3'); return false;"><img border=0 id="plus3" src=inform:/doc_images/extra.png></a>&nbsp;before&nbsp;<a href=inform:/doc98.html><img border=0 src=inform:/doc_images/help.png></a> ... Before rulebook (3 rules)</p>
         <div id="extra3" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
@@ -1210,15 +1205,15 @@
                                 </td>
                             </tr>
                         </table>
-                        <p class="indentin2">&nbsp;&nbsp;&nbsp;&nbsp;<i>going north from the In-between</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line50"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+                        <p class="indentin2">&nbsp;&nbsp;&nbsp;&nbsp;<i>going north from the In-between</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line50"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>unlocking the wicker basket with an object when the Kingfisher is on the basket lid</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line88"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>taking the wicker basket when the wicker basket is closed and the kingfisher is not on the basket lid</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line90"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
 
                     </td>
                 </tr>
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra5', 'plus5'); return false;"><img border=0 id="plus5" src=inform:/doc_images/extra.png></a>&nbsp;instead&nbsp;<a href=inform:/doc97.html><img border=0 src=inform:/doc_images/help.png></a> ... Instead rulebook (7 rules)</p>
-        <div id="extra5" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra7', 'plus7'); return false;"><img border=0 id="plus7" src=inform:/doc_images/extra.png></a>&nbsp;instead&nbsp;<a href=inform:/doc97.html><img border=0 src=inform:/doc_images/help.png></a> ... Instead rulebook (10 rules)</p>
+        <div id="extra7" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -1234,7 +1229,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <p class="indentin2">&nbsp;&nbsp;&nbsp;&nbsp;<i>listening in the in-between for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line27"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the flock of birds when the flock of birds is in the calm in the mist</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line48"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>taking the wicker basket when the kingfisher is on the basket lid</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line58"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the wicker basket when the kingfisher is on the basket lid</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line60"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>going nowhere in the Mistlands</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>listening in the in-between</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line31"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>listening in the Mistlands</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25"><img border=0 src=inform:/doc_images/Reveal.png></a><p class="hangingin2"><i>default outcome is failure</i></p>
+                        <p class="indentin2">&nbsp;&nbsp;&nbsp;&nbsp;<i>listening in the in-between for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line27"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the flock of birds when the flock of birds is in the calm in the mist</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line48"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>taking the wicker basket when the kingfisher is on the basket lid</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line58"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the wicker basket when the kingfisher is on the basket lid</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line60"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>going nowhere in the Mistlands</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>listening in the in-between</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line31"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>listening in the Mistlands</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>answering the kingfisher that something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line80"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>telling the kingfisher about "cardinal"</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line82"><img border=0 src=inform:/doc_images/Reveal.png></a><br>&nbsp;&nbsp;&nbsp;&nbsp;<i>talking to the kingfisher</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line78"><img border=0 src=inform:/doc_images/Reveal.png></a><p class="hangingin2"><i>default outcome is failure</i></p>
                         </p>
 
                     </td>
@@ -1242,8 +1237,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra13', 'plus13'); return false;"><img border=0 id="plus13" src=inform:/doc_images/extra.png></a>&nbsp;after&nbsp;<a href=inform:/doc100.html><img border=0 src=inform:/doc_images/help.png></a> ... After rulebook (1 rule)</p>
-        <div id="extra13" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra18', 'plus18'); return false;"><img border=0 id="plus18" src=inform:/doc_images/extra.png></a>&nbsp;after&nbsp;<a href=inform:/doc100.html><img border=0 src=inform:/doc_images/help.png></a> ... After rulebook (1 rule)</p>
+        <div id="extra18" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -1274,8 +1269,8 @@
         	also possible to have rules take effect at specific times of day
         	or when certain events happen. Those are listed in the Scenes index,
         	alongside rules taking place when scenes begin or end.</p>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra15', 'plus15'); return false;"><img border=0 id="plus15" src=inform:/doc_images/extra.png></a>&nbsp;when play begins&nbsp;<a href=inform:/doc133.html><img border=0 src=inform:/doc_images/help.png></a> ... When play begins rulebook (1 rule)</p>
-        <div id="extra15" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra20', 'plus20'); return false;"><img border=0 id="plus20" src=inform:/doc_images/extra.png></a>&nbsp;when play begins&nbsp;<a href=inform:/doc133.html><img border=0 src=inform:/doc_images/help.png></a> ... When play begins rulebook (1 rule)</p>
+        <div id="extra20" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -1298,8 +1293,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra17', 'plus17'); return false;"><img border=0 id="plus17" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">every turn&nbsp;<a href=inform:/doc137.html><img border=0 src=inform:/doc_images/help.png></a> ... Every turn rulebook (0 rules)</span></p>
-        <div id="extra17" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra22', 'plus22'); return false;"><img border=0 id="plus22" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">every turn&nbsp;<a href=inform:/doc137.html><img border=0 src=inform:/doc_images/help.png></a> ... Every turn rulebook (0 rules)</span></p>
+        <div id="extra22" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -1322,8 +1317,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra18', 'plus18'); return false;"><img border=0 id="plus18" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">when play ends&nbsp;<a href=inform:/doc136.html><img border=0 src=inform:/doc_images/help.png></a> ... When play ends rulebook (0 rules)</span></p>
-        <div id="extra18" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra23', 'plus23'); return false;"><img border=0 id="plus23" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">when play ends&nbsp;<a href=inform:/doc136.html><img border=0 src=inform:/doc_images/help.png></a> ... When play ends rulebook (0 rules)</span></p>
+        <div id="extra23" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -1351,8 +1346,8 @@
         	into one or more actions, like taking the red herring. This is all handled
         	by a single large rule (the parse command rule), but that rule makes use
         	of the following activities and rulebooks in its work.</p>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra19', 'plus19'); return false;"><img border=0 id="plus19" src=inform:/doc_images/extra.png></a>&nbsp;does the player mean&nbsp;<a href=inform:/doc281.html><img border=0 src=inform:/doc_images/help.png></a> ... does the player mean rulebook (2 rules)</p>
-        <div id="extra19" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra24', 'plus24'); return false;"><img border=0 id="plus24" src=inform:/doc_images/extra.png></a>&nbsp;does the player mean&nbsp;<a href=inform:/doc281.html><img border=0 src=inform:/doc_images/help.png></a> ... does the player mean rulebook (2 rules)</p>
+        <div id="extra24" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -1380,8 +1375,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra22', 'plus22'); return false;"><img border=0 id="plus22" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">reading a command&nbsp;<a href=inform:/doc317.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra22" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra27', 'plus27'); return false;"><img border=0 id="plus27" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">reading a command&nbsp;<a href=inform:/doc317.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra27" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1403,8 +1398,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra23', 'plus23'); return false;"><img border=0 id="plus23" src=inform:/doc_images/extra.png></a>&nbsp;deciding the scope&nbsp;<a href=inform:/doc313.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
-        <div id="extra23" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra28', 'plus28'); return false;"><img border=0 id="plus28" src=inform:/doc_images/extra.png></a>&nbsp;deciding the scope&nbsp;<a href=inform:/doc313.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
+        <div id="extra28" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1427,8 +1422,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra25', 'plus25'); return false;"><img border=0 id="plus25" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">deciding the concealed possessions&nbsp;<a href=inform:/doc293.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra25" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra30', 'plus30'); return false;"><img border=0 id="plus30" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">deciding the concealed possessions&nbsp;<a href=inform:/doc293.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra30" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1450,8 +1445,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra26', 'plus26'); return false;"><img border=0 id="plus26" src=inform:/doc_images/extra.png></a>&nbsp;deciding whether all includes&nbsp;<a href=inform:/doc320.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (5 rules)</p>
-        <div id="extra26" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra31', 'plus31'); return false;"><img border=0 id="plus31" src=inform:/doc_images/extra.png></a>&nbsp;deciding whether all includes&nbsp;<a href=inform:/doc320.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (5 rules)</p>
+        <div id="extra31" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1477,8 +1472,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra32', 'plus32'); return false;"><img border=0 id="plus32" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">clarifying the parser's choice&nbsp;<a href=inform:/doc314.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra32" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra37', 'plus37'); return false;"><img border=0 id="plus37" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">clarifying the parser's choice&nbsp;<a href=inform:/doc314.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra37" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1500,8 +1495,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra33', 'plus33'); return false;"><img border=0 id="plus33" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">asking which do you mean&nbsp;<a href=inform:/doc315.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra33" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra38', 'plus38'); return false;"><img border=0 id="plus38" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">asking which do you mean&nbsp;<a href=inform:/doc315.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra38" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1523,8 +1518,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra34', 'plus34'); return false;"><img border=0 id="plus34" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing a parser error&nbsp;<a href=inform:/doc319.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra34" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra39', 'plus39'); return false;"><img border=0 id="plus39" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing a parser error&nbsp;<a href=inform:/doc319.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra39" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1546,8 +1541,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra35', 'plus35'); return false;"><img border=0 id="plus35" src=inform:/doc_images/extra.png></a>&nbsp;supplying a missing noun&nbsp;<a href=inform:/doc316.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (4 rules)</p>
-        <div id="extra35" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra40', 'plus40'); return false;"><img border=0 id="plus40" src=inform:/doc_images/extra.png></a>&nbsp;supplying a missing noun&nbsp;<a href=inform:/doc316.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (4 rules)</p>
+        <div id="extra40" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1571,8 +1566,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra40', 'plus40'); return false;"><img border=0 id="plus40" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">supplying a missing second noun&nbsp;<a href=inform:/doc316.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra40" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra45', 'plus45'); return false;"><img border=0 id="plus45" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">supplying a missing second noun&nbsp;<a href=inform:/doc316.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra45" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1594,8 +1589,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra41', 'plus41'); return false;"><img border=0 id="plus41" src=inform:/doc_images/extra.png></a>&nbsp;implicitly taking&nbsp;<a href=inform:/doc318.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
-        <div id="extra41" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra46', 'plus46'); return false;"><img border=0 id="plus46" src=inform:/doc_images/extra.png></a>&nbsp;implicitly taking&nbsp;<a href=inform:/doc318.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
+        <div id="extra46" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1622,8 +1617,8 @@
         <p><b>How things are described</b></p>
         <p>These activities control what is printed when naming rooms or
         	things, and their descriptions.</p>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra43', 'plus43'); return false;"><img border=0 id="plus43" src=inform:/doc_images/extra.png></a>&nbsp;printing the name&nbsp;<a href=inform:/doc294.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (2 rules)</p>
-        <div id="extra43" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra48', 'plus48'); return false;"><img border=0 id="plus48" src=inform:/doc_images/extra.png></a>&nbsp;printing the name&nbsp;<a href=inform:/doc294.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (2 rules)</p>
+        <div id="extra48" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1648,8 +1643,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra46', 'plus46'); return false;"><img border=0 id="plus46" src=inform:/doc_images/extra.png></a>&nbsp;printing the plural name&nbsp;<a href=inform:/doc295.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
-        <div id="extra46" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra51', 'plus51'); return false;"><img border=0 id="plus51" src=inform:/doc_images/extra.png></a>&nbsp;printing the plural name&nbsp;<a href=inform:/doc295.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
+        <div id="extra51" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1673,8 +1668,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra48', 'plus48'); return false;"><img border=0 id="plus48" src=inform:/doc_images/extra.png></a>&nbsp;printing a number&nbsp;<a href=inform:/doc296.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
-        <div id="extra48" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra53', 'plus53'); return false;"><img border=0 id="plus53" src=inform:/doc_images/extra.png></a>&nbsp;printing a number&nbsp;<a href=inform:/doc296.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
+        <div id="extra53" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1698,8 +1693,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra50', 'plus50'); return false;"><img border=0 id="plus50" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing room description details&nbsp;<a href=inform:/doc300.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra50" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra55', 'plus55'); return false;"><img border=0 id="plus55" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing room description details&nbsp;<a href=inform:/doc300.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra55" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1721,8 +1716,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra51', 'plus51'); return false;"><img border=0 id="plus51" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing inventory details&nbsp;<a href=inform:/doc301.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra51" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra56', 'plus56'); return false;"><img border=0 id="plus56" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing inventory details&nbsp;<a href=inform:/doc301.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra56" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1744,8 +1739,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra52', 'plus52'); return false;"><img border=0 id="plus52" src=inform:/doc_images/extra.png></a>&nbsp;listing contents&nbsp;<a href=inform:/doc297.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
-        <div id="extra52" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra57', 'plus57'); return false;"><img border=0 id="plus57" src=inform:/doc_images/extra.png></a>&nbsp;listing contents&nbsp;<a href=inform:/doc297.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
+        <div id="extra57" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1769,8 +1764,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra54', 'plus54'); return false;"><img border=0 id="plus54" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">grouping together&nbsp;<a href=inform:/doc298.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra54" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra59', 'plus59'); return false;"><img border=0 id="plus59" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">grouping together&nbsp;<a href=inform:/doc298.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra59" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1792,8 +1787,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra55', 'plus55'); return false;"><img border=0 id="plus55" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">writing a paragraph about&nbsp;<a href=inform:/doc308.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra55" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra60', 'plus60'); return false;"><img border=0 id="plus60" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">writing a paragraph about&nbsp;<a href=inform:/doc308.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra60" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1815,8 +1810,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra56', 'plus56'); return false;"><img border=0 id="plus56" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">listing nondescript items&nbsp;<a href=inform:/doc309.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra56" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra61', 'plus61'); return false;"><img border=0 id="plus61" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">listing nondescript items&nbsp;<a href=inform:/doc309.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra61" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1838,8 +1833,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra57', 'plus57'); return false;"><img border=0 id="plus57" src=inform:/doc_images/extra.png></a>&nbsp;printing the locale description&nbsp;<a href=inform:/doc310.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (4 rules)</p>
-        <div id="extra57" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra62', 'plus62'); return false;"><img border=0 id="plus62" src=inform:/doc_images/extra.png></a>&nbsp;printing the locale description&nbsp;<a href=inform:/doc310.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (4 rules)</p>
+        <div id="extra62" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1864,8 +1859,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra62', 'plus62'); return false;"><img border=0 id="plus62" src=inform:/doc_images/extra.png></a>&nbsp;choosing notable locale objects&nbsp;<a href=inform:/doc311.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
-        <div id="extra62" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra67', 'plus67'); return false;"><img border=0 id="plus67" src=inform:/doc_images/extra.png></a>&nbsp;choosing notable locale objects&nbsp;<a href=inform:/doc311.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
+        <div id="extra67" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1889,8 +1884,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra64', 'plus64'); return false;"><img border=0 id="plus64" src=inform:/doc_images/extra.png></a>&nbsp;printing a locale paragraph about&nbsp;<a href=inform:/doc312.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (9 rules)</p>
-        <div id="extra64" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra69', 'plus69'); return false;"><img border=0 id="plus69" src=inform:/doc_images/extra.png></a>&nbsp;printing a locale paragraph about&nbsp;<a href=inform:/doc312.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (9 rules)</p>
+        <div id="extra69" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -1917,8 +1912,8 @@
         <p><b>How accessibility is judged</b></p>
         <p>These rulebooks are used when deciding who can reach what, and
         	who can see what.</p>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra74', 'plus74'); return false;"><img border=0 id="plus74" src=inform:/doc_images/extra.png></a>&nbsp;reaching inside&nbsp;<a href=inform:/doc190.html><img border=0 src=inform:/doc_images/help.png></a> ... Reaching inside rulebook (2 rules)</p>
-        <div id="extra74" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra79', 'plus79'); return false;"><img border=0 id="plus79" src=inform:/doc_images/extra.png></a>&nbsp;reaching inside&nbsp;<a href=inform:/doc190.html><img border=0 src=inform:/doc_images/help.png></a> ... Reaching inside rulebook (2 rules)</p>
+        <div id="extra79" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -1943,8 +1938,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra77', 'plus77'); return false;"><img border=0 id="plus77" src=inform:/doc_images/extra.png></a>&nbsp;reaching outside&nbsp;<a href=inform:/doc190.html><img border=0 src=inform:/doc_images/help.png></a> ... Reaching outside rulebook (1 rule)</p>
-        <div id="extra77" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra82', 'plus82'); return false;"><img border=0 id="plus82" src=inform:/doc_images/extra.png></a>&nbsp;reaching outside&nbsp;<a href=inform:/doc190.html><img border=0 src=inform:/doc_images/help.png></a> ... Reaching outside rulebook (1 rule)</p>
+        <div id="extra82" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -1969,8 +1964,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra79', 'plus79'); return false;"><img border=0 id="plus79" src=inform:/doc_images/extra.png></a>&nbsp;visibility&nbsp;<a href=inform:/doc193.html><img border=0 src=inform:/doc_images/help.png></a> ... Visibility rulebook (1 rule)</p>
-        <div id="extra79" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra84', 'plus84'); return false;"><img border=0 id="plus84" src=inform:/doc_images/extra.png></a>&nbsp;visibility&nbsp;<a href=inform:/doc193.html><img border=0 src=inform:/doc_images/help.png></a> ... Visibility rulebook (1 rule)</p>
+        <div id="extra84" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -1997,8 +1992,8 @@
         </div>
         <p><b>Light and darkness</b></p>
         <p>These activities control how we describe darkness.</p>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra81', 'plus81'); return false;"><img border=0 id="plus81" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing the name of a dark room&nbsp;<a href=inform:/doc305.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra81" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra86', 'plus86'); return false;"><img border=0 id="plus86" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing the name of a dark room&nbsp;<a href=inform:/doc305.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra86" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2020,8 +2015,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra82', 'plus82'); return false;"><img border=0 id="plus82" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing the description of a dark room&nbsp;<a href=inform:/doc306.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra82" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra87', 'plus87'); return false;"><img border=0 id="plus87" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing the description of a dark room&nbsp;<a href=inform:/doc306.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra87" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2043,8 +2038,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra83', 'plus83'); return false;"><img border=0 id="plus83" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing the announcement of darkness&nbsp;<a href=inform:/doc303.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra83" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra88', 'plus88'); return false;"><img border=0 id="plus88" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing the announcement of darkness&nbsp;<a href=inform:/doc303.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra88" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2066,8 +2061,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra84', 'plus84'); return false;"><img border=0 id="plus84" src=inform:/doc_images/extra.png></a>&nbsp;printing the announcement of light&nbsp;<a href=inform:/doc304.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
-        <div id="extra84" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra89', 'plus89'); return false;"><img border=0 id="plus89" src=inform:/doc_images/extra.png></a>&nbsp;printing the announcement of light&nbsp;<a href=inform:/doc304.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
+        <div id="extra89" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2091,8 +2086,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra86', 'plus86'); return false;"><img border=0 id="plus86" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing a refusal to act in the dark&nbsp;<a href=inform:/doc302.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra86" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra91', 'plus91'); return false;"><img border=0 id="plus91" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing a refusal to act in the dark&nbsp;<a href=inform:/doc302.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra91" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2118,8 +2113,8 @@
         <p>An Inform story file spends its whole time working through these three master
         	rulebooks. They can be altered, just as all rulebooks can, but it's generally
         	better to leave them alone.</p>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra87', 'plus87'); return false;"><img border=0 id="plus87" src=inform:/doc_images/extra.png></a>&nbsp;startup rules ... Startup rulebook (11 rules)</p>
-        <div id="extra87" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra92', 'plus92'); return false;"><img border=0 id="plus92" src=inform:/doc_images/extra.png></a>&nbsp;startup rules ... Startup rulebook (11 rules)</p>
+        <div id="extra92" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -2144,8 +2139,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin3"><a href="#" onclick="showExtra('extra99', 'plus99'); return false;"><img border=0 id="plus99" src=inform:/doc_images/extra.png></a>&nbsp;starting the virtual machine&nbsp;<a href=inform:/doc324.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
-        <div id="extra99" style="display: none;">
+        <p class="tightin3"><a href="#" onclick="showExtra('extra104', 'plus104'); return false;"><img border=0 id="plus104" src=inform:/doc_images/extra.png></a>&nbsp;starting the virtual machine&nbsp;<a href=inform:/doc324.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
+        <div id="extra104" style="display: none;">
             <p class="in3"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2169,8 +2164,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin3"><a href="#" onclick="showExtra('extra101', 'plus101'); return false;"><img border=0 id="plus101" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing the banner text&nbsp;<a href=inform:/doc321.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra101" style="display: none;">
+        <p class="tightin3"><a href="#" onclick="showExtra('extra106', 'plus106'); return false;"><img border=0 id="plus106" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">printing the banner text&nbsp;<a href=inform:/doc321.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra106" style="display: none;">
             <p class="in3"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2192,8 +2187,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra102', 'plus102'); return false;"><img border=0 id="plus102" src=inform:/doc_images/extra.png></a>&nbsp;turn sequence rules ... Turn sequence rulebook (12 rules)</p>
-        <div id="extra102" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra107', 'plus107'); return false;"><img border=0 id="plus107" src=inform:/doc_images/extra.png></a>&nbsp;turn sequence rules ... Turn sequence rulebook (12 rules)</p>
+        <div id="extra107" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -2216,8 +2211,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin3"><a href="#" onclick="showExtra('extra115', 'plus115'); return false;"><img border=0 id="plus115" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">constructing the status line&nbsp;<a href=inform:/doc307.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra115" style="display: none;">
+        <p class="tightin3"><a href="#" onclick="showExtra('extra120', 'plus120'); return false;"><img border=0 id="plus120" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">constructing the status line&nbsp;<a href=inform:/doc307.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra120" style="display: none;">
             <p class="in3"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2239,8 +2234,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra116', 'plus116'); return false;"><img border=0 id="plus116" src=inform:/doc_images/extra.png></a>&nbsp;shutdown rules ... Shutdown rulebook (4 rules)</p>
-        <div id="extra116" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra121', 'plus121'); return false;"><img border=0 id="plus121" src=inform:/doc_images/extra.png></a>&nbsp;shutdown rules ... Shutdown rulebook (4 rules)</p>
+        <div id="extra121" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -2263,8 +2258,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin3"><a href="#" onclick="showExtra('extra121', 'plus121'); return false;"><img border=0 id="plus121" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">amusing a victorious player&nbsp;<a href=inform:/doc323.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
-        <div id="extra121" style="display: none;">
+        <p class="tightin3"><a href="#" onclick="showExtra('extra126', 'plus126'); return false;"><img border=0 id="plus126" src=inform:/doc_images/extra.png></a>&nbsp;<span class="indexgrey">amusing a victorious player&nbsp;<a href=inform:/doc323.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (0 rules)</span></p>
+        <div id="extra126" style="display: none;">
             <p class="in3"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2286,8 +2281,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin3"><a href="#" onclick="showExtra('extra122', 'plus122'); return false;"><img border=0 id="plus122" src=inform:/doc_images/extra.png></a>&nbsp;printing the player's obituary&nbsp;<a href=inform:/doc322.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (3 rules)</p>
-        <div id="extra122" style="display: none;">
+        <p class="tightin3"><a href="#" onclick="showExtra('extra127', 'plus127'); return false;"><img border=0 id="plus127" src=inform:/doc_images/extra.png></a>&nbsp;printing the player's obituary&nbsp;<a href=inform:/doc322.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (3 rules)</p>
+        <div id="extra127" style="display: none;">
             <p class="in3"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2311,8 +2306,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin3"><a href="#" onclick="showExtra('extra126', 'plus126'); return false;"><img border=0 id="plus126" src=inform:/doc_images/extra.png></a>&nbsp;handling the final question ... activity (4 rules)</p>
-        <div id="extra126" style="display: none;">
+        <p class="tightin3"><a href="#" onclick="showExtra('extra131', 'plus131'); return false;"><img border=0 id="plus131" src=inform:/doc_images/extra.png></a>&nbsp;handling the final question ... activity (4 rules)</p>
+        <div id="extra131" style="display: none;">
             <p class="in3"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
@@ -2340,8 +2335,8 @@
         <p><b>How actions are processed</b></p>
         <p>These form the technical machinery for dealing with actions, and are
         	called on at least once every turn. They seldom need to be changed.</p>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra131', 'plus131'); return false;"><img border=0 id="plus131" src=inform:/doc_images/extra.png></a>&nbsp;action-processing rules ... Action-processing rulebook (11 rules)</p>
-        <div id="extra131" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra136', 'plus136'); return false;"><img border=0 id="plus136" src=inform:/doc_images/extra.png></a>&nbsp;action-processing rules ... Action-processing rulebook (11 rules)</p>
+        <div id="extra136" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -2364,8 +2359,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin3"><a href="#" onclick="showExtra('extra143', 'plus143'); return false;"><img border=0 id="plus143" src=inform:/doc_images/extra.png></a>&nbsp;specific action-processing rules ... specific action-processing rulebook (8 rules)</p>
-        <div id="extra143" style="display: none;">
+        <p class="tightin3"><a href="#" onclick="showExtra('extra148', 'plus148'); return false;"><img border=0 id="plus148" src=inform:/doc_images/extra.png></a>&nbsp;specific action-processing rules ... specific action-processing rulebook (8 rules)</p>
+        <div id="extra148" style="display: none;">
             <p class="in3"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -2388,8 +2383,8 @@
             </table>
             </p>
         </div>
-        <p class="tightin4"><a href="#" onclick="showExtra('extra152', 'plus152'); return false;"><img border=0 id="plus152" src=inform:/doc_images/extra.png></a>&nbsp;player's action awareness rules ... player's action awareness rulebook (4 rules)</p>
-        <div id="extra152" style="display: none;">
+        <p class="tightin4"><a href="#" onclick="showExtra('extra157', 'plus157'); return false;"><img border=0 id="plus157" src=inform:/doc_images/extra.png></a>&nbsp;player's action awareness rules ... player's action awareness rulebook (4 rules)</p>
+        <div id="extra157" style="display: none;">
             <p class="in4"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexmorebox">
                 <tr>
                     <td>
@@ -2415,8 +2410,8 @@
         <p><b>How responses are printed</b></p>
         <p>The Standard Rules, and some extensions, reply to the player's
         	commands with messages which are able to be modified.</p>
-        <p class="tightin2"><a href="#" onclick="showExtra('extra157', 'plus157'); return false;"><img border=0 id="plus157" src=inform:/doc_images/extra.png></a>&nbsp;issuing the response text&nbsp;<a href=inform:/doc299.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
-        <div id="extra157" style="display: none;">
+        <p class="tightin2"><a href="#" onclick="showExtra('extra162', 'plus162'); return false;"><img border=0 id="plus162" src=inform:/doc_images/extra.png></a>&nbsp;issuing the response text&nbsp;<a href=inform:/doc299.html><img border=0 src=inform:/doc_images/help.png></a> ... activity (1 rule)</p>
+        <div id="extra162" style="display: none;">
             <p class="in2"><table width="100%" cellpadding="6" cellspacing="0" border="0" class="indexactivitycontents">
                 <tr>
                     <td>
