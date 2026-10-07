@@ -84,10 +84,14 @@ Instead of answering the kingfisher that something, try telling the kingfisher a
 
 The blue feather is an object. "A beautiful, irridescent blue feather lies on top of the wicker basket."
 
+The description of the blue feather is "A beautiful, irridescent kingfisher's feather. It feels warm in your hand and seems to glow with a faint energy."
+
 instead of telling the kingfisher about "cardinal":
 	say "The kingfisher opens its beak and lets out a keening cry. A feeling of warmth radiates through you as the bird takes to the sky, a solitary blue feather fluttering down to land on top of the basket";
 	now the blue feather is on the basket lid;
 	now the kingfisher is nowhere;
+
+Instead of taking the blue feather when the blue feather is on the basket lid, try examining the blue feather. 
 
 Instead of examining the blue feather when the blue feather is on the basket lid:
 	say "It's the beautiful feather of a kingfisher. As you pick it up, you notice a crumpled note wrapped around the shaft. You take them both.";
@@ -118,7 +122,13 @@ Carry out whispering to the feather:
 
 Chapter Two - The Desert Ruins
 
-The Desert Ruins is a room.
+The Desert Ruins is a room. "You find yourself in the midst of an arid desert, sand stretching all around you and stretching off towards the shimmering horizon while the relentless sun beats down upon you.
+
+Some distance to the east is a stone ruin of some sort. It's difficult to make out from here. 
+
+Ahead of you is the crumbling edifice of a once mighty fortress. The huge rusted iron doors, though ancient, look powerful and unyielding." [need to sort out door]
+
+Ozymandias is east of the Desert Ruins
 	
 [colour switch puzzle - blue orange yellow black]
 
