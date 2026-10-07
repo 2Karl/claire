@@ -125,6 +125,7 @@ The Desert Ruins is a room.
 
 
 
+
 [Inside the basket is the kingfisher plate and cup (nice tea and biccies?), The box containing the crystals. Each crystal has a coded message (symbols? can I use the old symbols from last year for one of them?) Also make a new necklace for them. The book... how to gate the book? The book code puzzle... Maybe the book doesn't need gating as the book code requires the correct page?
 
 need to test: QR-code puzzle. Answer is CARDINAL.
@@ -140,7 +141,10 @@ crystals - some puzzle about getting them in the right order - each one should h
 	- Unakite (releases, balances, heals, promotes letting go of negativity)
 	- MAlachite (releases, guides, balances, breaks down emotional blocks)
 	Do I need to make a necklace again? Probably.
-Ottelie - final present? The game is Ottelie trying to speak to you. It's her way of communicating so that she can be freed from her cage.]
+Ottelie - final present? The game is Ottelie trying to speak to you. It's her way of communicating so that she can be freed from her cage.
+Heart box contains the key to Ottelies cage. Book code solves heart box. book mask is in green box with stones.
+
+]
 
 
 

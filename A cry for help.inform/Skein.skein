@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x563ce204e5a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x5638a9015f70" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x563ce616f0b0"/>
-  <item nodeId="node-0x563ce204e5a0">
+  <activeNode nodeId="node-0x5638a9015f70"/>
+  <item nodeId="node-0x5638a9015f70">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -30,10 +30,10 @@ You are.. somewhere. Swirling mists curl out of the blackness that appears to ex
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce253bc80"/>
+      <child nodeId="node-0x5638a8e246e0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce253bc80">
+  <item nodeId="node-0x5638a8e246e0">
     <command xml:space="preserve">listen</command>
     <result xml:space="preserve">You strain your ears and hear a vary faint bird song. As you listen the song gets stronger. One voice is joined by another, and another. Suddenly, you notice that you are surrounded by tiny birds, flitting through the mists.
 
@@ -44,10 +44,10 @@ You are.. somewhere. Swirling mists curl out of the blackness that appears to ex
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce37ebe60"/>
+      <child nodeId="node-0x5638a95bc450"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce37ebe60">
+  <item nodeId="node-0x5638a95bc450">
     <command xml:space="preserve">x birds</command>
     <result xml:space="preserve">Innumerable little birds, pale yellow with a beautiful golden crest, flit playfully through the mist. As you watch, they circle around you and then as one, fly through the swirling tendrils to the north. You feel compelled to follow.
 
@@ -58,10 +58,10 @@ You are.. somewhere. Swirling mists curl out of the blackness that appears to ex
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce37efe50"/>
+      <child nodeId="node-0x5638a8e886d0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce37efe50">
+  <item nodeId="node-0x5638a8e886d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You follow the flock of birds to the north through the mists. Every so often you lose sight of them, but they soon return to continue leading you onwards. Eventually the mists start to clear...
 
@@ -81,10 +81,10 @@ You can see a wicker basket (closed) here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce3916250"/>
+      <child nodeId="node-0x5638a8e8c5e0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce3916250">
+  <item nodeId="node-0x5638a8e8c5e0">
     <command xml:space="preserve">get basket</command>
     <result xml:space="preserve">(the wicker basket)
 As you reach for the basket, the kingfisher flaps its wings and calls out, &quot;Kew-ahhh! Kew-ahhh!&quot; You retreat from the basket and the kingfisher resumes its inquisitive vigil.
@@ -96,10 +96,10 @@ As you reach for the basket, the kingfisher flaps its wings and calls out, &quot
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce3832b80"/>
+      <child nodeId="node-0x5638a8e8f390"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce3832b80">
+  <item nodeId="node-0x5638a8e8f390">
     <command xml:space="preserve">talk to kingfisher</command>
     <result xml:space="preserve">It&apos;s probably best if you just say the word.
 
@@ -110,10 +110,10 @@ As you reach for the basket, the kingfisher flaps its wings and calls out, &quot
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce38bd2a0"/>
+      <child nodeId="node-0x5638a8f9ba40"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce38bd2a0">
+  <item nodeId="node-0x5638a8f9ba40">
     <command xml:space="preserve">look at kingfisher</command>
     <result xml:space="preserve">A magnificent bird, its feathers resplendent shades of deep blue and orange, with white flashes on its neck. You get a sense of deep wisdom in the kingfisher&apos;s eyes. It observes you expectantly, as if waiting for you to say something. 
 
@@ -124,10 +124,10 @@ As you reach for the basket, the kingfisher flaps its wings and calls out, &quot
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce3894e10"/>
+      <child nodeId="node-0x5638a8f9ec90"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce3894e10">
+  <item nodeId="node-0x5638a8f9ec90">
     <command xml:space="preserve">x  basket</command>
     <result xml:space="preserve">(the wicker basket)
 It&apos;s a wicker basket, about 50 centimetres long and half as wide. It is currently sealed by two combination locks. A kingfisher sits perched atop the basket, apparently guarding it. The bird eyes you expectantly, as if waiting for you to say something.
@@ -139,10 +139,10 @@ It&apos;s a wicker basket, about 50 centimetres long and half as wide. It is cur
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce38995c0"/>
+      <child nodeId="node-0x5638a8fa2010"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce38995c0">
+  <item nodeId="node-0x5638a8fa2010">
     <command xml:space="preserve">tell kingfisher cardinal</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -153,10 +153,10 @@ It&apos;s a wicker basket, about 50 centimetres long and half as wide. It is cur
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce39ff110"/>
+      <child nodeId="node-0x5638a8fa5c10"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce39ff110">
+  <item nodeId="node-0x5638a8fa5c10">
     <command xml:space="preserve">say cardinal to the kingfisher</command>
     <result xml:space="preserve">The kingfisher opens its beak and lets out a keening cry. A feeling of warmth radiates through you as the bird takes to the sky, a solitary blue feather fluttering down to land on top of the basket
 &gt;</result>
@@ -166,10 +166,10 @@ It&apos;s a wicker basket, about 50 centimetres long and half as wide. It is cur
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce3b4add0"/>
+      <child nodeId="node-0x5638a8fa8f90"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce3b4add0">
+  <item nodeId="node-0x5638a8fa8f90">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Calm in the Mist
 You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto a wicker basket in the centre of the clearing.
@@ -185,11 +185,11 @@ You can see a wicker basket (closed) here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce1e634d0"/>
-      <child nodeId="node-0x563ce3f87920"/>
+      <child nodeId="node-0x5638a95f66b0"/>
+      <child nodeId="node-0x5638a95fcde0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce1e634d0">
+  <item nodeId="node-0x5638a95f66b0">
     <command xml:space="preserve">look note</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -200,10 +200,10 @@ You can see a wicker basket (closed) here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce3a8de10"/>
+      <child nodeId="node-0x5638a95f9ad0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce3a8de10">
+  <item nodeId="node-0x5638a95f9ad0">
     <command xml:space="preserve">look feather</command>
     <result xml:space="preserve">It&apos;s the beautiful feather of a kingfisher. As you pick it up, you notice a crumpled note wrapped around the shaft.
 
@@ -218,7 +218,7 @@ That isn&apos;t available.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x563ce3f87920">
+  <item nodeId="node-0x5638a95fcde0">
     <command xml:space="preserve">x feather</command>
     <result xml:space="preserve">It&apos;s the beautiful feather of a kingfisher. As you pick it up, you notice a crumpled note wrapped around the shaft. You take them both.
 
@@ -229,10 +229,10 @@ That isn&apos;t available.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce41d2a50"/>
+      <child nodeId="node-0x5638a96001a0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce41d2a50">
+  <item nodeId="node-0x5638a96001a0">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   a crumpled note
@@ -245,10 +245,10 @@ That isn&apos;t available.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce4035000"/>
+      <child nodeId="node-0x5638a96035b0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce4035000">
+  <item nodeId="node-0x5638a96035b0">
     <command xml:space="preserve">read note</command>
     <result xml:space="preserve">A crumpled piece of paper with frayed edges and smudged ink. It lists six numbers in two groups of three:
 
@@ -261,10 +261,10 @@ That isn&apos;t available.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce4289d30"/>
+      <child nodeId="node-0x5638a9606d80"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce4289d30">
+  <item nodeId="node-0x5638a9606d80">
     <command xml:space="preserve">unlock basket</command>
     <result xml:space="preserve">What do you want to unlock the wicker basket with?
 
@@ -275,10 +275,10 @@ That isn&apos;t available.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce42c7840"/>
+      <child nodeId="node-0x5638a9609f90"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce42c7840">
+  <item nodeId="node-0x5638a9609f90">
     <command xml:space="preserve">note</command>
     <result xml:space="preserve">(the wicker basket with the crumpled note)
 You unlock the wicker basket.
@@ -290,10 +290,10 @@ You unlock the wicker basket.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce4016c60"/>
+      <child nodeId="node-0x5638a960d3b0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce4016c60">
+  <item nodeId="node-0x5638a960d3b0">
     <command xml:space="preserve">open basket</command>
     <result xml:space="preserve">(the wicker basket)
 Claire... Claire? Can you hear me? I have tried reaching out into your world but it is so difficult. I am trapped. I cannot say more. I need you to help me. Come to the desert ruins. The signal is stronger there. Use the feather. Hold it close and whisper the name of your destination. Help me. Please.
@@ -305,10 +305,10 @@ Claire... Claire? Can you hear me? I have tried reaching out into your world but
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce4297790"/>
+      <child nodeId="node-0x5638a8fa56c0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce4297790">
+  <item nodeId="node-0x5638a8fa56c0">
     <command xml:space="preserve">take basket</command>
     <result xml:space="preserve">(the wicker basket)
 Taken.
@@ -320,10 +320,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce3aa7730"/>
+      <child nodeId="node-0x5638a9614ef0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce3aa7730">
+  <item nodeId="node-0x5638a9614ef0">
     <command xml:space="preserve">inv</command>
     <result xml:space="preserve">You are carrying:
   a wicker basket (open)
@@ -339,10 +339,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce4c02050"/>
+      <child nodeId="node-0x5638a9618470"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce4c02050">
+  <item nodeId="node-0x5638a9618470">
     <command xml:space="preserve">whisper desert to the feather</command>
     <result xml:space="preserve">The feather seems to glow dimly and then fade. Perhaps the word you whispered is unknown.
 
@@ -353,10 +353,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce528fff0"/>
+      <child nodeId="node-0x5638a961b8f0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce528fff0">
+  <item nodeId="node-0x5638a961b8f0">
     <command xml:space="preserve">ariadne</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -367,10 +367,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce4059410"/>
+      <child nodeId="node-0x5638a961ed00"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce4059410">
+  <item nodeId="node-0x5638a961ed00">
     <command xml:space="preserve">whisper ariadne to the feather</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -383,10 +383,10 @@ Desert Ruins
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce51c8d70"/>
+      <child nodeId="node-0x5638a96220f0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce51c8d70">
+  <item nodeId="node-0x5638a96220f0">
     <command xml:space="preserve">whisper Ariadne to the feather</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -399,10 +399,10 @@ Desert Ruins
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce61efaf0"/>
+      <child nodeId="node-0x5638a9625540"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce61efaf0">
+  <item nodeId="node-0x5638a9625540">
     <command xml:space="preserve">whisper ARIADNE to the feather</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -415,10 +415,10 @@ Desert Ruins
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x563ce616f0b0"/>
+      <child nodeId="node-0x5638a9628ac0"/>
     </children>
   </item>
-  <item nodeId="node-0x563ce616f0b0">
+  <item nodeId="node-0x5638a9628ac0">
     <command xml:space="preserve">whisper</command>
     <result xml:space="preserve">You should whisper a word to the feather.
 
