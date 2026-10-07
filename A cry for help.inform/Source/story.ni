@@ -4,6 +4,8 @@ Table of Map Locations
 name		room
 "ariadne"	Desert Ruins
 
+LED colour is a kind of value. The LED colours are off, red, orange, yellow, green and blue.
+
 Chapter 1 - The Mistlands
 
 When play begins, say "You close your eyes and rest, feeling your breathing slow... listening to the sound of your breath...
@@ -122,14 +124,67 @@ Carry out whispering to the feather:
 
 Chapter Two - The Desert Ruins
 
-The Desert Ruins is a room. "You find yourself in the midst of an arid desert, sand stretching all around you and stretching off towards the shimmering horizon while the relentless sun beats down upon you.
+The Desert Ruins is a room. "You find yourself in the midst of an arid desert, sand stretching all around you and continuing off towards the shimmering horizon while the relentless sun beats down upon you.
 
 Some distance to the east is a stone ruin of some sort. It's difficult to make out from here. 
 
-Ahead of you is the crumbling edifice of a once mighty fortress. The huge rusted iron doors, though ancient, look powerful and unyielding." [need to sort out door]
+Ahead of you is the crumbling edifice of a once mighty fortress. The huge rusted iron doors, though ancient, look powerful and unyielding, filling you with a sense of foreboding.[if unvisited]As you gaze in awe and wonder at the immeasurably ancient ruins, you notice a flurry of movement amongst the dunes. Suddenly a weasel bursts out of the sand and scurries away to the east.[end if]" [need to sort out door]
 
-Ozymandias is east of the Desert Ruins
+The weasel is an animal. The description is "A timid yet adorable mustelid [if the weasel is not on the pedestal]scurries too and fro amongst the scattered stones. When she notices you she gives an excited yip and climbs up to the top of the pedestal and... speaks?
+'Claire! come closer and talk to me. I don't have long.'[otherwise]sits atop the pedestal with an urgent look on her face.[end if]"
+
+
+
+The weasel is in Ozymandias
+
+After examining the weasel when the weasel is not on the pedestal:
+	now the weasel is on the pedestal.
+
+LED colour is a kind of value. The LED colours are off, red, orange, yellow, green and blue.
+
+Ozymandias is east of the Desert Ruins. "Two vast and trunkless legs of stone stand in the desert. Near them on the sand,
+half sunk, a shattered visage lies. The legs are atop a pedestal.".
+
+The pedestal is a scenery supporter in Ozymandias. "On the pedestal these words appear: 'My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!' Underneath the plaque sits what appears to be a control panel. You don't remember Shelley writing about this."
+
+The visage is scenery in Ozymandias. "A shattered visage, whose frown, and wrinkled lip, and sneer of cold command, tell that its sculptor well those passions read which yet survive, stamped on these lifeless things, the hand that mocked them, and the heart that fed." Understand "shattered", "shattered visage" as the visage.
+The legs are scenery in Ozymandias. "Vast stone legs extend upwards, but whatever torso once existed atop them is long gone now, obliterated by the cruel passage of endless ages.[if the weasel is nowhere]Atop the left leg, resplendent in its glory, sits the kingfisher. Atop the right leg, tiny but audacious, sits the goldcrest.[end if]"
+
+The control panel is part of the pedestal. The description is "A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
+
+[bracket][the LED colour of LED 1][close bracket] [bracket][the LED colour of LED 2][close bracket] [bracket][the LED colour of LED 3][close bracket] [bracket][the LED colour of LED 4][close bracket] "
+
+The control panel can be solved or unsolved. It is unsolved.
+
+An LED is a kind of thing. An LED has an LED colour. A button is a kind of thing.
+Button 1 is a button. It is part of the control panel. LED 1 is an LED. It is part of the control panel.
+Button 2 is a button. It is part of the control panel. LED 2 is an LED. It is part of the control panel.
+Button 3 is a button. It is part of the control panel. LED 3 is an LED. It is part of the control panel.
+Button 4 is a button. It is part of the control panel. LED 4  is an LED. It is part of the control panel.
+
+Instead of pushing a button:
+	if the weasel is on the pedestal:
+		say "The weasel yips at you frantically, desperate to talk. you should do that before messing around with the control panel.";
+	otherwise if the control panel is solved:
+		say "I think it's served its purpose. Probably best not to mess with the control panel any more.";
+	otherwise:
+		say "You push [the noun]. Instantly, [the LED corresponding to the Button of the noun in the Table of button connections] changes from [the LED colour of the LED corresponding to the Button of the noun in the Table of button connections] to [the LED colour after the LED colour of the LED corresponding to the Button of the noun in the Table of button connections].";
+		now the LED colour of the LED corresponding to the Button of the noun in the Table of button connections is the LED colour after the LED colour of the LED corresponding to the Button of the noun in the Table of button connections;
+		if the LED colour of LED 1 is blue and the LED colour of LED 2 is orange and the LED colour of LED 3 is yellow and the LED colour of LED 4 is off:
+			now the control panel is solved;
+			say "You hear a tremendous sound to the west, the metallic grind of iron on stone. The birds atop the legs let out a satisfied cry and fly away.";
 	
+
+
+
+Table of Button Connections
+Button	LED
+Button 1	LED 1
+Button 2	LED 2
+Button 3	LED 3
+Button 4	LED 4
+
+	 
 [colour switch puzzle - blue orange yellow black]
 
 
