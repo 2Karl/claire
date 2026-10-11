@@ -1,8 +1,12 @@
 "A Cry For Help" by "A very silly man"
 
+
 Table of Map Locations
 name		room
-"ariadne"	Desert Ruins
+"sekhmet"	Desert Ruins
+"achlys"		Calm in the Mist
+"sarruma"	Mountain Overlook
+"medeina"	Forest Glade
 
 LED colour is a kind of value. The LED colours are off, red, orange, yellow, green and blue.
 
@@ -19,7 +23,7 @@ When play begins, say "You close your eyes and rest, feeling your breathing slow
 The In-Between is a room. "You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach.
 [if the flock of birds is nowhere]You hear a faint sound, but you'll have to actively listen to make sense of it.[end if][if the flock of birds is in the In-between]The delightful sound of myriad cheeping birds fills your ears.[end if][if the flock of birds is in the calm in the mist]You hear the flock of birds cheeping somewhere to the north.[end if]"
 
-The Calm in the Mist is a room. "You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto a wicker basket in the centre of the clearing.[if unvisited]
+The Calm in the Mist is a room. "You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto [if the wicker basket is in the calm in the mist]a wicker basket[otherwise]a grassy mound[end if] in the centre of the clearing.[if unvisited]
 
     The flock of tiny birds swirl around the basket, faster and faster in a mesmerising spiral, until finally coalescing into the shape of a larger bird. There is a faint hint of a flash, a heartbeat of blindness, before you look again upon the form of a magnificent kingfisher who perches atop the basket, studying you intently.[end if][if the kingfisher is on the basket lid] 
 
@@ -67,7 +71,7 @@ The basket lid is a supporter. It is part of the wicker basket.  The crumpled no
 
 The description of the crumpled note is "A crumpled piece of paper with frayed edges and smudged ink. It lists six numbers in two groups of three: 
 
-'[bracket]2, 3, 8[close bracket] [bracket]1, 6, 4[close bracket]'"
+'[bracket]2, 5, 2[close bracket] [bracket]4, 7, 3[close bracket]'"
 
 Instead of taking the wicker basket when the kingfisher is on the basket lid, say "As you reach for the basket, the kingfisher flaps its wings and calls out, 'Kew-ahhh! Kew-ahhh!' You retreat from the basket and the kingfisher resumes its inquisitive vigil."
 
@@ -124,6 +128,8 @@ Carry out whispering to the feather:
 
 Chapter Two - The Desert Ruins
 
+The Desert is a region. The Desert ruins, Ozymandias and the Arena of Champions are in the desert. The sand is a backdrop in the desert. "The sand is rough and it's course and it gets everywhere. Seems like the sort of thing an edgelord would hate." The desert can be either solved or unsolved. The desert is unsolved.
+
 The Desert Ruins is a room. "You find yourself in the midst of an arid desert, sand stretching all around you and continuing off towards the shimmering horizon while the relentless sun beats down upon you.
 
 Some distance to the east is a stone ruin of some sort. It's difficult to make out from here. 
@@ -153,12 +159,12 @@ The legs are scenery in Ozymandias. "Vast stone legs extend upwards, but whateve
 
 The control panel is part of the pedestal. The description is "A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
 
-[bracket][the LED colour of LED 1][close bracket] [bracket][the LED colour of LED 2][close bracket] [bracket][the LED colour of LED 3][close bracket] [bracket][the LED colour of LED 4][close bracket] "
+[bracket][the LED colour of LED 1][close bracket]		[bracket][the LED colour of LED 2][close bracket]		[bracket][the LED colour of LED 3][close bracket]		[bracket][the LED colour of LED 4][close bracket]"
 
 The control panel can be solved or unsolved. It is unsolved.
 
 An LED is a kind of thing. An LED has an LED colour. A button is a kind of thing.
-Button 1 is a button. It is part of the control panel. LED 1 is an LED. It is part of the control panel.
+Button 1 is a button. It is part of the control panel. LED 1 is an LED. It is part of the control panel. understand "1" as button 1.
 Button 2 is a button. It is part of the control panel. LED 2 is an LED. It is part of the control panel.
 Button 3 is a button. It is part of the control panel. LED 3 is an LED. It is part of the control panel.
 Button 4 is a button. It is part of the control panel. LED 4  is an LED. It is part of the control panel.
@@ -204,10 +210,12 @@ The Arena of Champions is north of the Desert Ruins. "You stand inside a vast ar
 
 Snapping out of your reverie, you notice three ghostly figures standing motionless around the plinth. Atop the plinth is a green chest.[end if]"
 
+
+
 The plinth is scenery supporter in the arena of champions. "A plinth of alabaster occupies the centre of the arena.[if the green box is on the plinth]A small green chest rests on top of the plinth[end if]"
 
 The green box is a closed openable container. The green box is on the plinth.
-A gemstone is a kind of thing. a gemstone can be identified or unidentified. a gemstone is normally unidentified. Understand the printed name property as describing a gemstone.
+A gemstone is a kind of thing. a gemstone can be identified or unidentified. a gemstone is normally unidentified. Understand the printed name property as describing a gemstone. understand "stone" as gemstone. Understand "stones" as the plural of gemstones.
 
 Identifying it as is an action applying to one thing and one topic. Understand "identify [something] as [text]" as identifying it as.
 
@@ -218,27 +226,132 @@ carry out identifying it as:
 	say "You inspect [the noun] closely...";
 	let true name be the identified name corresponding to the gemstone of the noun in the table of gemstone names in lower case;
 	if true name is "[the topic understood in lower case]":
-		say "You're absolutely certain [the noun] is [true name]";
+		say "You're absolutely certain [the noun] is [true name][line break]";
 		now the noun is identified;
 		now the printed name of the noun is true name;
 		now the description of the noun is the description corresponding to the gemstone of the noun in the table of gemstone names in lower case;
 	otherwise:
-		say "Hmmm... no, you don't think [the noun] is [the topic understood]...";
-
-		
+		say "Hmmm... no, you don't think [the noun] is [the topic understood]...[line break]";
 
 Table of gemstone names
-Gemstone	identified name	description
-green stone	"malachite"		"Properties of malachite:[line break]* something[line break]* something else"
+Gemstone		identified name	description
+green stone		"malachite"		"The beautiful green stone fully personifies the deep healing green of nature."
+purple stone 	"amethyst"		"The smooth purple stone has been highly esteemed throughout the ages for its stunning beauty."
+orange stone	"jasper"			"An elemental earthstone aligned with the electromagnetic energies of the planet."
+red stone		"ruby"			"Fiery and captivating, The jagged red stone is a stone of nobility."
+blue stone		"iolite"			"The smooth blue stone reminds you of a crisp, dark winter sky in shifting shades of violet blue."
+mottled stone	"unakite"		"The stone brings together the abundant, nurturing energy of green with the soft caring passion of pink."
+pink stone		"rose quartz"	"the jagged rosy pink stone is a stone of the heart, a crystal of unconditional love."
+black stone		"obsidian"		"The jagged black stone is a talisman o those who dare to see the own inner demons and darkest truths."
 
-The green stone is a gemstone. 
+The green stone is a gemstone. The description is "A smooth, deep green stone with bands of a vibrant jade colour running horizontally across its smooth surface."
+The purple stone is a gemstone. The description is "A smooth purple stone that shimmers gently in the light."
+The orange stone is a gemstone. The description is "A smooth orange stone with blobs of white and grey winding across its surface."
+The red stone is a gemstone. The description is "A jagged, blood red stone criss-crossed with crystalline structures."
+The blue stone is a gemstone. The description is "A smooth, deep blue stone with clouds of white stretched across its surface." 
+The mottled stone is a gemstone. The description is "A smoothly mottled green and pink stone."
+The pink stone is a gemstone. The description is "A jagged rosy pink stone."
+The black stone is a gemstone. The description is "A sharply jagged pitch black stone."
+
+All of the gemstones are in the green box.
 
 Instead of going north from the desert ruins when the control panel is unsolved, say "You push against the enormous rusted iron door with all your might, but it will not budge. There must be some way to open it." 
 
 Before going north from the desert ruins, say "You head through the huge iron doors into the tunnel beyond. Eventually the tunnel opens out into what appears to be an arena."
 
+Identifying is an action applying to one thing. Understand "identify [something]" as identifying.
+
+Instead of identifying something when the noun is a gemstone, say "you need to say what you're identifying the stone as. For example: 'identify white stone as diamond'."
+
+Instead of identifying something when the noun is not a gemstone, say "You're pretty sure it's [the noun]."
+
+The stands are scenery in the arena of champions. The description is "Row upon row of gently staggered seating; in its heyday, this arena could have seated the population of a small town. You can almost smell the aroma of mets cooking on stakes to sell to the audience, almost hear the slosh of wine and roars of applause..." Understand "stand" as the stands.
+
+a ghost is a kind of person. A ghost can be healed or unhealed. A ghost is usually unhealed.
+
+The Ghost on the left is a ghost in the Arena of Champions. Understand "left hand ghost", "first ghost", "ghost 1" as the ghost on the left. The printed name of the ghost on the left is "ghost on the left of the plinth". The description is "The ghost of a warrior stands to the left of the plinth. He brandishes a gladius, but he does not appear threatening; it is almost as if the will to fight has left him. Every do often he shakes his head and lets out a sigh."
+
+Instead of talking to the ghost on the left when the ghost on the left is unhealed, say "As you address him, the ghost looks up at you. Seemingly ashamed, he turns away. 'I... killed them,' he says, 'I killed them all. I was the best gladiator in the arena. Every day they'd send more fighters in to fight me, and every day I'd cut them down.' A tear escapes the ghostly gladiator's eye as he wails 'I can't do it anymore! The fight has left me! And now I must spend eternity here. Unwilling... no, UNABLE to fight. What can I do? Can you help me?'"
 
 
+Instead of giving a gemstone to the ghost on the left:
+	if the noun is not identified:
+		say "You're not sure how that would help. Maybe if you IDENTIFIED the stone first it might give you more insights.";
+	else if the noun is the green stone:
+		say "The ghost takes the malachite and looks at it inquisitively. He holds it close. You can see his emotional barriers breaking down. He looks at you and very slowly starts to smile. 'I... I see now that I had no choice. I was a victim as much as they were. If I had not killed them I would have been killed myself. I see a long road ahead...' He looks at you, a single tear rolling down his cheek as he smiles, the relief obvious in his face. 'But... I think I am beginning to forgive myself.'
+		
+		The ghost slowly begins to dissolve and rise upwards into the desert sky. Where he stood, an ornate tombstone with a roman numeral carved into it rests on the ground.";
+		now the ghost on the left is nowhere;
+		now the ghost on the left is healed;
+		now the green stone is carried by the ghost on the left;
+		now the tombstone on the left is in the arena of champions;
+		if all the ghosts are healed:
+			now the desert is solved;
+	otherwise:
+		say "The ghost takes [the noun] and looks at it inquisitively. He holds it close. His expression does not change. 'I appreciate the offer,' he says, 'but I don't think this helps.' The ghost hands [the noun] back to you."
+	
+the tombstone on the left is an object. It is fixed in place. The description is "An expertly carved granite tombstone. The roman numeral V is prominently carved into it."	Understand "lefthand tombstone", "first tombstone", "tombstone 1" as the tombstone on the left.
+
+The middle ghost is a ghost in the Arena of Champions. Understand "middle ghost", "second ghost", "ghost 2", "ghost in the middle", "ghost behind the plinth" as the middle ghost. The printed name of middle ghost is "Ghost behind the plinth". The description is "The ghost of a lithe gladiator armed with a net and trident skulks behind the plinth. Every so often he appears to psych himself up as if to fight, before shrinking back with a defeated look on his face."
+
+Instead of talking to the middle ghost when the middle ghost is unhealed, say "As you address him, the ghost looks startled. 'Stay away from me!' He yells, lifting his trident. 'I'll spear you! I will!' After a short period of threats and posturing, the ghost crumples down, a defeated look on his face. 'Oh who am I kidding? I'm no good at this. I don't know what I'm doing. I'll never get out of this place. I just don't have the skill.' A look of hopelessness crosses the ghost's face. 'Is there even any point in trying?'"
+
+
+Instead of giving a gemstone to the middle ghost:
+	if the noun is not identified:
+		say "You're not sure how that would help. Maybe if you IDENTIFIED the stone first it might give you more insights.";
+	else if the noun is the blue stone:
+		say "The ghost takes the iolite and looks at it inquisitively. He holds it close. You see his confidence building. ' you know what?' he says, somewhat shakily, 'I don't care if I miss sometimes. If I never try then I'm doomed to fail every time.' The ghost slowly takes aim at some target only visible to himself. 'I just need a bit... more... confidence!' He lets fly with his trident and cheers triumphantly. 'Thank you! You've helped restore my confidence. I know I have a long journey ahead of me, but the journey of a thousand miles starts with a single step.'
+		
+		The ghost slowly begins to dissolve and rise upwards into the desert sky. Where he stood, an ornate tombstone with a roman numeral carved into it rests on the ground.";
+		now the middle ghost is nowhere;
+		now the middle ghost is healed;
+		now the blue stone is carried by the middle ghost;
+		now the middle tombstone is in the arena of champions;
+		if all the ghosts are healed:
+			now the desert is solved;
+	otherwise:
+		say "The ghost takes [the noun] and looks at it inquisitively. He holds it close. His expression does not change. 'I appreciate the offer,' he says, 'but I don't think this helps.' The ghost hands [the noun] back to you."
+	
+the middle tombstone is an object. It is fixed in place. The description is "An expertly carved alabaster tombstone. The roman numeral IX is prominently carved into it." Understand "tombstone in the middle", "second tombstone", "tombstone 2", "tombstone behind the plinth" as the middle tombstone. The printed name of the middle tombstone is "tombstone behind the plinth".
+
+
+The Ghost on the right is a ghost in the Arena of Champions. Understand "right hand ghost", "third ghost", "ghost 3" as the ghost on the right. The printed name of the ghost on the right is "ghost on the right of the plinth". The description is "The ghost of a peasant paces back and forth angrily on the right hand side of the plinth. Every so often he will scowl at the other ghosts and mutter curses under his breath. His face is curled into a tight, angry frown."
+
+Instead of talking to the ghost on the right when the ghost on the right is unhealed, say "As you approach the ghost, lashes out at you. 'That's far enough! Stay back!' he yells, spitting in your direction. 'Come for your pound of flesh have you? Come to finish me off, punish me for whatever crime you deem me guilty of this week?' The ghost looks incandescent with rage as he throws invisible stones at his perceived enemies. 'I said GET AWAY!' He lurches towards you but stops short. 'I'm sick to death of it. I choose to live my life differently, not harming no-one, and those SHAGGERS throw me in the arena and force me to fight. Well let me tell you when I get out of here I won't stop with them. I'll put their whole family to the sword. I'll burn this whole city to the ground! I hate them all!' You step away, leaving the ghost to his rage."
+
+
+Instead of giving a gemstone to the ghost on the right:
+	if the noun is not identified:
+		say "You're not sure how that would help. Maybe if you IDENTIFIED the stone first it might give you more insights.";
+	else if the noun is the mottled stone:
+		say "The ghost takes the iolite and looks at it inquisitively. He holds it close. You see his anger start to fade. Slowly he sits down. 'I... I've been so angry.' He says, his hands shaking. 'So angry for so long. My rage was consuming me. But I can see now that it's holding me back. None of it has made things better... It just ate away at me, prevented me from growing.' He looks up at you. 'Thank you. you have given me a moment of clarity, enough to see that this hatred solves nothing. I have a long way to go, and I'm not sure I can forgive the people who did this to me, at least not yet; but I will no longer let their wrongs control me.' The frown on the ghost's face slowly fades and is replaced by the first hint of a smile. You watch as he relaxes for the first time in a thousand years.
+		
+		The ghost slowly begins to dissolve and rise upwards into the desert sky. Where he stood, a carved tombstone with a roman numeral carved into it rests on the ground.";
+		now the ghost on the right is nowhere;
+		now the ghost on the right is healed;
+		now the mottled stone is carried by the ghost on the right;
+		now the righthand tombstone is in the arena of champions;
+		if all the ghosts are healed:
+			now the desert is solved;
+	otherwise:
+		say "The ghost takes [the noun] and looks at it inquisitively. He holds it close. His expression does not change. 'This is worthless to me!' he spits, 'why don't you give me something useful?.' The ghost throws [the noun] back at you. You pick it up and put it in your pocket."
+	
+the righthand tombstone is an object. It is fixed in place. The description is "An expertly carved slate tombstone. The roman numeral VI is prominently carved into it." Understand "righthand tombstone", "third tombstone", "tombstone 3", "tombstone on the right" as the righthand tombstone. The printed name of the righthand tombstone is "tombstone on the right of the plinth."
+
+
+instead of taking something when the noun is fixed in place, say "That's far too inconvenient to carry."
+
+
+
+
+Chapter 3 - The Mountains
+
+The Mountain Overlook is a room. The description is "[if the desert is unsolved]It's fucking raining[otherwise]OK fill your boots."
+
+Chapter 4 - The Forest
+
+The Forest Glade is a room.
 
 [Inside the basket is the kingfisher plate and cup (nice tea and biccies?), The box containing the crystals. Each crystal has a coded message (symbols? can I use the old symbols from last year for one of them?) Also make a new necklace for them. The book... how to gate the book? The book code puzzle... Maybe the book doesn't need gating as the book code requires the correct page?
 
