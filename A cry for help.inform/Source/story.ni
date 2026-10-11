@@ -101,7 +101,7 @@ Instead of examining the blue feather when the blue feather is on the basket lid
 	now the crumpled note is carried by the player;
 
 [fill out these with more details]
-The book is in the wicker basket. The green box is a closed openable container. The green box is locked. It is in the wicker basket.
+The book is in the wicker basket. 
 
 Before unlocking the wicker basket with an object when the Kingfisher is on the basket lid, try taking the wicker basket instead.
 
@@ -128,11 +128,12 @@ The Desert Ruins is a room. "You find yourself in the midst of an arid desert, s
 
 Some distance to the east is a stone ruin of some sort. It's difficult to make out from here. 
 
-Ahead of you is the crumbling edifice of a once mighty fortress. The huge rusted iron doors, though ancient, look powerful and unyielding, filling you with a sense of foreboding.[if unvisited]As you gaze in awe and wonder at the immeasurably ancient ruins, you notice a flurry of movement amongst the dunes. Suddenly a weasel bursts out of the sand and scurries away to the east.[end if]" [need to sort out door]
+Ahead of you to the north is the crumbling edifice of a once mighty fortress. The huge rusted iron doors[if the control panel is unsolved], though ancient, look powerful and unyielding, filling you with a sense of foreboding.[otherwise] now stand ajar, allowing access into the ruins.[end if][if unvisited]As you gaze in awe and wonder at the immeasurably ancient ruins, you notice a flurry of movement amongst the dunes. Suddenly a weasel bursts out of the sand and scurries away to the east.[end if]" 
+
+The iron door is scenery in the desert ruins. "Vast and unyielding and impossibly ancient, you wonder who could have built this enormous portal. The doors must weigh hundreds of tons; they are covered in thick red rust but you detect no signs of corrosion or structural weakness."
 
 The weasel is an animal. The description is "A timid yet adorable mustelid [if the weasel is not on the pedestal]scurries too and fro amongst the scattered stones. When she notices you she gives an excited yip and climbs up to the top of the pedestal and... speaks?
 'Claire! come closer and talk to me. I don't have long.'[otherwise]sits atop the pedestal with an urgent look on her face.[end if]"
-
 
 
 The weasel is in Ozymandias
@@ -148,7 +149,7 @@ half sunk, a shattered visage lies. The legs are atop a pedestal.".
 The pedestal is a scenery supporter in Ozymandias. "On the pedestal these words appear: 'My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!' Underneath the plaque sits what appears to be a control panel. You don't remember Shelley writing about this."
 
 The visage is scenery in Ozymandias. "A shattered visage, whose frown, and wrinkled lip, and sneer of cold command, tell that its sculptor well those passions read which yet survive, stamped on these lifeless things, the hand that mocked them, and the heart that fed." Understand "shattered", "shattered visage" as the visage.
-The legs are scenery in Ozymandias. "Vast stone legs extend upwards, but whatever torso once existed atop them is long gone now, obliterated by the cruel passage of endless ages.[if the weasel is nowhere]Atop the left leg, resplendent in its glory, sits the kingfisher. Atop the right leg, tiny but audacious, sits the goldcrest.[end if]"
+The legs are scenery in Ozymandias. "Vast stone legs extend upwards, but whatever torso once existed atop them is long gone now, obliterated by the cruel passage of endless ages.[if the weasel is nowhere] Atop the left leg, resplendent in its glory, sits the kingfisher. Atop the right leg, tiny but audacious, sits the goldcrest.[end if]"
 
 The control panel is part of the pedestal. The description is "A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
 
@@ -173,9 +174,6 @@ Instead of pushing a button:
 		if the LED colour of LED 1 is blue and the LED colour of LED 2 is orange and the LED colour of LED 3 is yellow and the LED colour of LED 4 is off:
 			now the control panel is solved;
 			say "You hear a tremendous sound to the west, the metallic grind of iron on stone. The birds atop the legs let out a satisfied cry and fly away.";
-	
-
-
 
 Table of Button Connections
 Button	LED
@@ -184,16 +182,65 @@ Button 2	LED 2
 Button 3	LED 3
 Button 4	LED 4
 
-	 
 [colour switch puzzle - blue orange yellow black]
 
+Instead of talking to the weasel when the weasel is on the pedestal:
+	say "The weasel looks at you excitedly, before saying 'Claire, thank you for finding me. Do you recognise me? I am Ottelie. Oh Claire, don't act so surprised. I know I might looks strange in my weasel form, but it was the only way I could escape the cage they have me in.
+
+'Look, it's too complicated to explain and I don't have time. My magic can only last so long before I have to return to my body. I need you to come to the Wychwood Forest. That's where I am imprisoned. I know you have the kingfisher's feather. 
+
+'What's that? You don't have all of the map? Oh that will never do... OK listen. You must visit the Old man of the Mountain, but there's a terrible spell making the weather in the Dragonback Mountains absolutely inhospitable. Find a way to get into the Arena of Champions, back up there to the west. Speak to the Shades of the Heros. They might be able to help.'
+
+Ottelie the weasel starts to flicker and fade before your very eyes.
+
+'Oh no! I think my magic is running out! Look to my companions! They led you here, they will lead you out! 
+
+'Help me Claire! I believe in you!'
+
+As the weasel fades from view, you hear the cry of birds from above. 'Kew-ahhh! Kew-ahhh!' You recognise the call of the Kingfisher and look up. Now only is the magnificent blue bird circling above you, but it is joined with a smaller bird, a tiny goldcrest. As you watch, they settle on top of the mighty legs of the ruined statue, the Kingfisher on the left leg, the goldfinch on the right.";
+	Now the weasel is nowhere.
+	
+The Arena of Champions is north of the Desert Ruins. "You stand inside a vast arena, and for a brief moment experience a vision of an ancient time, the stalls filled with thousands of people cheering on the mighty warriors who clashed on the sands. As suddenly as it appeared, the vision fades, and the stalls lie empty, filling the arena with an unsettling silence. A plinth of alabaster occupies the centre of the arena.[if unvisited]
+
+Snapping out of your reverie, you notice three ghostly figures standing motionless around the plinth. Atop the plinth is a green chest.[end if]"
+
+The plinth is scenery supporter in the arena of champions. "A plinth of alabaster occupies the centre of the arena.[if the green box is on the plinth]A small green chest rests on top of the plinth[end if]"
+
+The green box is a closed openable container. The green box is on the plinth.
+A gemstone is a kind of thing. a gemstone can be identified or unidentified. a gemstone is normally unidentified. Understand the printed name property as describing a gemstone.
+
+Identifying it as is an action applying to one thing and one topic. Understand "identify [something] as [text]" as identifying it as.
+
+instead of identifying something as when the noun is identified:
+	say "You already know what [the noun] is."
+
+carry out identifying it as:
+	say "You inspect [the noun] closely...";
+	let true name be the identified name corresponding to the gemstone of the noun in the table of gemstone names in lower case;
+	if true name is "[the topic understood in lower case]":
+		say "You're absolutely certain [the noun] is [true name]";
+		now the noun is identified;
+		now the printed name of the noun is true name;
+		now the description of the noun is the description corresponding to the gemstone of the noun in the table of gemstone names in lower case;
+	otherwise:
+		say "Hmmm... no, you don't think [the noun] is [the topic understood]...";
+
+		
+
+Table of gemstone names
+Gemstone	identified name	description
+green stone	"malachite"		"Properties of malachite:[line break]* something[line break]* something else"
+
+The green stone is a gemstone. 
+
+Instead of going north from the desert ruins when the control panel is unsolved, say "You push against the enormous rusted iron door with all your might, but it will not budge. There must be some way to open it." 
+
+Before going north from the desert ruins, say "You head through the huge iron doors into the tunnel beyond. Eventually the tunnel opens out into what appears to be an arena."
 
 
 
 
 [Inside the basket is the kingfisher plate and cup (nice tea and biccies?), The box containing the crystals. Each crystal has a coded message (symbols? can I use the old symbols from last year for one of them?) Also make a new necklace for them. The book... how to gate the book? The book code puzzle... Maybe the book doesn't need gating as the book code requires the correct page?
-
-need to test: QR-code puzzle. Answer is CARDINAL.
 
 need to make: book mask puzzle
 
