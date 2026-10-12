@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x55c45dbc8480" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x5627fdcb5140" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x55c464fa1840"/>
-  <item nodeId="node-0x55c45dbc8480">
+  <activeNode nodeId="node-0x562804f8f330"/>
+  <item nodeId="node-0x5627fdcb5140">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -18,7 +18,7 @@ your heartbeat slows and you feel relaxed as the stresses of modern life melt aw
 
 A Cry For Help
 An Interactive Fiction by A very silly man
-Release 1 / Serial number 261011 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 261012 / Inform 7 v10.1.2 / D
 
 In-Between
 You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach. You hear a faint sound, but you&apos;ll have to actively listen to make sense of it.
@@ -30,10 +30,10 @@ You are.. somewhere. Swirling mists curl out of the blackness that appears to ex
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45d55f480"/>
+      <child nodeId="node-0x5627fd604b40"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45d55f480">
+  <item nodeId="node-0x5627fd604b40">
     <command xml:space="preserve">listen</command>
     <result xml:space="preserve">You strain your ears and hear a vary faint bird song. As you listen the song gets stronger. One voice is joined by another, and another. Suddenly, you notice that you are surrounded by tiny birds, flitting through the mists.
 
@@ -44,10 +44,10 @@ You are.. somewhere. Swirling mists curl out of the blackness that appears to ex
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dd73a00"/>
+      <child nodeId="node-0x5627fde830d0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dd73a00">
+  <item nodeId="node-0x5627fde830d0">
     <command xml:space="preserve">x birds</command>
     <result xml:space="preserve">Innumerable little birds, pale yellow with a beautiful golden crest, flit playfully through the mist. As you watch, they circle around you and then as one, fly through the swirling tendrils to the north. You feel compelled to follow.
 
@@ -58,10 +58,10 @@ You are.. somewhere. Swirling mists curl out of the blackness that appears to ex
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dd8f4c0"/>
+      <child nodeId="node-0x5627fde9eb20"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dd8f4c0">
+  <item nodeId="node-0x5627fde9eb20">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You follow the flock of birds to the north through the mists. Every so often you lose sight of them, but they soon return to continue leading you onwards. Eventually the mists start to clear...
 
@@ -81,11 +81,11 @@ You can see a wicker basket (closed) here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dd93040"/>
-      <child nodeId="node-0x55c45dde03d0"/>
+      <child nodeId="node-0x5627fdea2680"/>
+      <child nodeId="node-0x5627fdeefa10"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dd93040">
+  <item nodeId="node-0x5627fdea2680">
     <command xml:space="preserve">get basket</command>
     <result xml:space="preserve">(the wicker basket)
 As you reach for the basket, the kingfisher flaps its wings and calls out, &quot;Kew-ahhh! Kew-ahhh!&quot; You retreat from the basket and the kingfisher resumes its inquisitive vigil.
@@ -97,10 +97,10 @@ As you reach for the basket, the kingfisher flaps its wings and calls out, &quot
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dd96490"/>
+      <child nodeId="node-0x5627fdea5ad0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dd96490">
+  <item nodeId="node-0x5627fdea5ad0">
     <command xml:space="preserve">talk to kingfisher</command>
     <result xml:space="preserve">It&apos;s probably best if you just say the word.
 
@@ -111,10 +111,10 @@ As you reach for the basket, the kingfisher flaps its wings and calls out, &quot
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dd99860"/>
+      <child nodeId="node-0x5627fdea8ea0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dd99860">
+  <item nodeId="node-0x5627fdea8ea0">
     <command xml:space="preserve">look at kingfisher</command>
     <result xml:space="preserve">A magnificent bird, its feathers resplendent shades of deep blue and orange, with white flashes on its neck. You get a sense of deep wisdom in the kingfisher&apos;s eyes. It observes you expectantly, as if waiting for you to say something. 
 
@@ -125,10 +125,10 @@ As you reach for the basket, the kingfisher flaps its wings and calls out, &quot
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dd9cd00"/>
+      <child nodeId="node-0x5627fdeac340"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dd9cd00">
+  <item nodeId="node-0x5627fdeac340">
     <command xml:space="preserve">x  basket</command>
     <result xml:space="preserve">(the wicker basket)
 It&apos;s a wicker basket, about 50 centimetres long and half as wide. It is currently sealed by two combination locks. A kingfisher sits perched atop the basket, apparently guarding it. The bird eyes you expectantly, as if waiting for you to say something.
@@ -140,10 +140,10 @@ It&apos;s a wicker basket, about 50 centimetres long and half as wide. It is cur
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dda0370"/>
+      <child nodeId="node-0x5627fdeaf9b0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dda0370">
+  <item nodeId="node-0x5627fdeaf9b0">
     <command xml:space="preserve">tell kingfisher cardinal</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -154,10 +154,10 @@ It&apos;s a wicker basket, about 50 centimetres long and half as wide. It is cur
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dda3f20"/>
+      <child nodeId="node-0x5627fdeb3560"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dda3f20">
+  <item nodeId="node-0x5627fdeb3560">
     <command xml:space="preserve">say cardinal to the kingfisher</command>
     <result xml:space="preserve">The kingfisher opens its beak and lets out a keening cry. A feeling of warmth radiates through you as the bird takes to the sky, a solitary blue feather fluttering down to land on top of the basket
 &gt;</result>
@@ -167,10 +167,10 @@ It&apos;s a wicker basket, about 50 centimetres long and half as wide. It is cur
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dda73c0"/>
+      <child nodeId="node-0x5627fdeb6a00"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dda73c0">
+  <item nodeId="node-0x5627fdeb6a00">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Calm in the Mist
 You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto a wicker basket in the centre of the clearing.
@@ -186,11 +186,11 @@ You can see a wicker basket (closed) here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddaa6f0"/>
-      <child nodeId="node-0x55c45ddb0e20"/>
+      <child nodeId="node-0x5627fdeb9d30"/>
+      <child nodeId="node-0x5627fdec0460"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddaa6f0">
+  <item nodeId="node-0x5627fdeb9d30">
     <command xml:space="preserve">look note</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -201,10 +201,10 @@ You can see a wicker basket (closed) here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddadb10"/>
+      <child nodeId="node-0x5627fdebd150"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddadb10">
+  <item nodeId="node-0x5627fdebd150">
     <command xml:space="preserve">look feather</command>
     <result xml:space="preserve">It&apos;s the beautiful feather of a kingfisher. As you pick it up, you notice a crumpled note wrapped around the shaft.
 
@@ -219,7 +219,7 @@ That isn&apos;t available.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c45ddb0e20">
+  <item nodeId="node-0x5627fdec0460">
     <command xml:space="preserve">x feather</command>
     <result xml:space="preserve">It&apos;s the beautiful feather of a kingfisher. As you pick it up, you notice a crumpled note wrapped around the shaft. You take them both.
 
@@ -230,10 +230,10 @@ That isn&apos;t available.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddb42f0"/>
+      <child nodeId="node-0x5627fdec3930"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddb42f0">
+  <item nodeId="node-0x5627fdec3930">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:
   a crumpled note
@@ -246,10 +246,10 @@ That isn&apos;t available.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddb7700"/>
+      <child nodeId="node-0x5627fdec6d40"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddb7700">
+  <item nodeId="node-0x5627fdec6d40">
     <command xml:space="preserve">read note</command>
     <result xml:space="preserve">A crumpled piece of paper with frayed edges and smudged ink. It lists six numbers in two groups of three:
 
@@ -262,10 +262,10 @@ That isn&apos;t available.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddbafe0"/>
+      <child nodeId="node-0x5627fdeca620"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddbafe0">
+  <item nodeId="node-0x5627fdeca620">
     <command xml:space="preserve">unlock basket</command>
     <result xml:space="preserve">What do you want to unlock the wicker basket with?
 
@@ -276,10 +276,10 @@ That isn&apos;t available.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddbe1e0"/>
+      <child nodeId="node-0x5627fdecd820"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddbe1e0">
+  <item nodeId="node-0x5627fdecd820">
     <command xml:space="preserve">note</command>
     <result xml:space="preserve">(the wicker basket with the crumpled note)
 You unlock the wicker basket.
@@ -291,10 +291,10 @@ You unlock the wicker basket.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddc1600"/>
+      <child nodeId="node-0x5627fded0c40"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddc1600">
+  <item nodeId="node-0x5627fded0c40">
     <command xml:space="preserve">open basket</command>
     <result xml:space="preserve">(the wicker basket)
 Claire... Claire? Can you hear me? I have tried reaching out into your world but it is so difficult. I am trapped. I cannot say more. I need you to help me. Come to the desert ruins. The signal is stronger there. Use the feather. Hold it close and whisper the name of your destination. Help me. Please.
@@ -306,10 +306,10 @@ Claire... Claire? Can you hear me? I have tried reaching out into your world but
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dda3a80"/>
+      <child nodeId="node-0x5627fdeb30c0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dda3a80">
+  <item nodeId="node-0x5627fdeb30c0">
     <command xml:space="preserve">take basket</command>
     <result xml:space="preserve">(the wicker basket)
 Taken.
@@ -321,10 +321,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddc9140"/>
+      <child nodeId="node-0x5627fded8780"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddc9140">
+  <item nodeId="node-0x5627fded8780">
     <command xml:space="preserve">inv</command>
     <result xml:space="preserve">You are carrying:
   a wicker basket (open)
@@ -340,10 +340,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddcc6c0"/>
+      <child nodeId="node-0x5627fdedbd00"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddcc6c0">
+  <item nodeId="node-0x5627fdedbd00">
     <command xml:space="preserve">whisper desert to the feather</command>
     <result xml:space="preserve">The feather seems to glow dimly and then fade. Perhaps the word you whispered is unknown.
 
@@ -354,10 +354,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddcfb40"/>
+      <child nodeId="node-0x5627fdedf180"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddcfb40">
+  <item nodeId="node-0x5627fdedf180">
     <command xml:space="preserve">ariadne</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -368,10 +368,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddd2f50"/>
+      <child nodeId="node-0x5627fdee2590"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddd2f50">
+  <item nodeId="node-0x5627fdee2590">
     <command xml:space="preserve">whisper ariadne to the feather</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -384,10 +384,10 @@ Desert Ruins
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddd6340"/>
+      <child nodeId="node-0x5627fdee5980"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddd6340">
+  <item nodeId="node-0x5627fdee5980">
     <command xml:space="preserve">whisper Ariadne to the feather</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -400,10 +400,10 @@ Desert Ruins
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddd98a0"/>
+      <child nodeId="node-0x5627fdee8ee0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddd98a0">
+  <item nodeId="node-0x5627fdee8ee0">
     <command xml:space="preserve">whisper ARIADNE to the feather</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -416,10 +416,10 @@ Desert Ruins
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dddce20"/>
+      <child nodeId="node-0x5627fdeec460"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dddce20">
+  <item nodeId="node-0x5627fdeec460">
     <command xml:space="preserve">whisper</command>
     <result xml:space="preserve">You should whisper a word to the feather.
 
@@ -430,7 +430,7 @@ Desert Ruins
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c45dde03d0">
+  <item nodeId="node-0x5627fdeefa10">
     <command xml:space="preserve">x kingfisher</command>
     <result xml:space="preserve">A magnificent bird, its feathers resplendent shades of deep blue and orange, with white flashes on its neck. You get a sense of deep wisdom in the kingfisher&apos;s eyes. It observes you expectantly, as if waiting for you to say something. 
 
@@ -441,10 +441,10 @@ Desert Ruins
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dde3780"/>
+      <child nodeId="node-0x5627fdef2dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dde3780">
+  <item nodeId="node-0x5627fdef2dc0">
     <command xml:space="preserve">talk to the kingfisher</command>
     <result xml:space="preserve">It&apos;s probably best if you just say the word.
 
@@ -455,10 +455,10 @@ Desert Ruins
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dde6ae0"/>
+      <child nodeId="node-0x5627fdef6120"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dde6ae0">
+  <item nodeId="node-0x5627fdef6120">
     <command xml:space="preserve">say cardinal</command>
     <result xml:space="preserve">(to the kingfisher)
 The kingfisher opens its beak and lets out a keening cry. A feeling of warmth radiates through you as the bird takes to the sky, a solitary blue feather fluttering down to land on top of the basket
@@ -469,10 +469,10 @@ The kingfisher opens its beak and lets out a keening cry. A feeling of warmth ra
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddea070"/>
+      <child nodeId="node-0x5627fdef96b0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddea070">
+  <item nodeId="node-0x5627fdef96b0">
     <command xml:space="preserve">open basket</command>
     <result xml:space="preserve">(the wicker basket)
 It seems to be locked.
@@ -484,10 +484,10 @@ It seems to be locked.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddbadd0"/>
+      <child nodeId="node-0x5627fdeca410"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddbadd0">
+  <item nodeId="node-0x5627fdeca410">
     <command xml:space="preserve">take feather</command>
     <result xml:space="preserve">It&apos;s the beautiful feather of a kingfisher. As you pick it up, you notice a crumpled note wrapped around the shaft. You take them both.
 
@@ -498,10 +498,10 @@ It seems to be locked.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddf0f40"/>
+      <child nodeId="node-0x5627fdf00580"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddf0f40">
+  <item nodeId="node-0x5627fdf00580">
     <command xml:space="preserve">read crumpled note</command>
     <result xml:space="preserve">A crumpled piece of paper with frayed edges and smudged ink. It lists six numbers in two groups of three:
 
@@ -514,10 +514,10 @@ It seems to be locked.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddf4330"/>
+      <child nodeId="node-0x5627fdf03970"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddf4330">
+  <item nodeId="node-0x5627fdf03970">
     <command xml:space="preserve">unlock basket with note</command>
     <result xml:space="preserve">(the wicker basket with the crumpled note)
 You unlock the wicker basket.
@@ -529,10 +529,10 @@ You unlock the wicker basket.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddf7800"/>
+      <child nodeId="node-0x5627fdf06e40"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddf7800">
+  <item nodeId="node-0x5627fdf06e40">
     <command xml:space="preserve">open basket</command>
     <result xml:space="preserve">(the wicker basket)
 You open the wicker basket, revealing a book.
@@ -544,10 +544,10 @@ You open the wicker basket, revealing a book.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddfabb0"/>
+      <child nodeId="node-0x5627fdf0a1f0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddfabb0">
+  <item nodeId="node-0x5627fdf0a1f0">
     <command xml:space="preserve">take basket</command>
     <result xml:space="preserve">(the wicker basket)
 Taken.
@@ -559,10 +559,10 @@ Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddfdeb0"/>
+      <child nodeId="node-0x5627fdf0d4f0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddfdeb0">
+  <item nodeId="node-0x5627fdf0d4f0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Calm in the Mist
 You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto a grassy mound in the centre of the clearing.
@@ -574,10 +574,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de01380"/>
+      <child nodeId="node-0x5627fdf109c0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de01380">
+  <item nodeId="node-0x5627fdf109c0">
     <command xml:space="preserve">whisper ariadne</command>
     <result xml:space="preserve">The feather seems to glow dimly and then fade. Perhaps the word you whispered is unknown.
 
@@ -588,12 +588,12 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de046f0"/>
-      <child nodeId="node-0x55c45dea7180"/>
-      <child nodeId="node-0x55c461e43660"/>
+      <child nodeId="node-0x5627fdf13ea0"/>
+      <child nodeId="node-0x5627fdfb69c0"/>
+      <child nodeId="node-0x5627fe0748a0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de046f0">
+  <item nodeId="node-0x5627fdf13ea0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Desert Ruins
 You find yourself in the midst of an arid desert, sand stretching all around you and continuing off towards the shimmering horizon while the relentless sun beats down upon you.
@@ -609,10 +609,10 @@ Ahead of you is the crumbling edifice of a once mighty fortress. The huge rusted
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ddc4d30"/>
+      <child nodeId="node-0x5627fded4370"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ddc4d30">
+  <item nodeId="node-0x5627fded4370">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Ozymandias
@@ -627,10 +627,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de0d710"/>
+      <child nodeId="node-0x5627fdf1ce50"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de0d710">
+  <item nodeId="node-0x5627fdf1ce50">
     <command xml:space="preserve">look at visage</command>
     <result xml:space="preserve">A shattered visage, whose frown, and wrinkled lip, and sneer of cold command, tell that its sculptor well those passions read which yet survive, stamped on these lifeless things, the hand that mocked them, and the heart that fed.
 
@@ -641,10 +641,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de10b40"/>
+      <child nodeId="node-0x5627fdf20280"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de10b40">
+  <item nodeId="node-0x5627fdf20280">
     <command xml:space="preserve">look at pedestal</command>
     <result xml:space="preserve">On the pedestal these words appear: &quot;My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!&quot; Underneath the plaque sits what appears to be a control panel. You don&apos;t remember Shelley writing about this.
 
@@ -655,11 +655,11 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de14050"/>
-      <child nodeId="node-0x55c45de6fe00"/>
+      <child nodeId="node-0x5627fdf23790"/>
+      <child nodeId="node-0x5627fdf7f540"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de14050">
+  <item nodeId="node-0x5627fdf23790">
     <command xml:space="preserve">inv</command>
     <result xml:space="preserve">You are carrying:
   a wicker basket (open)
@@ -675,10 +675,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de17620"/>
+      <child nodeId="node-0x5627fdf26d60"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de17620">
+  <item nodeId="node-0x5627fdf26d60">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -689,10 +689,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de1aa40"/>
+      <child nodeId="node-0x5627fdf2a180"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de1aa40">
+  <item nodeId="node-0x5627fdf2a180">
     <command xml:space="preserve">open green</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -703,10 +703,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de1de90"/>
+      <child nodeId="node-0x5627fdf2d5d0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de1de90">
+  <item nodeId="node-0x5627fdf2d5d0">
     <command xml:space="preserve">x pedestal</command>
     <result xml:space="preserve">On the pedestal these words appear: &quot;My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!&quot; Underneath the plaque sits what appears to be a control panel. You don&apos;t remember Shelley writing about this.
 
@@ -717,10 +717,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de21230"/>
+      <child nodeId="node-0x5627fdf30970"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de21230">
+  <item nodeId="node-0x5627fdf30970">
     <command xml:space="preserve">x control panel</command>
     <result xml:space="preserve">A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
 
@@ -733,10 +733,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de24730"/>
+      <child nodeId="node-0x5627fdf33e70"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de24730">
+  <item nodeId="node-0x5627fdf33e70">
     <command xml:space="preserve">press button 1</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from off to red.
 
@@ -747,10 +747,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de27a50"/>
+      <child nodeId="node-0x5627fdf37190"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de27a50">
+  <item nodeId="node-0x5627fdf37190">
     <command xml:space="preserve">press pedestal</command>
     <result xml:space="preserve">It is fixed in place.
 
@@ -761,10 +761,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de2ae10"/>
+      <child nodeId="node-0x5627fdf3a550"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de2ae10">
+  <item nodeId="node-0x5627fdf3a550">
     <command xml:space="preserve">press box</command>
     <result xml:space="preserve">Nothing obvious happens.
 
@@ -775,10 +775,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de2e240"/>
+      <child nodeId="node-0x5627fdf3d980"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de2e240">
+  <item nodeId="node-0x5627fdf3d980">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from red to orange.
 
@@ -789,10 +789,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de31630"/>
+      <child nodeId="node-0x5627fdf40d70"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de31630">
+  <item nodeId="node-0x5627fdf40d70">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from orange to yellow.
 
@@ -803,10 +803,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de34a30"/>
+      <child nodeId="node-0x5627fdf44170"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de34a30">
+  <item nodeId="node-0x5627fdf44170">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from yellow to green.
 
@@ -817,10 +817,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de37eb0"/>
+      <child nodeId="node-0x5627fdf475f0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de37eb0">
+  <item nodeId="node-0x5627fdf475f0">
     <command xml:space="preserve">look at panel</command>
     <result xml:space="preserve">A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
 
@@ -833,10 +833,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de3b310"/>
+      <child nodeId="node-0x5627fdf4aa50"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de3b310">
+  <item nodeId="node-0x5627fdf4aa50">
     <command xml:space="preserve">push buitton 2</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -847,10 +847,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de3e6d0"/>
+      <child nodeId="node-0x5627fdf4de10"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de3e6d0">
+  <item nodeId="node-0x5627fdf4de10">
     <command xml:space="preserve">push button 2</command>
     <result xml:space="preserve">You push Button 2. Instantly, LED 2 changes from off to red.
 
@@ -861,10 +861,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de41a40"/>
+      <child nodeId="node-0x5627fdf51180"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de41a40">
+  <item nodeId="node-0x5627fdf51180">
     <command xml:space="preserve">push button 3</command>
     <result xml:space="preserve">You push Button 3. Instantly, LED 3 changes from off to red.
 
@@ -875,10 +875,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de44e80"/>
+      <child nodeId="node-0x5627fdf545c0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de44e80">
+  <item nodeId="node-0x5627fdf545c0">
     <command xml:space="preserve">push button 4</command>
     <result xml:space="preserve">You push Button 4. Instantly, LED 4 changes from off to red.
 
@@ -889,10 +889,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de48270"/>
+      <child nodeId="node-0x5627fdf579b0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de48270">
+  <item nodeId="node-0x5627fdf579b0">
     <command xml:space="preserve">push button 5</command>
     <result xml:space="preserve">Which do you mean, Button 1, Button 2, Button 3 or Button 4?
 
@@ -903,10 +903,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de4b660"/>
+      <child nodeId="node-0x5627fdf5ada0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de4b660">
+  <item nodeId="node-0x5627fdf5ada0">
     <command xml:space="preserve">press button 1</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from green to blue.
 
@@ -917,10 +917,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de4eae0"/>
+      <child nodeId="node-0x5627fdf5e220"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de4eae0">
+  <item nodeId="node-0x5627fdf5e220">
     <command xml:space="preserve">x panel</command>
     <result xml:space="preserve">A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
 
@@ -933,10 +933,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dded430"/>
+      <child nodeId="node-0x5627fdefca70"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dded430">
+  <item nodeId="node-0x5627fdefca70">
     <command xml:space="preserve">push button 2</command>
     <result xml:space="preserve">You push Button 2. Instantly, LED 2 changes from red to orange.
 
@@ -947,10 +947,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de558d0"/>
+      <child nodeId="node-0x5627fdf65010"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de558d0">
+  <item nodeId="node-0x5627fdf65010">
     <command xml:space="preserve">push button 3</command>
     <result xml:space="preserve">You push Button 3. Instantly, LED 3 changes from red to orange.
 
@@ -961,10 +961,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de58c00"/>
+      <child nodeId="node-0x5627fdf68340"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de58c00">
+  <item nodeId="node-0x5627fdf68340">
     <command xml:space="preserve">push button 3</command>
     <result xml:space="preserve">You push Button 3. Instantly, LED 3 changes from orange to yellow.
 
@@ -975,10 +975,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de5c6b0"/>
+      <child nodeId="node-0x5627fdf6bdf0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de5c6b0">
+  <item nodeId="node-0x5627fdf6bdf0">
     <command xml:space="preserve">push button 4</command>
     <result xml:space="preserve">You push Button 4. Instantly, LED 4 changes from red to orange.
 
@@ -989,10 +989,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de5f9e0"/>
+      <child nodeId="node-0x5627fdf6f120"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de5f9e0">
+  <item nodeId="node-0x5627fdf6f120">
     <command xml:space="preserve">push button 4</command>
     <result xml:space="preserve">You push Button 4. Instantly, LED 4 changes from orange to yellow.
 
@@ -1003,10 +1003,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de62dd0"/>
+      <child nodeId="node-0x5627fdf72510"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de62dd0">
+  <item nodeId="node-0x5627fdf72510">
     <command xml:space="preserve">push button 4</command>
     <result xml:space="preserve">You push Button 4. Instantly, LED 4 changes from yellow to green.
 
@@ -1017,10 +1017,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de661c0"/>
+      <child nodeId="node-0x5627fdf75900"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de661c0">
+  <item nodeId="node-0x5627fdf75900">
     <command xml:space="preserve">push button 4</command>
     <result xml:space="preserve">You push Button 4. Instantly, LED 4 changes from green to blue.
 
@@ -1031,10 +1031,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de695b0"/>
+      <child nodeId="node-0x5627fdf78cf0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de695b0">
+  <item nodeId="node-0x5627fdf78cf0">
     <command xml:space="preserve">push button 4</command>
     <result xml:space="preserve">You push Button 4. Instantly, LED 4 changes from blue to off.
 You hear a tremendous sound to the west, the metallic grind of iron on stone. The birds atop the legs let out a satisfied cry and fly away.
@@ -1046,10 +1046,10 @@ You hear a tremendous sound to the west, the metallic grind of iron on stone. Th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de6c980"/>
+      <child nodeId="node-0x5627fdf7c0c0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de6c980">
+  <item nodeId="node-0x5627fdf7c0c0">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">I think it&apos;s served its purpose. Probably best not to mess with the control panel any more.
 
@@ -1060,7 +1060,7 @@ You hear a tremendous sound to the west, the metallic grind of iron on stone. Th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c45de6fe00">
+  <item nodeId="node-0x5627fdf7f540">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Ozymandias
 Two vast and trunkless legs of stone stand in the desert. Near them on the sand, half sunk, a shattered visage lies. The legs are atop a pedestal.
@@ -1074,10 +1074,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de73280"/>
+      <child nodeId="node-0x5627fdf829c0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de73280">
+  <item nodeId="node-0x5627fdf829c0">
     <command xml:space="preserve">x weasel</command>
     <result xml:space="preserve">A timid yet adorable mustelid scurries too and fro amongst the scattered stones. When she notices you she gives an excited yip and climbs up to the top of the pedestal and... speaks? &quot;Claire! come closer and talk to me. I don&apos;t have long.&quot;
 
@@ -1088,10 +1088,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de76aa0"/>
+      <child nodeId="node-0x5627fdf862e0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de76aa0">
+  <item nodeId="node-0x5627fdf862e0">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">The weasel yips at you frantically, desperate to talk. you should do that before messing around with the control panel.
 
@@ -1102,10 +1102,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de79f50"/>
+      <child nodeId="node-0x5627fdf89790"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de79f50">
+  <item nodeId="node-0x5627fdf89790">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Ozymandias
 Two vast and trunkless legs of stone stand in the desert. Near them on the sand, half sunk, a shattered visage lies. The legs are atop a pedestal.
@@ -1119,10 +1119,10 @@ On the pedestal is a weasel.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de7d2f0"/>
+      <child nodeId="node-0x5627fdf8cb30"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de7d2f0">
+  <item nodeId="node-0x5627fdf8cb30">
     <command xml:space="preserve">x weasel</command>
     <result xml:space="preserve">A timid yet adorable mustelid sits atop the pedestal with an urgent look on her face.
 
@@ -1133,10 +1133,10 @@ On the pedestal is a weasel.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de807d0"/>
+      <child nodeId="node-0x5627fdf90010"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de807d0">
+  <item nodeId="node-0x5627fdf90010">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Desert Ruins
@@ -1153,10 +1153,10 @@ Ahead of you is the crumbling edifice of a once mighty fortress. The huge rusted
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de83cd0"/>
+      <child nodeId="node-0x5627fdf93510"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de83cd0">
+  <item nodeId="node-0x5627fdf93510">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Ozymandias
@@ -1171,10 +1171,10 @@ On the pedestal is a weasel.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de87160"/>
+      <child nodeId="node-0x5627fdf969a0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de87160">
+  <item nodeId="node-0x5627fdf969a0">
     <command xml:space="preserve">x pedestal</command>
     <result xml:space="preserve">On the pedestal these words appear: &quot;My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!&quot; Underneath the plaque sits what appears to be a control panel. You don&apos;t remember Shelley writing about this.
 
@@ -1187,10 +1187,10 @@ On the pedestal is a weasel.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de8a730"/>
+      <child nodeId="node-0x5627fdf99f70"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de8a730">
+  <item nodeId="node-0x5627fdf99f70">
     <command xml:space="preserve">x control panel</command>
     <result xml:space="preserve">A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
 
@@ -1203,10 +1203,10 @@ On the pedestal is a weasel.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de8da80"/>
+      <child nodeId="node-0x5627fdf9d2c0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de8da80">
+  <item nodeId="node-0x5627fdf9d2c0">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">The weasel yips at you frantically, desperate to talk. you should do that before messing around with the control panel.
 
@@ -1217,10 +1217,10 @@ On the pedestal is a weasel.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de964b0"/>
+      <child nodeId="node-0x5627fdfa5cf0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de964b0">
+  <item nodeId="node-0x5627fdfa5cf0">
     <command xml:space="preserve">talk to weasel</command>
     <result xml:space="preserve">The weasel looks at you excitedly, before saying &quot;Claire, thank you for finding me. Do you recognise me? I am Ottelie. Oh Claire, don&apos;t act so surprised. I know I might looks strange in my weasel form, but it was the only way I could escape the cage they have me in.
 
@@ -1243,10 +1243,10 @@ As the weasel fades from view, you hear the cry of birds from above. &quot;Kew-a
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de0b150"/>
+      <child nodeId="node-0x5627fdf1a890"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de0b150">
+  <item nodeId="node-0x5627fdf1a890">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from off to red.
 
@@ -1257,10 +1257,10 @@ As the weasel fades from view, you hear the cry of birds from above. &quot;Kew-a
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de9d330"/>
+      <child nodeId="node-0x5627fdfacb70"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de9d330">
+  <item nodeId="node-0x5627fdfacb70">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -1271,10 +1271,10 @@ As the weasel fades from view, you hear the cry of birds from above. &quot;Kew-a
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dea07e0"/>
+      <child nodeId="node-0x5627fdfb0020"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dea07e0">
+  <item nodeId="node-0x5627fdfb0020">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Ozymandias
 Two vast and trunkless legs of stone stand in the desert. Near them on the sand, half sunk, a shattered visage lies. The legs are atop a pedestal.
@@ -1286,10 +1286,10 @@ Two vast and trunkless legs of stone stand in the desert. Near them on the sand,
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dea3df0"/>
+      <child nodeId="node-0x5627fdfb3630"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dea3df0">
+  <item nodeId="node-0x5627fdfb3630">
     <command xml:space="preserve">look at legs</command>
     <result xml:space="preserve">Vast stone legs extend upwards, but whatever torso once existed atop them is long gone now, obliterated by the cruel passage of endless ages.Atop the left leg, resplendent in its glory, sits the kingfisher. Atop the right leg, tiny but audacious, sits the goldcrest.
 
@@ -1300,7 +1300,7 @@ Two vast and trunkless legs of stone stand in the desert. Near them on the sand,
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c45dea7180">
+  <item nodeId="node-0x5627fdfb69c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You wander through the mist, but quickly become disoriented and end up exactly where you started.
 
@@ -1311,10 +1311,10 @@ Two vast and trunkless legs of stone stand in the desert. Near them on the sand,
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45deaa540"/>
+      <child nodeId="node-0x5627fdfb9cd0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45deaa540">
+  <item nodeId="node-0x5627fdfb9cd0">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1325,10 +1325,10 @@ Two vast and trunkless legs of stone stand in the desert. Near them on the sand,
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dead8b0"/>
+      <child nodeId="node-0x5627fdfbd0c0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dead8b0">
+  <item nodeId="node-0x5627fdfbd0c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You wander through the mist, but quickly become disoriented and end up exactly where you started.
 
@@ -1339,10 +1339,10 @@ Two vast and trunkless legs of stone stand in the desert. Near them on the sand,
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45deb0e20"/>
+      <child nodeId="node-0x5627fdfc0580"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45deb0e20">
+  <item nodeId="node-0x5627fdfc0580">
     <command xml:space="preserve">x pedestal</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1353,10 +1353,10 @@ Two vast and trunkless legs of stone stand in the desert. Near them on the sand,
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45deb42d0"/>
+      <child nodeId="node-0x5627fdfc38a0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45deb42d0">
+  <item nodeId="node-0x5627fdfc38a0">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?
 
@@ -1367,10 +1367,10 @@ Two vast and trunkless legs of stone stand in the desert. Near them on the sand,
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45deb7680"/>
+      <child nodeId="node-0x5627fdfc6c20"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45deb7680">
+  <item nodeId="node-0x5627fdfc6c20">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Calm in the Mist
 You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto a wicker basket in the centre of the clearing.
@@ -1382,10 +1382,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45debab90"/>
+      <child nodeId="node-0x5627fdfca150"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45debab90">
+  <item nodeId="node-0x5627fdfca150">
     <command xml:space="preserve">x weasel</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1396,10 +1396,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45debe3d0"/>
+      <child nodeId="node-0x5627fdfcd560"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45debe3d0">
+  <item nodeId="node-0x5627fdfcd560">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Calm in the Mist
 You find yourself in a grassy clearing. The sun - or some simulacra of the sun - seems to be threatening to shine down through the mists, casting a wan glow onto a wicker basket in the centre of the clearing.
@@ -1411,10 +1411,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dec1940"/>
+      <child nodeId="node-0x5627fdfd0ab0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dec1940">
+  <item nodeId="node-0x5627fdfd0ab0">
     <command xml:space="preserve">x weasel</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1425,10 +1425,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dec5340"/>
+      <child nodeId="node-0x5627fdfd3e40"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dec5340">
+  <item nodeId="node-0x5627fdfd3e40">
     <command xml:space="preserve">talk to weasel</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1439,10 +1439,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dec4df0"/>
+      <child nodeId="node-0x5627fdfd7290"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dec4df0">
+  <item nodeId="node-0x5627fdfd7290">
     <command xml:space="preserve">x panel</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1453,11 +1453,11 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45decc300"/>
-      <child nodeId="node-0x55c46095f380"/>
+      <child nodeId="node-0x5627fdfda560"/>
+      <child nodeId="node-0x5627fe061050"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45decc300">
+  <item nodeId="node-0x5627fdfda560">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1468,10 +1468,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45decf780"/>
+      <child nodeId="node-0x5627fdfdda50"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45decf780">
+  <item nodeId="node-0x5627fdfdda50">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1482,10 +1482,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ded2ab0"/>
+      <child nodeId="node-0x5627fdfe0d60"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ded2ab0">
+  <item nodeId="node-0x5627fdfe0d60">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1496,10 +1496,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ded5ea0"/>
+      <child nodeId="node-0x5627fdfe4130"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ded5ea0">
+  <item nodeId="node-0x5627fdfe4130">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1510,10 +1510,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45ded9290"/>
+      <child nodeId="node-0x5627fdfe7500"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45ded9290">
+  <item nodeId="node-0x5627fdfe7500">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1524,10 +1524,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dedc680"/>
+      <child nodeId="node-0x5627fdfea8d0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dedc680">
+  <item nodeId="node-0x5627fdfea8d0">
     <command xml:space="preserve">push button 2</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1538,10 +1538,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dedfa70"/>
+      <child nodeId="node-0x5627fdfedca0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dedfa70">
+  <item nodeId="node-0x5627fdfedca0">
     <command xml:space="preserve">push button 2</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1552,10 +1552,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dee2e60"/>
+      <child nodeId="node-0x5627fdff1070"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dee2e60">
+  <item nodeId="node-0x5627fdff1070">
     <command xml:space="preserve">push button 3</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1566,10 +1566,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dee6250"/>
+      <child nodeId="node-0x5627fdff4440"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dee6250">
+  <item nodeId="node-0x5627fdff4440">
     <command xml:space="preserve">push button 3</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1580,10 +1580,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45dee9640"/>
+      <child nodeId="node-0x5627fdff7810"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45dee9640">
+  <item nodeId="node-0x5627fdff7810">
     <command xml:space="preserve">push button 3</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1594,10 +1594,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45deecaf0"/>
+      <child nodeId="node-0x5627fdffabe0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45deecaf0">
+  <item nodeId="node-0x5627fdffabe0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You wander through the mist, but quickly become disoriented and end up exactly where you started.
 
@@ -1608,10 +1608,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45deeffd0"/>
+      <child nodeId="node-0x5627fdffe020"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45deeffd0">
+  <item nodeId="node-0x5627fdffe020">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You wander through the mist, but quickly become disoriented and end up exactly where you started.
 
@@ -1622,10 +1622,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45def3600"/>
+      <child nodeId="node-0x5627fe001490"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45def3600">
+  <item nodeId="node-0x5627fe001490">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You wander through the mist, but quickly become disoriented and end up exactly where you started.
 
@@ -1636,10 +1636,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45def6af0"/>
+      <child nodeId="node-0x5627fe0048b0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45def6af0">
+  <item nodeId="node-0x5627fe0048b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You wander through the mist, but quickly become disoriented and end up exactly where you started.
 
@@ -1650,10 +1650,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45def9e10"/>
+      <child nodeId="node-0x5627fe007cd0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45def9e10">
+  <item nodeId="node-0x5627fe007cd0">
     <command xml:space="preserve">purloin green stone</command>
     <result xml:space="preserve">[Purloined.]
 
@@ -1664,10 +1664,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45defd200"/>
+      <child nodeId="node-0x5627fe00b050"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45defd200">
+  <item nodeId="node-0x5627fe00b050">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1678,10 +1678,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df00650"/>
+      <child nodeId="node-0x5627fe00e4a0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df00650">
+  <item nodeId="node-0x5627fe00e4a0">
     <command xml:space="preserve">purloin malachite</command>
     <result xml:space="preserve">There seems to be no such object anywhere in the model world.
 
@@ -1692,10 +1692,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df03900"/>
+      <child nodeId="node-0x5627fe011750"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df03900">
+  <item nodeId="node-0x5627fe011750">
     <command xml:space="preserve">inv</command>
     <result xml:space="preserve">You are carrying:
   a green stone
@@ -1711,10 +1711,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df06e50"/>
+      <child nodeId="node-0x5627fe014ca0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df06e50">
+  <item nodeId="node-0x5627fe014ca0">
     <command xml:space="preserve">x stone</command>
     <result xml:space="preserve">A smooth, deep green stone with bands of a vibrant jade colour running horizontally across its smooth surface.
 
@@ -1725,10 +1725,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df0a260"/>
+      <child nodeId="node-0x5627fe0180e0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df0a260">
+  <item nodeId="node-0x5627fe0180e0">
     <command xml:space="preserve">x green</command>
     <result xml:space="preserve">A smooth, deep green stone with bands of a vibrant jade colour running horizontally across its smooth surface.
 
@@ -1739,12 +1739,12 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df0d680"/>
-      <child nodeId="node-0x55c45df1a690"/>
-      <child nodeId="node-0x55c45df280f0"/>
+      <child nodeId="node-0x5627fe01b580"/>
+      <child nodeId="node-0x5627fe028560"/>
+      <child nodeId="node-0x5627fe035fc0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df0d680">
+  <item nodeId="node-0x5627fe01b580">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1755,10 +1755,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df10a00"/>
+      <child nodeId="node-0x5627fe01e8d0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df10a00">
+  <item nodeId="node-0x5627fe01e8d0">
     <command xml:space="preserve">x malachite</command>
     <result xml:space="preserve">You see nothing special about the green stone.
 
@@ -1769,10 +1769,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df13c40"/>
+      <child nodeId="node-0x5627fe021b10"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df13c40">
+  <item nodeId="node-0x5627fe021b10">
     <command xml:space="preserve">identify malachite as malachite</command>
     <result xml:space="preserve">malachiteOK
 &gt;</result>
@@ -1782,10 +1782,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df171c0"/>
+      <child nodeId="node-0x5627fe025090"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df171c0">
+  <item nodeId="node-0x5627fe025090">
     <command xml:space="preserve">inv</command>
     <result xml:space="preserve">You are carrying:
   a malachite
@@ -1801,7 +1801,7 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c45df1a690">
+  <item nodeId="node-0x5627fe028560">
     <command xml:space="preserve">identify the green stone as malachite</command>
     <result xml:space="preserve">You inspect the green stone closely...
 You&apos;re absolutely certain the green stone is malachite
@@ -1812,10 +1812,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45de51f80"/>
+      <child nodeId="node-0x5627fdf616c0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45de51f80">
+  <item nodeId="node-0x5627fdf616c0">
     <command xml:space="preserve">inv</command>
     <result xml:space="preserve">You are carrying:
   a malachite
@@ -1831,10 +1831,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df219b0"/>
+      <child nodeId="node-0x5627fe02f880"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df219b0">
+  <item nodeId="node-0x5627fe02f880">
     <command xml:space="preserve">x malachite</command>
     <result xml:space="preserve">You see nothing special about the malachite.
 
@@ -1845,10 +1845,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df24d30"/>
+      <child nodeId="node-0x5627fe032c00"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df24d30">
+  <item nodeId="node-0x5627fe032c00">
     <command xml:space="preserve">identify the green stone as malachite</command>
     <result xml:space="preserve">You already know what the malachite is.
 
@@ -1859,7 +1859,7 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c45df280f0">
+  <item nodeId="node-0x5627fe035fc0">
     <command xml:space="preserve">identify green stone as iolite</command>
     <result xml:space="preserve">You inspect the green stone closely...
 Hmmm... no, you don&apos;t think the green stone is iolite...
@@ -1871,10 +1871,10 @@ Hmmm... no, you don&apos;t think the green stone is iolite...
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df2b660"/>
+      <child nodeId="node-0x5627fe039530"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df2b660">
+  <item nodeId="node-0x5627fe039530">
     <command xml:space="preserve">inv</command>
     <result xml:space="preserve">You are carrying:
   a green stone
@@ -1890,10 +1890,10 @@ Hmmm... no, you don&apos;t think the green stone is iolite...
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df2ea60"/>
+      <child nodeId="node-0x5627fe03c930"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df2ea60">
+  <item nodeId="node-0x5627fe03c930">
     <command xml:space="preserve">identify green stone as malachite</command>
     <result xml:space="preserve">You inspect the green stone closely...
 You&apos;re absolutely certain the green stone is malachite
@@ -1905,10 +1905,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45df31e60"/>
+      <child nodeId="node-0x5627fe03fce0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45df31e60">
+  <item nodeId="node-0x5627fe03fce0">
     <command xml:space="preserve">x malachite</command>
     <result xml:space="preserve">the beautiful green stone fully personifies the deep healing green of nature.
 
@@ -1919,10 +1919,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c46090c0d0"/>
+      <child nodeId="node-0x5627fdf6bbd0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c46090c0d0">
+  <item nodeId="node-0x5627fdf6bbd0">
     <command xml:space="preserve">look at sand</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1933,10 +1933,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460ca72c0"/>
+      <child nodeId="node-0x5627fe047000"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460ca72c0">
+  <item nodeId="node-0x5627fe047000">
     <command xml:space="preserve">x box</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1947,10 +1947,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460229120"/>
+      <child nodeId="node-0x5627fe04a420"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460229120">
+  <item nodeId="node-0x5627fe04a420">
     <command xml:space="preserve">open green box</command>
     <result xml:space="preserve">I only understood you as far as wanting to open the malachite.
 
@@ -1961,10 +1961,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4601ee8b0"/>
+      <child nodeId="node-0x5627fe04d890"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4601ee8b0">
+  <item nodeId="node-0x5627fe04d890">
     <command xml:space="preserve">take stones</command>
     <result xml:space="preserve">You already have that.
 
@@ -1975,10 +1975,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4604bc1d0"/>
+      <child nodeId="node-0x5627fe050b50"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4604bc1d0">
+  <item nodeId="node-0x5627fe050b50">
     <command xml:space="preserve">x stone</command>
     <result xml:space="preserve">the beautiful green stone fully personifies the deep healing green of nature.
 
@@ -1989,10 +1989,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45feae6d0"/>
+      <child nodeId="node-0x5627fe053fc0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45feae6d0">
+  <item nodeId="node-0x5627fe053fc0">
     <command xml:space="preserve">black</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2003,10 +2003,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4604e5090"/>
+      <child nodeId="node-0x5627fe057430"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4604e5090">
+  <item nodeId="node-0x5627fe057430">
     <command xml:space="preserve">identify black stone</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2017,10 +2017,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460c300d0"/>
+      <child nodeId="node-0x5627fe05a800"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460c300d0">
+  <item nodeId="node-0x5627fe05a800">
     <command xml:space="preserve">identify black stone as obsidian</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2031,10 +2031,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460710260"/>
+      <child nodeId="node-0x5627fe05dc00"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460710260">
+  <item nodeId="node-0x5627fe05dc00">
     <command xml:space="preserve">identify box</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2045,7 +2045,7 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c46095f380">
+  <item nodeId="node-0x5627fe061050">
     <command xml:space="preserve">push button</command>
     <result xml:space="preserve">Which do you mean, Button 1, Button 2, Button 3 or Button 4?
 
@@ -2056,10 +2056,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c461412f40"/>
+      <child nodeId="node-0x5627fe064330"/>
     </children>
   </item>
-  <item nodeId="node-0x55c461412f40">
+  <item nodeId="node-0x5627fe064330">
     <command xml:space="preserve">1</command>
     <result xml:space="preserve">(Button 1)
 You push Button 1. Instantly, LED 1 changes from off to red.
@@ -2071,10 +2071,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c46158f940"/>
+      <child nodeId="node-0x5627fe0677d0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c46158f940">
+  <item nodeId="node-0x5627fe0677d0">
     <command xml:space="preserve">x panel</command>
     <result xml:space="preserve">A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
 
@@ -2087,10 +2087,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45fb78180"/>
+      <child nodeId="node-0x5627fe06ab70"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45fb78180">
+  <item nodeId="node-0x5627fe06ab70">
     <command xml:space="preserve">push 1</command>
     <result xml:space="preserve">Which do you mean, Button 1 or LED 1?
 
@@ -2101,10 +2101,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4609b2f90"/>
+      <child nodeId="node-0x5627fe06dfd0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4609b2f90">
+  <item nodeId="node-0x5627fe06dfd0">
     <command xml:space="preserve">button</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from red to orange.
 
@@ -2115,10 +2115,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460e6abe0"/>
+      <child nodeId="node-0x5627fe071420"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460e6abe0">
+  <item nodeId="node-0x5627fe071420">
     <command xml:space="preserve">x panel</command>
     <result xml:space="preserve">A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
 
@@ -2131,12 +2131,12 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c461e43660">
+  <item nodeId="node-0x5627fe0748a0">
     <command xml:space="preserve">whisper sarruma</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
 Mountain Overlook
-It&apos;s fucking raining
+You stand on the slope of a tall mountain. A sheer drop falls away to the southwest. Torrential rain hammers down all around you, leaving the stone floor dangerously slippery and soaking you to the bone. You can see the entrance to a cavern to the northeast,but the downpour has caused the mountain stream to expand into a hazardous deluge which is impossible to cross.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -2145,10 +2145,10 @@ It&apos;s fucking raining
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460c63fe0"/>
+      <child nodeId="node-0x5627fe077d30"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460c63fe0">
+  <item nodeId="node-0x5627fe077d30">
     <command xml:space="preserve">whisper sekhmet</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -2166,10 +2166,10 @@ Ahead of you to the north is the crumbling edifice of a once mighty fortress. Th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460584f10"/>
+      <child nodeId="node-0x5627fe07af40"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460584f10">
+  <item nodeId="node-0x5627fe07af40">
     <command xml:space="preserve">whisper achlys</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -2183,10 +2183,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462b585e0"/>
+      <child nodeId="node-0x5627fe07e420"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462b585e0">
+  <item nodeId="node-0x5627fe07e420">
     <command xml:space="preserve">inv</command>
     <result xml:space="preserve">You are carrying:
   a wicker basket (open)
@@ -2201,10 +2201,10 @@ You find yourself in a grassy clearing. The sun - or some simulacra of the sun -
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45e24f3e0"/>
+      <child nodeId="node-0x5627fe0818b0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45e24f3e0">
+  <item nodeId="node-0x5627fe0818b0">
     <command xml:space="preserve">whisper sekhmet</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -2222,10 +2222,10 @@ Ahead of you to the north is the crumbling edifice of a once mighty fortress. Th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462ccf020"/>
+      <child nodeId="node-0x5627fe084c00"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462ccf020">
+  <item nodeId="node-0x5627fe084c00">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Ozymandias
@@ -2240,10 +2240,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460244c40"/>
+      <child nodeId="node-0x5627fe088060"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460244c40">
+  <item nodeId="node-0x5627fe088060">
     <command xml:space="preserve">x weasel</command>
     <result xml:space="preserve">A timid yet adorable mustelid scurries too and fro amongst the scattered stones. When she notices you she gives an excited yip and climbs up to the top of the pedestal and... speaks? &quot;Claire! come closer and talk to me. I don&apos;t have long.&quot;
 
@@ -2254,10 +2254,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460086f80"/>
+      <child nodeId="node-0x5627fe08b9d0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460086f80">
+  <item nodeId="node-0x5627fe08b9d0">
     <command xml:space="preserve">x panel</command>
     <result xml:space="preserve">A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
 
@@ -2270,10 +2270,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c461165210"/>
+      <child nodeId="node-0x5627fe08ef50"/>
     </children>
   </item>
-  <item nodeId="node-0x55c461165210">
+  <item nodeId="node-0x5627fe08ef50">
     <command xml:space="preserve">push button</command>
     <result xml:space="preserve">Which do you mean, Button 1, Button 2, Button 3 or Button 4?
 
@@ -2284,10 +2284,10 @@ You can see a weasel here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4607366b0"/>
+      <child nodeId="node-0x5627fe092350"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4607366b0">
+  <item nodeId="node-0x5627fe092350">
     <command xml:space="preserve">1</command>
     <result xml:space="preserve">(Button 1)
 The weasel yips at you frantically, desperate to talk. you should do that before messing around with the control panel.
@@ -2299,10 +2299,10 @@ The weasel yips at you frantically, desperate to talk. you should do that before
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4609da060"/>
+      <child nodeId="node-0x5627fe095cd0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4609da060">
+  <item nodeId="node-0x5627fe095cd0">
     <command xml:space="preserve">talk to weasel</command>
     <result xml:space="preserve">The weasel looks at you excitedly, before saying &quot;Claire, thank you for finding me. Do you recognise me? I am Ottelie. Oh Claire, don&apos;t act so surprised. I know I might looks strange in my weasel form, but it was the only way I could escape the cage they have me in.
 
@@ -2325,10 +2325,10 @@ As the weasel fades from view, you hear the cry of birds from above. &quot;Kew-a
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c46284fc50"/>
+      <child nodeId="node-0x5627fe0956f0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c46284fc50">
+  <item nodeId="node-0x5627fe0956f0">
     <command xml:space="preserve">push 1</command>
     <result xml:space="preserve">Which do you mean, Button 1 or LED 1?
 
@@ -2339,10 +2339,10 @@ As the weasel fades from view, you hear the cry of birds from above. &quot;Kew-a
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462a8d520"/>
+      <child nodeId="node-0x5627fe09cb50"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462a8d520">
+  <item nodeId="node-0x5627fe09cb50">
     <command xml:space="preserve">1</command>
     <result xml:space="preserve">(Button 1)
 You push Button 1. Instantly, LED 1 changes from off to red.
@@ -2354,10 +2354,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462c1c090"/>
+      <child nodeId="node-0x5627fe0a00d0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462c1c090">
+  <item nodeId="node-0x5627fe0a00d0">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from red to orange.
 
@@ -2368,10 +2368,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c461d9c470"/>
+      <child nodeId="node-0x5627fe0a3400"/>
     </children>
   </item>
-  <item nodeId="node-0x55c461d9c470">
+  <item nodeId="node-0x5627fe0a3400">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from orange to yellow.
 
@@ -2382,10 +2382,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4601117e0"/>
+      <child nodeId="node-0x5627fe0a67a0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4601117e0">
+  <item nodeId="node-0x5627fe0a67a0">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from yellow to green.
 
@@ -2396,10 +2396,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462170c00"/>
+      <child nodeId="node-0x5627fe0a9b90"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462170c00">
+  <item nodeId="node-0x5627fe0a9b90">
     <command xml:space="preserve">push button 1</command>
     <result xml:space="preserve">You push Button 1. Instantly, LED 1 changes from green to blue.
 
@@ -2410,10 +2410,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c461dd7fb0"/>
+      <child nodeId="node-0x5627fdf174d0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c461dd7fb0">
+  <item nodeId="node-0x5627fdf174d0">
     <command xml:space="preserve">push button 2</command>
     <result xml:space="preserve">You push Button 2. Instantly, LED 2 changes from off to red.
 
@@ -2424,10 +2424,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c461fe8ec0"/>
+      <child nodeId="node-0x5627fe0ba370"/>
     </children>
   </item>
-  <item nodeId="node-0x55c461fe8ec0">
+  <item nodeId="node-0x5627fe0ba370">
     <command xml:space="preserve">push button 2</command>
     <result xml:space="preserve">You push Button 2. Instantly, LED 2 changes from red to orange.
 
@@ -2438,10 +2438,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460cd6770"/>
+      <child nodeId="node-0x5627fe0bd760"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460cd6770">
+  <item nodeId="node-0x5627fe0bd760">
     <command xml:space="preserve">push button 3</command>
     <result xml:space="preserve">You push Button 3. Instantly, LED 3 changes from off to red.
 
@@ -2452,10 +2452,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c46290bf40"/>
+      <child nodeId="node-0x5627fe0c0b50"/>
     </children>
   </item>
-  <item nodeId="node-0x55c46290bf40">
+  <item nodeId="node-0x5627fe0c0b50">
     <command xml:space="preserve">push button 3</command>
     <result xml:space="preserve">You push Button 3. Instantly, LED 3 changes from red to orange.
 
@@ -2466,10 +2466,10 @@ You push Button 1. Instantly, LED 1 changes from off to red.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45fd22fd0"/>
+      <child nodeId="node-0x5627fe0c3f40"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45fd22fd0">
+  <item nodeId="node-0x5627fe0c3f40">
     <command xml:space="preserve">push button 3</command>
     <result xml:space="preserve">You push Button 3. Instantly, LED 3 changes from orange to yellow.
 You hear a tremendous sound to the west, the metallic grind of iron on stone. The birds atop the legs let out a satisfied cry and fly away.
@@ -2481,10 +2481,10 @@ You hear a tremendous sound to the west, the metallic grind of iron on stone. Th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462ca64d0"/>
+      <child nodeId="node-0x5627fe0c73f0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462ca64d0">
+  <item nodeId="node-0x5627fe0c73f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Desert ruins
@@ -2501,10 +2501,10 @@ Ahead of you to the north is the crumbling edifice of a once mighty fortress. Th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c461d7e0b0"/>
+      <child nodeId="node-0x5627fe0ca8d0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c461d7e0b0">
+  <item nodeId="node-0x5627fe0ca8d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You head through the huge iron doors into the tunnel beyond. Eventually the tunnel opens out into what appears to be an arena.
 
@@ -2524,10 +2524,10 @@ You can also see a ghost on the left of the plinth, a Ghost behind the plinth an
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462049690"/>
+      <child nodeId="node-0x5627fe0cdc40"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462049690">
+  <item nodeId="node-0x5627fe0cdc40">
     <command xml:space="preserve">take box</command>
     <result xml:space="preserve">Taken.
 
@@ -2538,10 +2538,10 @@ You can also see a ghost on the left of the plinth, a Ghost behind the plinth an
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462b892f0"/>
+      <child nodeId="node-0x5627fe0d10e0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462b892f0">
+  <item nodeId="node-0x5627fe0d10e0">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">You open the green box, revealing a green stone, a purple stone, an orange stone, a red stone, a blue stone, a mottled stone, a pink stone and a black stone.
 
@@ -2552,10 +2552,10 @@ You can also see a ghost on the left of the plinth, a Ghost behind the plinth an
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4620550d0"/>
+      <child nodeId="node-0x5627fe0d4610"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4620550d0">
+  <item nodeId="node-0x5627fe0d4610">
     <command xml:space="preserve">x stands</command>
     <result xml:space="preserve">Row upon row of gently staggered seating; in its heyday, this arena could have seated the population of a small town. You can almost smell the aroma of mets cooking on stakes to sell to the audience, almost hear the slosh of wine and roars of applause...
 
@@ -2566,10 +2566,10 @@ You can also see a ghost on the left of the plinth, a Ghost behind the plinth an
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462d29ef0"/>
+      <child nodeId="node-0x5627fe0d7aa0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462d29ef0">
+  <item nodeId="node-0x5627fe0d7aa0">
     <command xml:space="preserve">x stand</command>
     <result xml:space="preserve">Row upon row of gently staggered seating; in its heyday, this arena could have seated the population of a small town. You can almost smell the aroma of mets cooking on stakes to sell to the audience, almost hear the slosh of wine and roars of applause...
 
@@ -2580,10 +2580,10 @@ You can also see a ghost on the left of the plinth, a Ghost behind the plinth an
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45f410b20"/>
+      <child nodeId="node-0x5627fe0daf20"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45f410b20">
+  <item nodeId="node-0x5627fe0daf20">
     <command xml:space="preserve">x plinth</command>
     <result xml:space="preserve">A plinth of alabaster occupies the centre of the arena.
 
@@ -2594,10 +2594,10 @@ You can also see a ghost on the left of the plinth, a Ghost behind the plinth an
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c45fcfcff0"/>
+      <child nodeId="node-0x5627fe0de3a0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c45fcfcff0">
+  <item nodeId="node-0x5627fe0de3a0">
     <command xml:space="preserve">x sand</command>
     <result xml:space="preserve">The sand is rough and it&apos;s course and it gets everywhere. Seems like the sort of thing an edgelord would hate.
 
@@ -2608,10 +2608,10 @@ You can also see a ghost on the left of the plinth, a Ghost behind the plinth an
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4638e71b0"/>
+      <child nodeId="node-0x5627fe0e1780"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4638e71b0">
+  <item nodeId="node-0x5627fe0e1780">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Arena of Champions
 You stand inside a vast arena, and for a brief moment experience a vision of an ancient time, the stalls filled with thousands of people cheering on the mighty warriors who clashed on the sands. As suddenly as it appeared, the vision fades, and the stalls lie empty, filling the arena with an unsettling silence. A plinth of alabaster occupies the centre of the arena.
@@ -2625,10 +2625,10 @@ You can see a ghost on the left of the plinth, a Ghost behind the plinth and a g
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c46211d630"/>
+      <child nodeId="node-0x5627fe0e4ec0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c46211d630">
+  <item nodeId="node-0x5627fe0e4ec0">
     <command xml:space="preserve">give green stone to ghost on the left</command>
     <result xml:space="preserve">(first taking the green stone)
 You&apos;re not sure how that would help. Maybe if you IDENTIFIED the stone first it might give you more insights.
@@ -2640,10 +2640,10 @@ You&apos;re not sure how that would help. Maybe if you IDENTIFIED the stone firs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460e02680"/>
+      <child nodeId="node-0x5627fe0e8230"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460e02680">
+  <item nodeId="node-0x5627fe0e8230">
     <command xml:space="preserve">give red stone to ghost on the left</command>
     <result xml:space="preserve">(first taking the red stone)
 You&apos;re not sure how that would help. Maybe if you IDENTIFIED the stone first it might give you more insights.
@@ -2655,10 +2655,10 @@ You&apos;re not sure how that would help. Maybe if you IDENTIFIED the stone firs
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c461e0d2f0"/>
+      <child nodeId="node-0x5627fe0eb860"/>
     </children>
   </item>
-  <item nodeId="node-0x55c461e0d2f0">
+  <item nodeId="node-0x5627fe0eb860">
     <command xml:space="preserve">identify red stone as ruby</command>
     <result xml:space="preserve">You inspect the red stone closely...
 You&apos;re absolutely certain the red stone is ruby
@@ -2670,10 +2670,10 @@ You&apos;re absolutely certain the red stone is ruby
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462d9e4d0"/>
+      <child nodeId="node-0x5627fe0eeca0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462d9e4d0">
+  <item nodeId="node-0x5627fe0eeca0">
     <command xml:space="preserve">x ruby</command>
     <result xml:space="preserve">fiery and captivating, the jagged red stone is a stone of nobility.
 
@@ -2684,10 +2684,10 @@ You&apos;re absolutely certain the red stone is ruby
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4630d3b60"/>
+      <child nodeId="node-0x5627fe0f2080"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4630d3b60">
+  <item nodeId="node-0x5627fe0f2080">
     <command xml:space="preserve">give ruby to ghost on the left</command>
     <result xml:space="preserve">The ghost takes the ruby and looks at it inquisitively. He holds it close. His expression does not change. &quot;I appreciate the offer,&quot; he says, &quot;but I don&apos;t think this helps.&quot; The ghost hands the ruby back to you.
 
@@ -2698,10 +2698,10 @@ You&apos;re absolutely certain the red stone is ruby
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c463177330"/>
+      <child nodeId="node-0x5627fe0f5450"/>
     </children>
   </item>
-  <item nodeId="node-0x55c463177330">
+  <item nodeId="node-0x5627fe0f5450">
     <command xml:space="preserve">x malachite</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2712,10 +2712,10 @@ You&apos;re absolutely certain the red stone is ruby
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4638ff910"/>
+      <child nodeId="node-0x5627fe0f8870"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4638ff910">
+  <item nodeId="node-0x5627fe0f8870">
     <command xml:space="preserve">identify green stone as malachite</command>
     <result xml:space="preserve">You inspect the green stone closely...
 You&apos;re absolutely certain the green stone is malachite
@@ -2727,10 +2727,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c464423d80"/>
+      <child nodeId="node-0x5627fe0fbc00"/>
     </children>
   </item>
-  <item nodeId="node-0x55c464423d80">
+  <item nodeId="node-0x5627fe0fbc00">
     <command xml:space="preserve">x maalchite</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2741,10 +2741,10 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c463a01550"/>
+      <child nodeId="node-0x5627fe0ff130"/>
     </children>
   </item>
-  <item nodeId="node-0x55c463a01550">
+  <item nodeId="node-0x5627fe0ff130">
     <command xml:space="preserve">x malachite</command>
     <result xml:space="preserve">the beautiful green stone fully personifies the deep healing green of nature.
 
@@ -2755,11 +2755,11 @@ You&apos;re absolutely certain the green stone is malachite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462a2e2b0"/>
-      <child nodeId="node-0x55c4637352c0"/>
+      <child nodeId="node-0x5627fdbcf8f0"/>
+      <child nodeId="node-0x5627fe12a7e0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462a2e2b0">
+  <item nodeId="node-0x5627fdbcf8f0">
     <command xml:space="preserve">give malachite to ghost on the left</command>
     <result xml:space="preserve">The ghost takes the malachite and looks at it inquisitively. He holds it close. You can see his emotional barriers breaking down. He looks at you and very slowly starts to smile. &quot;I... I see now that I had no choice. I was a victim as much as they were. If I had not killed them I would have been killed myself. I see a long road ahead...&quot; He looks at you, a single tear rolling down his cheek as he smiles, the relief obvious in his face. &quot;But... I think I am beginning to forgive myself.&quot;
 
@@ -2771,10 +2771,10 @@ The ghost slowly begins to dissolve and rise upwards into the desert sky. Where 
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c463a23f10"/>
+      <child nodeId="node-0x5627fdbd3060"/>
     </children>
   </item>
-  <item nodeId="node-0x55c463a23f10">
+  <item nodeId="node-0x5627fdbd3060">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Arena of Champions
 You stand inside a vast arena, and for a brief moment experience a vision of an ancient time, the stalls filled with thousands of people cheering on the mighty warriors who clashed on the sands. As suddenly as it appeared, the vision fades, and the stalls lie empty, filling the arena with an unsettling silence. A plinth of alabaster occupies the centre of the arena.
@@ -2788,10 +2788,10 @@ You can see a tombstone on the left, a Ghost behind the plinth and a ghost on th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4635a8570"/>
+      <child nodeId="node-0x5627fdbd6600"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4635a8570">
+  <item nodeId="node-0x5627fdbd6600">
     <command xml:space="preserve">x tombstone</command>
     <result xml:space="preserve">An expertly carved granite tombstone. The roman numeral V is prominently carved into it.
 
@@ -2802,11 +2802,11 @@ You can see a tombstone on the left, a Ghost behind the plinth and a ghost on th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c463bc9590"/>
-      <child nodeId="node-0x55c461e5ef50"/>
+      <child nodeId="node-0x5627fdbd9a20"/>
+      <child nodeId="node-0x5627fdbdcd50"/>
     </children>
   </item>
-  <item nodeId="node-0x55c463bc9590">
+  <item nodeId="node-0x5627fdbd9a20">
     <command xml:space="preserve">whisper sarruma</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -2820,7 +2820,7 @@ It&apos;s fucking raining
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c461e5ef50">
+  <item nodeId="node-0x5627fdbdcd50">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Arena of Champions
 You stand inside a vast arena, and for a brief moment experience a vision of an ancient time, the stalls filled with thousands of people cheering on the mighty warriors who clashed on the sands. As suddenly as it appeared, the vision fades, and the stalls lie empty, filling the arena with an unsettling silence. A plinth of alabaster occupies the centre of the arena.
@@ -2834,10 +2834,10 @@ You can see a tombstone on the left, a Ghost behind the plinth and a ghost on th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c463d5aa50"/>
+      <child nodeId="node-0x5627fdbe0420"/>
     </children>
   </item>
-  <item nodeId="node-0x55c463d5aa50">
+  <item nodeId="node-0x5627fdbe0420">
     <command xml:space="preserve">take tombstone</command>
     <result xml:space="preserve">That&apos;s far too inconvenient to carry.
 
@@ -2848,7 +2848,7 @@ You can see a tombstone on the left, a Ghost behind the plinth and a ghost on th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c4637352c0">
+  <item nodeId="node-0x5627fe12a7e0">
     <command xml:space="preserve">x ghost</command>
     <result xml:space="preserve">Who do you mean, the ghost on the left of the plinth, the Ghost behind the plinth or the ghost on the right of the plinth?
 
@@ -2859,10 +2859,10 @@ You can see a tombstone on the left, a Ghost behind the plinth and a ghost on th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c463d99e70"/>
+      <child nodeId="node-0x5627fe12dcc0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c463d99e70">
+  <item nodeId="node-0x5627fe12dcc0">
     <command xml:space="preserve">left</command>
     <result xml:space="preserve">The ghost of a warrior stands to the left of the plinth. He brandishes a gladius, but he does not appear threatening; it is almost as if the will to fight has left him. Every do often he shakes his head and lets out a sigh.
 
@@ -2873,10 +2873,10 @@ You can see a tombstone on the left, a Ghost behind the plinth and a ghost on th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c460a75180"/>
+      <child nodeId="node-0x5627fe131150"/>
     </children>
   </item>
-  <item nodeId="node-0x55c460a75180">
+  <item nodeId="node-0x5627fe131150">
     <command xml:space="preserve">x ghost in the middle</command>
     <result xml:space="preserve">The ghost of a lithe gladiator armed with a net and trident skulks behind the plinth. Every so often he appears to psych himself up as if to fight, before shrinking back with a defeated look on his face.
 
@@ -2887,10 +2887,10 @@ You can see a tombstone on the left, a Ghost behind the plinth and a ghost on th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462f3b010"/>
+      <child nodeId="node-0x5627fe1345f0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462f3b010">
+  <item nodeId="node-0x5627fe1345f0">
     <command xml:space="preserve">x ghost on the right</command>
     <result xml:space="preserve">The ghost of a peasant paces back and forth angrily on the right hand side of the plinth. Every so often he will scowl at the other ghosts and mutter curses under his breath. His face is curled into a tight, angry frown.
 
@@ -2901,10 +2901,10 @@ You can see a tombstone on the left, a Ghost behind the plinth and a ghost on th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4649de440"/>
+      <child nodeId="node-0x5627fe137b60"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4649de440">
+  <item nodeId="node-0x5627fe137b60">
     <command xml:space="preserve">identify blue stone as iolite</command>
     <result xml:space="preserve">You inspect the blue stone closely...
 You&apos;re absolutely certain the blue stone is iolite
@@ -2916,10 +2916,10 @@ You&apos;re absolutely certain the blue stone is iolite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c463945770"/>
+      <child nodeId="node-0x5627fe13b020"/>
     </children>
   </item>
-  <item nodeId="node-0x55c463945770">
+  <item nodeId="node-0x5627fe13b020">
     <command xml:space="preserve">identify green stone as malachite</command>
     <result xml:space="preserve">You already know what the malachite is.
 
@@ -2930,10 +2930,10 @@ You&apos;re absolutely certain the blue stone is iolite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c462cef260"/>
+      <child nodeId="node-0x5627fe13e430"/>
     </children>
   </item>
-  <item nodeId="node-0x55c462cef260">
+  <item nodeId="node-0x5627fe13e430">
     <command xml:space="preserve">identify mottled stone as unakite</command>
     <result xml:space="preserve">You inspect the mottled stone closely...
 You&apos;re absolutely certain the mottled stone is unakite
@@ -2945,11 +2945,11 @@ You&apos;re absolutely certain the mottled stone is unakite
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4648558b0"/>
-      <child nodeId="node-0x55c462bdfbd0"/>
+      <child nodeId="node-0x5627fe141940"/>
+      <child nodeId="node-0x5627fe158d60"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4648558b0">
+  <item nodeId="node-0x5627fe141940">
     <command xml:space="preserve">give malachite to ghost on the left</command>
     <result xml:space="preserve">The ghost takes the malachite and looks at it inquisitively. He holds it close. You can see his emotional barriers breaking down. He looks at you and very slowly starts to smile. &quot;I... I see now that I had no choice. I was a victim as much as they were. If I had not killed them I would have been killed myself. I see a long road ahead...&quot; He looks at you, a single tear rolling down his cheek as he smiles, the relief obvious in his face. &quot;But... I think I am beginning to forgive myself.&quot;
 
@@ -2962,10 +2962,10 @@ The ghost slowly begins to dissolve and rise upwards into the desert sky. Where 
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4647ab200"/>
+      <child nodeId="node-0x5627fe144ec0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4647ab200">
+  <item nodeId="node-0x5627fe144ec0">
     <command xml:space="preserve">give iolite to ghost in the middle</command>
     <result xml:space="preserve">(first taking the iolite)
 The ghost takes the iolite and looks at it inquisitively. He holds it close. You see his confidence building. &quot; you know what?&quot; he says, somewhat shakily, &quot;I don&apos;t care if I miss sometimes. If I never try then I&apos;m doomed to fail every time.&quot; The ghost slowly takes aim at some target only visible to himself. &quot;I just need a bit... more... confidence!&quot; He lets fly with his trident and cheers triumphantly. &quot;Thank you! You&apos;ve helped restore my confidence. I know I have a long journey ahead of me, but the journey of a thousand miles starts with a single step.&quot;
@@ -2979,10 +2979,10 @@ The ghost slowly begins to dissolve and rise upwards into the desert sky. Where 
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c464909960"/>
+      <child nodeId="node-0x5627fe148210"/>
     </children>
   </item>
-  <item nodeId="node-0x55c464909960">
+  <item nodeId="node-0x5627fe148210">
     <command xml:space="preserve">give unakite to ghost on the right</command>
     <result xml:space="preserve">(first taking the unakite)
 some healing&quot;
@@ -2996,11 +2996,11 @@ The ghost slowly begins to dissolve and rise upwards into the desert sky. Where 
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c46060ee60"/>
-      <child nodeId="node-0x55c4647f1b60"/>
+      <child nodeId="node-0x5627fe14b740"/>
+      <child nodeId="node-0x5627fe1556e0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c46060ee60">
+  <item nodeId="node-0x5627fe14b740">
     <command xml:space="preserve">whisper sarruma</command>
     <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
 
@@ -3014,10 +3014,10 @@ OK fill your boots.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4643183d0"/>
+      <child nodeId="node-0x5627fe14ec60"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4643183d0">
+  <item nodeId="node-0x5627fe14ec60">
     <command xml:space="preserve">x box</command>
     <result xml:space="preserve">In the green box are a purple stone, an orange stone, a pink stone and a black stone.
 
@@ -3028,10 +3028,10 @@ OK fill your boots.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c464c406f0"/>
+      <child nodeId="node-0x5627fe152010"/>
     </children>
   </item>
-  <item nodeId="node-0x55c464c406f0">
+  <item nodeId="node-0x5627fe152010">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Mountain Overlook
 OK fill your boots.
@@ -3043,7 +3043,7 @@ OK fill your boots.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c4647f1b60">
+  <item nodeId="node-0x5627fe1556e0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Arena of Champions
 You stand inside a vast arena, and for a brief moment experience a vision of an ancient time, the stalls filled with thousands of people cheering on the mighty warriors who clashed on the sands. As suddenly as it appeared, the vision fades, and the stalls lie empty, filling the arena with an unsettling silence. A plinth of alabaster occupies the centre of the arena.
@@ -3057,7 +3057,7 @@ You can see a tombstone on the right of the plinth., a tombstone behind the plin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x55c462bdfbd0">
+  <item nodeId="node-0x5627fe158d60">
     <command xml:space="preserve">give malachite to middle ghost</command>
     <result xml:space="preserve">The ghost takes the malachite and looks at it inquisitively. He holds it close. His expression does not change. &quot;I appreciate the offer,&quot; he says, &quot;but I don&apos;t think this helps.&quot; The ghost hands the malachite back to you.
 
@@ -3068,10 +3068,10 @@ You can see a tombstone on the right of the plinth., a tombstone behind the plin
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c46445d230"/>
+      <child nodeId="node-0x5627fe15c1a0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c46445d230">
+  <item nodeId="node-0x5627fe15c1a0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Arena of Champions
 You stand inside a vast arena, and for a brief moment experience a vision of an ancient time, the stalls filled with thousands of people cheering on the mighty warriors who clashed on the sands. As suddenly as it appeared, the vision fades, and the stalls lie empty, filling the arena with an unsettling silence. A plinth of alabaster occupies the centre of the arena.
@@ -3085,10 +3085,10 @@ You can see a ghost on the left of the plinth, a Ghost behind the plinth and a g
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4654694e0"/>
+      <child nodeId="node-0x5627fe15ff60"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4654694e0">
+  <item nodeId="node-0x5627fe15ff60">
     <command xml:space="preserve">x ghost on the right</command>
     <result xml:space="preserve">The ghost of a peasant paces back and forth angrily on the right hand side of the plinth. Every so often he will scowl at the other ghosts and mutter curses under his breath. His face is curled into a tight, angry frown.
 
@@ -3099,10 +3099,10 @@ You can see a ghost on the left of the plinth, a Ghost behind the plinth and a g
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c464838740"/>
+      <child nodeId="node-0x5627fe1633e0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c464838740">
+  <item nodeId="node-0x5627fe1633e0">
     <command xml:space="preserve">talk to ghost in the right</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3113,10 +3113,10 @@ You can see a ghost on the left of the plinth, a Ghost behind the plinth and a g
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c464ed88a0"/>
+      <child nodeId="node-0x5627fe166870"/>
     </children>
   </item>
-  <item nodeId="node-0x55c464ed88a0">
+  <item nodeId="node-0x5627fe166870">
     <command xml:space="preserve">talk to ghost on the right</command>
     <result xml:space="preserve">As you approach the ghost, lashes out at you. &quot;That&apos;s far enough! Stay back!&quot; he yells, spitting in your direction. &quot;Come for your pound of flesh have you? Come to finish me off, punish me for whatever crime you deem me guilty of this week?&quot; The ghost looks incandescent with rage as he throws invisible stones at his perceived enemies. &quot;I said GET AWAY!&quot; He lurches towards you but stops short. &quot;I&apos;m sick to death of it. I choose to live my life differently, not harming no-one, and those SHAGGERS throw me in the arena and force me to fight. Well let me tell you when I get out of here I won&apos;t stop with them. I&apos;ll put their whole family to the sword. I&apos;ll burn this whole city to the ground! I hate them all!&quot; You step away, leaving the ghost to his rage.
 
@@ -3127,10 +3127,10 @@ You can see a ghost on the left of the plinth, a Ghost behind the plinth and a g
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c4606ec510"/>
+      <child nodeId="node-0x5627fe169ba0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c4606ec510">
+  <item nodeId="node-0x5627fe169ba0">
     <command xml:space="preserve">give malachite to ghost ont he right</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3141,10 +3141,10 @@ You can see a ghost on the left of the plinth, a Ghost behind the plinth and a g
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c463418d90"/>
+      <child nodeId="node-0x5627fe16cfd0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c463418d90">
+  <item nodeId="node-0x5627fe16cfd0">
     <command xml:space="preserve">identify green stone as malachite</command>
     <result xml:space="preserve">You already know what the malachite is.
 
@@ -3155,10 +3155,10 @@ You can see a ghost on the left of the plinth, a Ghost behind the plinth and a g
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c464e60840"/>
+      <child nodeId="node-0x5627fe1705e0"/>
     </children>
   </item>
-  <item nodeId="node-0x55c464e60840">
+  <item nodeId="node-0x5627fe1705e0">
     <command xml:space="preserve">give malachite to ghost on the right</command>
     <result xml:space="preserve">The ghost takes the malachite and looks at it inquisitively. He holds it close. His expression does not change. &quot;This is worthless to me!&quot; he spits, &quot;why don&apos;t you give me something useful?.&quot; The ghost throws the malachite back at you. You pick it up and put it in your pocket.
 
@@ -3169,15 +3169,256 @@ You can see a ghost on the left of the plinth, a Ghost behind the plinth and a g
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x55c464fa1840"/>
+      <child nodeId="node-0x5627fe173a00"/>
     </children>
   </item>
-  <item nodeId="node-0x55c464fa1840">
+  <item nodeId="node-0x5627fe173a00">
     <command xml:space="preserve">give unakite to the ghost on the right</command>
     <result xml:space="preserve">(first taking the unakite)
-The ghost takes the iolite and looks at it inquisitively. He holds it close. You see his anger start to fade. Slowly he sits down. &quot;I... I&apos;ve been so angry.&quot; He says, his hands shaking. &quot;So angry for so long. My rage was consuming me. But I can see now that it&apos;s holding me back. None of it has made things better... It just ate away at me, prevented me from growing.&quot; He looks up at you. &quot;Thank you. you have given me a moment of clarity, enough to see that this hatred solves nothing. I have a long way to go, and I&apos;m not sure I can forgive the people who did this to me, at least not yet; but I will no longer let their wrongs control me.&quot; The frown on the ghost&apos;s face slowly fades and is replaced by the first hint of a smile. You watch as he relaxes for the first time in a thousand years.
+The ghost takes the unakite and looks at it inquisitively. He holds it close. You see his anger start to fade. Slowly he sits down. &quot;I... I&apos;ve been so angry.&quot; He says, his hands shaking. &quot;So angry for so long. My rage was consuming me. But I can see now that it&apos;s holding me back. None of it has made things better... It just ate away at me, prevented me from growing.&quot; He looks up at you. &quot;Thank you. you have given me a moment of clarity, enough to see that this hatred solves nothing. I have a long way to go, and I&apos;m not sure I can forgive the people who did this to me, at least not yet; but I will no longer let their wrongs control me.&quot; The frown on the ghost&apos;s face slowly fades and is replaced by the first hint of a smile. You watch as he relaxes for the first time in a thousand years.
 
 The ghost slowly begins to dissolve and rise upwards into the desert sky. Where he stood, a carved tombstone with a roman numeral carved into it rests on the ground.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x56280057b9e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x56280057b9e0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Arena of Champions
+You stand inside a vast arena, and for a brief moment experience a vision of an ancient time, the stalls filled with thousands of people cheering on the mighty warriors who clashed on the sands. As suddenly as it appeared, the vision fades, and the stalls lie empty, filling the arena with an unsettling silence. A plinth of alabaster occupies the centre of the arena.
+
+You can see a tombstone on the right of the plinth, a ghost on the left of the plinth and a Ghost behind the plinth here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5627ff7a0570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5627ff7a0570">
+    <command xml:space="preserve">identify green stone as malachite</command>
+    <result xml:space="preserve">You already know what the malachite is.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5627ff8fb6c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5627ff8fb6c0">
+    <command xml:space="preserve">identify blue stone as iolite</command>
+    <result xml:space="preserve">You already know what the iolite is.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5628006596e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5628006596e0">
+    <command xml:space="preserve">give iolite to middle ghost</command>
+    <result xml:space="preserve">(first taking the iolite)
+The ghost takes the iolite and looks at it inquisitively. He holds it close. You see his confidence building. &quot; you know what?&quot; he says, somewhat shakily, &quot;I don&apos;t care if I miss sometimes. If I never try then I&apos;m doomed to fail every time.&quot; The ghost slowly takes aim at some target only visible to himself. &quot;I just need a bit... more... confidence!&quot; He lets fly with his trident and cheers triumphantly. &quot;Thank you! You&apos;ve helped restore my confidence. I know I have a long journey ahead of me, but the journey of a thousand miles starts with a single step.&quot;
+
+The ghost slowly begins to dissolve and rise upwards into the desert sky. Where he stood, an ornate tombstone with a roman numeral carved into it rests on the ground.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5627ff647810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5627ff647810">
+    <command xml:space="preserve">give malachite to first ghost</command>
+    <result xml:space="preserve">The ghost takes the malachite and looks at it inquisitively. He holds it close. You can see his emotional barriers breaking down. He looks at you and very slowly starts to smile. &quot;I... I see now that I had no choice. I was a victim as much as they were. If I had not killed them I would have been killed myself. I see a long road ahead...&quot; He looks at you, a single tear rolling down his cheek as he smiles, the relief obvious in his face. &quot;But... I think I am beginning to forgive myself.&quot;
+
+The ghost slowly begins to dissolve and rise upwards into the desert sky. Where he stood, an ornate tombstone with a roman numeral carved into it rests on the ground.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5627ff512940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5627ff512940">
+    <command xml:space="preserve">whisper sarruma</command>
+    <result xml:space="preserve">The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...
+
+Mountain Overlook
+You stand on the slope of a tall mountain. A sheer drop falls away to the southwest. Torrential rain hammers down all around you, leaving the stone floor dangerously slippery and soaking you to the bone. You can see the entrance to a cavern to the northeast,but the downpour has caused the mountain stream to expand into a hazardous deluge which is impossible to cross.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5627ff780980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5627ff780980">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">The stream has become a overflowing cascade.  Stepping into that would surely sweep you over the edge of the cliff. You briefly contemplate how long it would take you to fall to the bottom and decide you do not wish to find out.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x562800285000"/>
+    </children>
+  </item>
+  <item nodeId="node-0x562800285000">
+    <command xml:space="preserve">look at the stream</command>
+    <result xml:space="preserve">A rushing torrent of water cascades across the floor between you and the cavern entrance and flows with great force over the edge of the cliff.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5628009b94d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5628009b94d0">
+    <command xml:space="preserve">yell bollocks</command>
+    <result xml:space="preserve">You yell &quot;BOLLOCKS!&quot; It feels somewhat cathartic, but ultimately futile.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5627ffa10770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5627ffa10770">
+    <command xml:space="preserve">yell STOP RAINING</command>
+    <result xml:space="preserve">You yell at the clouds, at the sky, at the very gods themselves, and miraculously (or coincidentally, depending on your viewpoint), they seem to listen. The rain eases, then stops. The clouds begin to break, revealing a beautiful fiery orange sunset to the southwest. Gradually, the mountain stream reduces in ferocity. The air feels incredibly still and you are overcome with a sense of tranquility.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5627ff56dfe0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5627ff56dfe0">
+    <command xml:space="preserve">yell stop raining</command>
+    <result xml:space="preserve">The rain has stopped; the mountains are peaceful. You see no reason to change that.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5628008a7630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5628008a7630">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Mountain Overlook
+You stand on the slope of a tall mountain. A sheer drop falls away to the southwest.  You can see the entrance to a cavern to the northeast, on the other side of a shallow mountain stream.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x562801737e90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x562801737e90">
+    <command xml:space="preserve">x stream</command>
+    <result xml:space="preserve">A gentle stream flows over the rock between you and the cavern entrance before flowing over the edge of the cliff. There are various points where the water is shallow enough for you to hop across.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x56280064d970"/>
+    </children>
+  </item>
+  <item nodeId="node-0x56280064d970">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Cavern
+The cavern feels surprisingly cosy inside. Instead of bare rock, the walls are covered in a variety of tapestries and paintings. Hessian carpet covers the floor. Around the edges of the cavern walls are pieces of hand-crafted wooden furniture: a bed; a nightstand; a wardrobe. In the centre of the cavern, near a log burning stove, is a luxurious looking chair. An old man sits on the chair, looking out at the sunset to the southwest with a contented smile on his face.
+
+On the chair is The Old Man of the Mountain.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x5627ff70dfe0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x5627ff70dfe0">
+    <command xml:space="preserve">say giraffe to the old man</command>
+    <result xml:space="preserve">&quot;Oh!&quot; says the old man, &quot;That&apos;s certainly new to me! and here&apos;s some knowledge for you: Page 32.&quot;
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x562804f8f330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x562804f8f330">
+    <command xml:space="preserve">say shark</command>
+    <result xml:space="preserve">(to The Old Man of the Mountain)
+I already know about that.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>

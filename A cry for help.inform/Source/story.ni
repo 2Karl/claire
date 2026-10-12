@@ -325,7 +325,7 @@ Instead of giving a gemstone to the ghost on the right:
 	if the noun is not identified:
 		say "You're not sure how that would help. Maybe if you IDENTIFIED the stone first it might give you more insights.";
 	else if the noun is the mottled stone:
-		say "The ghost takes the iolite and looks at it inquisitively. He holds it close. You see his anger start to fade. Slowly he sits down. 'I... I've been so angry.' He says, his hands shaking. 'So angry for so long. My rage was consuming me. But I can see now that it's holding me back. None of it has made things better... It just ate away at me, prevented me from growing.' He looks up at you. 'Thank you. you have given me a moment of clarity, enough to see that this hatred solves nothing. I have a long way to go, and I'm not sure I can forgive the people who did this to me, at least not yet; but I will no longer let their wrongs control me.' The frown on the ghost's face slowly fades and is replaced by the first hint of a smile. You watch as he relaxes for the first time in a thousand years.
+		say "The ghost takes the unakite and looks at it inquisitively. He holds it close. You see his anger start to fade. Slowly he sits down. 'I... I've been so angry.' He says, his hands shaking. 'So angry for so long. My rage was consuming me. But I can see now that it's holding me back. None of it has made things better... It just ate away at me, prevented me from growing.' He looks up at you. 'Thank you. you have given me a moment of clarity, enough to see that this hatred solves nothing. I have a long way to go, and I'm not sure I can forgive the people who did this to me, at least not yet; but I will no longer let their wrongs control me.' The frown on the ghost's face slowly fades and is replaced by the first hint of a smile. You watch as he relaxes for the first time in a thousand years.
 		
 		The ghost slowly begins to dissolve and rise upwards into the desert sky. Where he stood, a carved tombstone with a roman numeral carved into it rests on the ground.";
 		now the ghost on the right is nowhere;
@@ -337,21 +337,58 @@ Instead of giving a gemstone to the ghost on the right:
 	otherwise:
 		say "The ghost takes [the noun] and looks at it inquisitively. He holds it close. His expression does not change. 'This is worthless to me!' he spits, 'why don't you give me something useful?.' The ghost throws [the noun] back at you. You pick it up and put it in your pocket."
 	
-the righthand tombstone is an object. It is fixed in place. The description is "An expertly carved slate tombstone. The roman numeral VI is prominently carved into it." Understand "righthand tombstone", "third tombstone", "tombstone 3", "tombstone on the right" as the righthand tombstone. The printed name of the righthand tombstone is "tombstone on the right of the plinth."
+the righthand tombstone is an object. It is fixed in place. The description is "An expertly carved slate tombstone. The roman numeral VI is prominently carved into it." Understand "righthand tombstone", "third tombstone", "tombstone 3", "tombstone on the right" as the righthand tombstone. The printed name of the righthand tombstone is "tombstone on the right of the plinth".
 
 
 instead of taking something when the noun is fixed in place, say "That's far too inconvenient to carry."
 
 
-
-
 Chapter 3 - The Mountains
 
-The Mountain Overlook is a room. The description is "[if the desert is unsolved]It's fucking raining[otherwise]OK fill your boots."
+The mountains is a region. The Mountain Overlook and the Cavern are in the mountains. The mountains can be rainy or clear. The mountains are rainy.
+
+The Mountain Overlook is a room. The description is "You stand on the slope of a tall mountain. A sheer drop falls away to the southwest. [if the mountains are rainy]Torrential rain hammers down all around you, leaving the stone floor dangerously slippery and soaking you to the bone.[end if] You can see the entrance to a cavern to the northeast,[if the mountains are rainy]but the downpour has caused the mountain stream to expand into a hazardous deluge which is impossible to cross.[otherwise] on the other side of a shallow mountain stream."
+
+Instead of going northeast from the mountain overlook when the mountains are rainy, say "The stream has become a overflowing cascade.  Stepping into that would surely sweep you over the edge of the cliff. You briefly contemplate how long it would take you to fall to the bottom and decide you do not wish to find out."
+
+The stream is scenery in the mountain overlook. The description is "[if the mountains are rainy]A rushing torrent of water cascades across the floor between you and the cavern entrance and flows with great force over the edge of the cliff.[otherwise]A gentle stream flows over the rock between you and the cavern entrance before flowing over the edge of the cliff. There are various points where the water is shallow enough for you to hop across."
+
+Yelling is an action applying to one topic. Understand "yell [text]" as yelling.
+Carry out yelling:
+	if the topic understood in lower case is "stop raining":
+		say "You yell at the clouds, at the sky, at the very gods themselves, and miraculously (or coincidentally, depending on your viewpoint), they seem to listen. The rain eases, then stops. The clouds begin to break, revealing a beautiful fiery orange sunset to the southwest. Gradually, the mountain stream reduces in ferocity. The air feels incredibly still and you are overcome with a sense of tranquility.";
+		now the mountains are clear;
+	otherwise:
+		say "You yell '[the topic understood in upper case]!' It feels somewhat cathartic, but ultimately futile."
+
+instead of yelling when the mountains are clear, say "The rain has stopped; the mountains are peaceful. You see no reason to change that."
+
+The Cavern is northeast of the Mountain Overlook. The description is "The cavern feels surprisingly cosy inside. Instead of bare rock, the walls are covered in a variety of tapestries and paintings. Hessian carpet covers the floor. Around the edges of the cavern walls are pieces of hand-crafted wooden furniture: a bed; a nightstand; a wardrobe. In the centre of the cavern, near a log burning stove, is a luxurious looking chair. An old man sits on the chair, looking out at the sunset to the southwest with a contented smile on his face."
+
+The chair is a scenery supporter in the cavern. The description is "A hand-made wooden chair, complete with plush cushions and a wonderfully soft woollen throw. You can tell from the contented look on the old man's face that the chair is exceptionally comfortable." A man called The Old Man of the Mountain is on the chair. The description of The Old Man of the Mountain is "A wizened old man with a long grey beard sits on his comfy chair in front of the fireplace, gazing out contentedly at the sunset. When he notices you watching him, he smiles and says 'Took you long enough. I was beginning to think you weren't going to come.'"
+
+Instead of talking to The Old Man of the Mountain, say "Before you can say anything, the Old Man waves his hand and says 'Listen, we do not have much time. I can help you, but I am cursed to never reveal any knowledge except in exchange for some knowledge that I do not possess. Now obviously there's information I wish for you to know. But in exchange you must tell me something I do not already know.' You stare back at him, more than a little confused. He continues, 'there are lots of other rules that I must follow as well, too many to detail here, but to make it easier for you, I left you three cards. Not here. In another place. You know what I mean. on the back of each are clues to the word I do not know. Tell me those words and I shall give you what you need.'"
+
+Instead of answering the old man of the mountain that something, try telling the old man of the mountain about it.
+
+Table of replies
+suggestion			reply
+"giraffe"				"'Oh!' says the old man, 'That's certainly new to me! and here's some knowledge for you: Page 32.'[line break]"
+"whale"				"big fish"
+"some other word"	"Yeah"
+
+instead of telling the old man of the mountain about something:
+	if there is a suggestion of "[the topic understood]" in the table of replies :
+		let reply be the reply corresponding to a suggestion of "[the topic understood]" in the table of replies;
+		say "[reply]";
+	otherwise:
+		say "I already know about that.";
 
 Chapter 4 - The Forest
 
+The forest is a region. The forest glade is in the forest.
 The Forest Glade is a room.
+Ottelie is a woman in the Forest Glade.
 
 [Inside the basket is the kingfisher plate and cup (nice tea and biccies?), The box containing the crystals. Each crystal has a coded message (symbols? can I use the old symbols from last year for one of them?) Also make a new necklace for them. The book... how to gate the book? The book code puzzle... Maybe the book doesn't need gating as the book code requires the correct page?
 
