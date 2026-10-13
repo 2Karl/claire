@@ -290,7 +290,7 @@ Instead of giving a gemstone to the ghost on the left:
 	otherwise:
 		say "The ghost takes [the noun] and looks at it inquisitively. He holds it close. His expression does not change. 'I appreciate the offer,' he says, 'but I don't think this helps.' The ghost hands [the noun] back to you."
 	
-the tombstone on the left is an object. It is fixed in place. The description is "An expertly carved granite tombstone. The roman numeral V is prominently carved into it."	Understand "lefthand tombstone", "first tombstone", "tombstone 1" as the tombstone on the left.
+the tombstone on the left is an object. It is fixed in place. The description is "An expertly carved granite tombstone. The inscription V is prominently carved into it."	Understand "lefthand tombstone", "first tombstone", "tombstone 1" as the tombstone on the left.
 
 The middle ghost is a ghost in the Arena of Champions. Understand "middle ghost", "second ghost", "ghost 2", "ghost in the middle", "ghost behind the plinth" as the middle ghost. The printed name of middle ghost is "Ghost behind the plinth". The description is "The ghost of a lithe gladiator armed with a net and trident skulks behind the plinth. Every so often he appears to psych himself up as if to fight, before shrinking back with a defeated look on his face."
 
@@ -313,7 +313,7 @@ Instead of giving a gemstone to the middle ghost:
 	otherwise:
 		say "The ghost takes [the noun] and looks at it inquisitively. He holds it close. His expression does not change. 'I appreciate the offer,' he says, 'but I don't think this helps.' The ghost hands [the noun] back to you."
 	
-the middle tombstone is an object. It is fixed in place. The description is "An expertly carved alabaster tombstone. The roman numeral IX is prominently carved into it." Understand "tombstone in the middle", "second tombstone", "tombstone 2", "tombstone behind the plinth" as the middle tombstone. The printed name of the middle tombstone is "tombstone behind the plinth".
+the middle tombstone is an object. It is fixed in place. The description is "An expertly carved alabaster tombstone. The inscription IX is prominently carved into it." Understand "tombstone in the middle", "second tombstone", "tombstone 2", "tombstone behind the plinth" as the middle tombstone. The printed name of the middle tombstone is "tombstone behind the plinth".
 
 
 The Ghost on the right is a ghost in the Arena of Champions. Understand "right hand ghost", "third ghost", "ghost 3" as the ghost on the right. The printed name of the ghost on the right is "ghost on the right of the plinth". The description is "The ghost of a peasant paces back and forth angrily on the right hand side of the plinth. Every so often he will scowl at the other ghosts and mutter curses under his breath. His face is curled into a tight, angry frown."
@@ -337,7 +337,7 @@ Instead of giving a gemstone to the ghost on the right:
 	otherwise:
 		say "The ghost takes [the noun] and looks at it inquisitively. He holds it close. His expression does not change. 'This is worthless to me!' he spits, 'why don't you give me something useful?.' The ghost throws [the noun] back at you. You pick it up and put it in your pocket."
 	
-the righthand tombstone is an object. It is fixed in place. The description is "An expertly carved slate tombstone. The roman numeral VI is prominently carved into it." Understand "righthand tombstone", "third tombstone", "tombstone 3", "tombstone on the right" as the righthand tombstone. The printed name of the righthand tombstone is "tombstone on the right of the plinth".
+the righthand tombstone is an object. It is fixed in place. The description is "An expertly carved slate tombstone. The inscription VI is prominently carved into it." Understand "righthand tombstone", "third tombstone", "tombstone 3", "tombstone on the right" as the righthand tombstone. The printed name of the righthand tombstone is "tombstone on the right of the plinth".
 
 
 instead of taking something when the noun is fixed in place, say "That's far too inconvenient to carry."
@@ -367,28 +367,32 @@ The Cavern is northeast of the Mountain Overlook. The description is "The cavern
 
 The chair is a scenery supporter in the cavern. The description is "A hand-made wooden chair, complete with plush cushions and a wonderfully soft woollen throw. You can tell from the contented look on the old man's face that the chair is exceptionally comfortable." A man called The Old Man of the Mountain is on the chair. The description of The Old Man of the Mountain is "A wizened old man with a long grey beard sits on his comfy chair in front of the fireplace, gazing out contentedly at the sunset. When he notices you watching him, he smiles and says 'Took you long enough. I was beginning to think you weren't going to come.'"
 
-Instead of talking to The Old Man of the Mountain, say "Before you can say anything, the Old Man waves his hand and says 'Listen, we do not have much time. I can help you, but I am cursed to never reveal any knowledge except in exchange for some knowledge that I do not possess. Now obviously there's information I wish for you to know. But in exchange you must tell me something I do not already know.' You stare back at him, more than a little confused. He continues, 'there are lots of other rules that I must follow as well, too many to detail here, but to make it easier for you, I left you three cards. Not here. In another place. You know what I mean. on the back of each are clues to the word I do not know. Tell me those words and I shall give you what you need.'"
+Instead of talking to The Old Man of the Mountain, say "Before you can say anything, the Old Man waves his hand and says 'Listen, we do not have much time. I can help you, but in exchange you must remind me of things forgotten.' You stare back at him, more than a little confused. He continues, 'My memory is not all it once was. I was instructed to hold onto bits of information in preparation for the day you arrived, but in order to do so I needed to remove some of my own memories. Oh don't worry, I made some notes so that I could remind myself when the time came. I made three cards. Not here. In another place. You know what I mean. On the back of each are clues to the memories I gave up. Well, I mean the memories are probably still in here.' The old man taps the side of his head, smiling. 'I just need to hear a specific word to reactivate them. That's where you come in. Help me regain my memories and in return I will give you the information you need.'"
 
 Instead of answering the old man of the mountain that something, try telling the old man of the mountain about it.
 
 Table of replies
-suggestion			reply
-"giraffe"				"'Oh!' says the old man, 'That's certainly new to me! and here's some knowledge for you: Page 32.'[line break]"
-"whale"				"big fish"
-"some other word"	"Yeah"
+suggestion	reply
+"ada lovelace"	"'Ahhhh yes,' says the old man, a wistful look in his eyes. 'One of my fondest memories. I kept her safe for a time. Showed her some of the things her inventions helped create. Here's some knowledge for you: Page 33.'[line break]"
+"macaroni cheese"	"'Mmmmm macaroni cheese!' The old man almost seems to salivate at the thought. 'Such a tasty dish. Why I remember the first time I made that for.... But I digress. Anyway here's your bit of knowledge in exchange: Page 75.'[line break]"
+"ophiuchus"	"The old man's face turns serious, as if remembering something of great import. 'I remember now. I remember when we defeated the Servants of the Black Dawn. Seems so long ago now. What a wonderful night that was... But anyway, here's the knowledge you need: Page 87.'[line break]"
 
 instead of telling the old man of the mountain about something:
-	if there is a suggestion of "[the topic understood]" in the table of replies :
-		let reply be the reply corresponding to a suggestion of "[the topic understood]" in the table of replies;
+	if there is a suggestion of "[the topic understood in lower case]" in the table of replies :
+		let reply be the reply corresponding to a suggestion of "[the topic understood in lower case]" in the table of replies;
 		say "[reply]";
 	otherwise:
-		say "I already know about that.";
+		say "'No,' says the old man, 'I don't think that's one of my missing memories.'";
 
 Chapter 4 - The Forest
 
-The forest is a region. The forest glade is in the forest.
-The Forest Glade is a room.
-Ottelie is a woman in the Forest Glade.
+The forest is a region. The Forest Glade and the Shepherd's Hut are in the forest.
+The Forest Glade is a room. The description is "You stand in a beautiful shaded forest glade. Wonderful gnarled old oak, beech and birch trees surround you on all sides, and you hear the comforting sounds of birdsong all around you. The sunlight casts dappled shadows through the trees as you start to feel your worries slipping away. A narrow path winds through the trees to the south."
+
+Before going south from the Forest Glade, say "You follow the path through the trees. As you do you realise that you are flanked either side by the kingfisher and goldcrest from before. They fly on ahead of you as the trees open out into a clearing."
+
+The Shepherd's Hut is south of the Forest Glade. The description is "".
+A woman called Ottelie is in the Shepherd's hut.
 
 [Inside the basket is the kingfisher plate and cup (nice tea and biccies?), The box containing the crystals. Each crystal has a coded message (symbols? can I use the old symbols from last year for one of them?) Also make a new necklace for them. The book... how to gate the book? The book code puzzle... Maybe the book doesn't need gating as the book code requires the correct page?
 
