@@ -1,4 +1,11 @@
-"A Cry For Help" by "A very silly man"
+"A Cry For Help" by "a very silly man"
+
+The story headline is "An Interactive Puzzle Experience".
+The story genre is "Mystery".
+The release number is 1.
+The story description is "Someone is trapped. Trapped in a world beyond our own. They need your help. Can you solve the puzzles and save them?"
+The story creation year is 2026.
+Release along with an introductory postcard, a library card, an interpreter.
 
 
 Table of Map Locations
@@ -8,17 +15,61 @@ name		room
 "sarruma"	Mountain Overlook
 "medeina"	Forest Glade
 
+Table of hints
+location	hint
+The In-Between	"[if the flock of birds is nowhere]What's that sound?[otherwise if the flock of birds is in the calm in the mist]Where did the birds go?[otherwise]Try looking at the birds.[end if][line break]"
+The Calm in the Mist	"[if the kingfisher is on the basket lid]The kingfisher seems important...[otherwise if the wicker basket is closed]Keys take many forms.[otherwise]The kingfisher's feather is important. find the names of the goddesses.[end if][line break]"
+The Desert Ruins	"[if the control panel is unsolved]There has to be a way to open those doors.[otherwise]You should probably see where those doors lead...[end if][line break]"
+Ozymandias	"[if we have not examined the control panel]Have you looked at everything?[otherwise if we have not examined the weasel]That weasel seems important.[otherwise if the weasel is on the pedestal]It seems as though the weasel wants to talk.[otherwise if the control panel is unsolved]Those birds look familiar...[otherwise]Seems solving that puzzle caused something to change elsewhere...[end if][line break]"
+The Arena of Champions	"[if the green box is closed]What's in that box?[otherwise if any gemstones are unidentified]It's probably a good idea to identify those stones. For example, 'identify metallic stone as iron'.[otherwise if the desert is unsolved]There must be a way to heal those ghosts.[otherwise]The tombstones probably contain some useful information.[end if][line break]"
+The mountain overlook	"[if the mountains are rainy]There must be a way to stop the rain. A spell?[otherwise]I think you've done everything you need to here.[end if][line break]"
+The Cavern	"That man looks kinda familiar, doesn't he? try telling him about the things he needs to remember.[line break]"
+The Forest Glade	"You're on your own from here on out."
+The Shepherd's Hut	"You're on your own from here on out."
+Inside the Shepherd's Hut	"You're on your own from here on out."
+
+
 LED colour is a kind of value. The LED colours are off, red, orange, yellow, green and blue.
+
+Asking for help is an action applying to nothing. Understand "help" as asking for help.
+report asking for help:
+	say "In this game you can explore an alternate dimension. There are many things to see and there may well be people or animals you can interact with. You can interact with the game by typing simple commands, for example:
+
+'look at the oak tree'
+'take the book'
+'open the chest'
+'unlock the door with the brass key'
+
+To move between scenes type the letter corresponding to the compass directions (n, ne, e, se, s, sw, w, nw), as well as 'in' and 'out'. The description of each room will usually give you hints as to where you can go. If you want to get a description of a room you are in, simply type 'look'. Often the place descriptions will change depending on your actions, giving you clues on how to proceed.
+
+A non-exhaustive list of commands you may use: look; read; talk; say; tell; whisper;listen; unlock; take; open; close; push; press. You may be surprised to see there is no 'use' command; the word is a little bit too generic to work well with the game's parser.
+
+If you get stuck and the room description doesn't clue you in, type 'hint'. This will give you a clue as to what you're supposed to be doing (if anything) in your current location. It could be that the answer to a particular puzzle exists in the real world rather than in-game. If you're STILL stuck, you could try asking a wise and knowledgable man for a clue...
+
+Some important commands are 'save' and 'restore', which do exactly what you would expect, allowing you to maintain progress between sessions. Oh and 'help' will display this help text.
+
+Good luck. Have fun. Don't die (don't worry, you can't die in this game)."
+	
+Asking for a hint is an action applying to nothing. Understand "hint" as asking for a hint.
+report asking for a hint:
+	if there is a location of the location in the table of hints:
+		say "[the hint corresponding to the location of the location in the table of hints]";
+	otherwise:
+		say "There are no hints for this location.";
+
 
 Chapter 1 - The Mistlands
 
-When play begins, say "You close your eyes and rest, feeling your breathing slow... listening to the sound of your breath...
+When play begins:
+	say "You close your eyes and rest, feeling your breathing slow... listening to the sound of your breath...
 
  in...
 
  out...
 
- your heartbeat slows and you feel relaxed as the stresses of modern life melt away. After a time, you open your eyes."
+ your heartbeat slows and you feel relaxed as the stresses of modern life melt away. After a time, you open your eyes...
+
+";
 
 The In-Between is a room. "You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach.
 [if the flock of birds is nowhere]You hear a faint sound, but you'll have to actively listen to make sense of it.[end if][if the flock of birds is in the In-between]The delightful sound of myriad cheeping birds fills your ears.[end if][if the flock of birds is in the calm in the mist]You hear the flock of birds cheeping somewhere to the north.[end if]"
@@ -84,7 +135,7 @@ Carry out talking to something:
 	otherwise:
 		continue the action;
 	 
-Instead of talking to the kingfisher, say "It's probably best if you just say the word."
+Instead of talking to the kingfisher, say "The kingfisher listends but makes no response. It seems to be listening for you to say a specific word."
 
 Instead of answering the kingfisher that something, try telling the kingfisher about it.
 
@@ -104,14 +155,15 @@ Instead of examining the blue feather when the blue feather is on the basket lid
 	now the blue feather is carried by the player;
 	now the crumpled note is carried by the player;
 
-[fill out these with more details]
-The book is in the wicker basket. 
+The book is in the wicker basket. The description of the book is "An old leather bound book titled 'The Four Goddesses of the Land'. There seems to be some pages missing. You flip through the pages but it is written in a strange runic script. The only letters you recognise take the form of a handwritten note in the margins that reads 'FUTHORC'"
 
 Before unlocking the wicker basket with an object when the Kingfisher is on the basket lid, try taking the wicker basket instead.
 
 Before taking the wicker basket when the wicker basket is closed and the kingfisher is not on the basket lid, say "You should probably open it first." instead.
 
-After opening the wicker basket for the first time, say "Claire... Claire? Can you hear me? I have tried reaching out into your world but it is so difficult. I am trapped. I cannot say more. I need you to help me. Come to the desert ruins. The signal is stronger there. Use the feather. Hold it close and whisper the name of your destination. Help me. Please."
+Before opening the wicker basket when the basket is unlocked, say "As you reach for the basket you hear a gentle, ethereal voice whisper through the mist. 'Claire... Claire? Can you hear me? I have tried reaching out into your world but it is so difficult. I am trapped. I cannot say more. I need you to help me. Come to the desert ruins. The signal is stronger there. Use the feather. Hold it close and whisper the name of the desert goddess. She will spirit you to your destination. Help me. Please.'[line break] "
+
+Instead of closing the wicker basket, say "You don't see any reason to close it."
 
 Whispering to the feather is an action applying to one topic. Understand "whisper [text] to the feather" as whispering to the feather. Understand "whisper [text]" as whispering to the feather.
 
@@ -292,7 +344,7 @@ Instead of giving a gemstone to the ghost on the left:
 	
 the tombstone on the left is an object. It is fixed in place. The description is "An expertly carved granite tombstone. The inscription V is prominently carved into it."	Understand "lefthand tombstone", "first tombstone", "tombstone 1" as the tombstone on the left.
 
-The middle ghost is a ghost in the Arena of Champions. Understand "middle ghost", "second ghost", "ghost 2", "ghost in the middle", "ghost behind the plinth" as the middle ghost. The printed name of middle ghost is "Ghost behind the plinth". The description is "The ghost of a lithe gladiator armed with a net and trident skulks behind the plinth. Every so often he appears to psych himself up as if to fight, before shrinking back with a defeated look on his face."
+The middle ghost is a ghost in the Arena of Champions. Understand "middle ghost", "second ghost", "ghost 2", "ghost in the middle", "ghost behind the plinth" as the middle ghost. The printed name of middle ghost is "ghost behind the plinth". The description is "The ghost of a lithe gladiator armed with a net and trident skulks behind the plinth. Every so often he appears to psych himself up as if to fight, before shrinking back with a defeated look on his face."
 
 Instead of talking to the middle ghost when the middle ghost is unhealed, say "As you address him, the ghost looks startled. 'Stay away from me!' He yells, lifting his trident. 'I'll spear you! I will!' After a short period of threats and posturing, the ghost crumples down, a defeated look on his face. 'Oh who am I kidding? I'm no good at this. I don't know what I'm doing. I'll never get out of this place. I just don't have the skill.' A look of hopelessness crosses the ghost's face. 'Is there even any point in trying?'"
 
@@ -345,7 +397,7 @@ instead of taking something when the noun is fixed in place, say "That's far too
 
 Chapter 3 - The Mountains
 
-The mountains is a region. The Mountain Overlook and the Cavern are in the mountains. The mountains can be rainy or clear. The mountains are rainy.
+The Mountains is a region. The Mountain Overlook and the Cavern are in the mountains. The mountains can be rainy or clear. The mountains are rainy.
 
 The Mountain Overlook is a room. The description is "You stand on the slope of a tall mountain. A sheer drop falls away to the southwest. [if the mountains are rainy]Torrential rain hammers down all around you, leaving the stone floor dangerously slippery and soaking you to the bone.[end if] You can see the entrance to a cavern to the northeast,[if the mountains are rainy]but the downpour has caused the mountain stream to expand into a hazardous deluge which is impossible to cross.[otherwise] on the other side of a shallow mountain stream."
 
@@ -386,13 +438,21 @@ instead of telling the old man of the mountain about something:
 
 Chapter 4 - The Forest
 
-The forest is a region. The Forest Glade and the Shepherd's Hut are in the forest.
+The Forest is a region. The Forest Glade, The Shepherd's hut and Inside the Shepherd's hut are in the Forest.
+
 The Forest Glade is a room. The description is "You stand in a beautiful shaded forest glade. Wonderful gnarled old oak, beech and birch trees surround you on all sides, and you hear the comforting sounds of birdsong all around you. The sunlight casts dappled shadows through the trees as you start to feel your worries slipping away. A narrow path winds through the trees to the south."
 
 Before going south from the Forest Glade, say "You follow the path through the trees. As you do you realise that you are flanked either side by the kingfisher and goldcrest from before. They fly on ahead of you as the trees open out into a clearing."
 
-The Shepherd's Hut is south of the Forest Glade. The description is "".
-A woman called Ottelie is in the Shepherd's hut.
+The Shepherd's Hut is south of the Forest Glade. The description is "The path from the north opens out here into a shady clearing in the centre of the forest. In the shade of a great oak tree is a wooden hut, which might seem modest to a city-dweller but seems a nice place to live".
+
+a room called Inside the Shepherd's hut is inside from the Shepherd's hut. 
+
+
+
+A woman called Ottelie is in Inside the Shepherd's hut.
+
+[The Forest Glade, Outside the Shepherd's Hut and the Shepherd's Hut are in the forest.]
 
 [Inside the basket is the kingfisher plate and cup (nice tea and biccies?), The box containing the crystals. Each crystal has a coded message (symbols? can I use the old symbols from last year for one of them?) Also make a new necklace for them. The book... how to gate the book? The book code puzzle... Maybe the book doesn't need gating as the book code requires the correct page?
 
