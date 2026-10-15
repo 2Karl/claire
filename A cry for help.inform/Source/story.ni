@@ -5,8 +5,9 @@ The story genre is "Mystery".
 The release number is 1.
 The story description is "Someone is trapped. Trapped in a world beyond our own. They need your help. Can you solve the puzzles and save them?"
 The story creation year is 2026.
-Release along with an introductory postcard, a library card, an interpreter.
+Release along with an introductory postcard.
 
+Figure 1 is the file "Title.png".
 
 Table of Map Locations
 name		room
@@ -20,13 +21,13 @@ location	hint
 The In-Between	"[if the flock of birds is nowhere]What's that sound?[otherwise if the flock of birds is in the calm in the mist]Where did the birds go?[otherwise]Try looking at the birds.[end if][line break]"
 The Calm in the Mist	"[if the kingfisher is on the basket lid]The kingfisher seems important...[otherwise if the wicker basket is closed]Keys take many forms.[otherwise]The kingfisher's feather is important. find the names of the goddesses.[end if][line break]"
 The Desert Ruins	"[if the control panel is unsolved]There has to be a way to open those doors.[otherwise]You should probably see where those doors lead...[end if][line break]"
-Ozymandias	"[if we have not examined the control panel]Have you looked at everything?[otherwise if we have not examined the weasel]That weasel seems important.[otherwise if the weasel is on the pedestal]It seems as though the weasel wants to talk.[otherwise if the control panel is unsolved]Those birds look familiar...[otherwise]Seems solving that puzzle caused something to change elsewhere...[end if][line break]"
+Ozymandias	"[if we have not examined the control panel]Have you looked at everything?[otherwise if we have not examined the weasel]That weasel seems important.[otherwise if the weasel is on the pedestal]It seems as though the weasel wants to talk.[otherwise if the control panel is unsolved]Those birds sat on the legs look familiar...[otherwise]Seems solving that puzzle caused something to change elsewhere...[end if][line break]"
 The Arena of Champions	"[if the green box is closed]What's in that box?[otherwise if any gemstones are unidentified]It's probably a good idea to identify those stones. For example, 'identify metallic stone as iron'.[otherwise if the desert is unsolved]There must be a way to heal those ghosts.[otherwise]The tombstones probably contain some useful information.[end if][line break]"
 The mountain overlook	"[if the mountains are rainy]There must be a way to stop the rain. A spell?[otherwise]I think you've done everything you need to here.[end if][line break]"
 The Cavern	"That man looks kinda familiar, doesn't he? try telling him about the things he needs to remember.[line break]"
 The Forest Glade	"You're on your own from here on out."
 The Shepherd's Hut	"You're on your own from here on out."
-Inside the Shepherd's Hut	"You're on your own from here on out."
+Hut interior	"You're on your own from here on out."
 
 
 LED colour is a kind of value. The LED colours are off, red, orange, yellow, green and blue.
@@ -35,10 +36,7 @@ Asking for help is an action applying to nothing. Understand "help" as asking fo
 report asking for help:
 	say "In this game you can explore an alternate dimension. There are many things to see and there may well be people or animals you can interact with. You can interact with the game by typing simple commands, for example:
 
-'look at the oak tree'
-'take the book'
-'open the chest'
-'unlock the door with the brass key'
+'look at the oak tree'[line break]'take the book.'[line break]'open the chest.'[line break]'unlock the door with the brass key'
 
 To move between scenes type the letter corresponding to the compass directions (n, ne, e, se, s, sw, w, nw), as well as 'in' and 'out'. The description of each room will usually give you hints as to where you can go. If you want to get a description of a room you are in, simply type 'look'. Often the place descriptions will change depending on your actions, giving you clues on how to proceed.
 
@@ -70,6 +68,7 @@ When play begins:
  your heartbeat slows and you feel relaxed as the stresses of modern life melt away. After a time, you open your eyes...
 
 ";
+	display figure 1;
 
 The In-Between is a room. "You are.. somewhere. Swirling mists curl out of the blackness that appears to exist in between your world and some other place, just out of reach.
 [if the flock of birds is nowhere]You hear a faint sound, but you'll have to actively listen to make sense of it.[end if][if the flock of birds is in the In-between]The delightful sound of myriad cheeping birds fills your ears.[end if][if the flock of birds is in the calm in the mist]You hear the flock of birds cheeping somewhere to the north.[end if]"
@@ -128,6 +127,10 @@ Instead of taking the wicker basket when the kingfisher is on the basket lid, sa
 
 Instead of examining the wicker basket when the kingfisher is on the basket lid, say "It's a wicker basket, about 50 centimetres long and half as wide. It is currently sealed by two combination locks. A kingfisher sits perched atop the basket, apparently guarding it. The bird eyes you expectantly, as if waiting for you to say something."
 
+Instead of examining the wicker basket when the kingfisher is not on the basket lid and the wicker basket is locked, say "It's a wicker basket, about 50 centimetres long and half as wide. It is currently sealed by two combination locks. [if the blue feather is on the basket lid]A bright blue feather rests on the lid."
+
+Instead of examining the wicker basket when the wicker basket is unlocked, say "It's a wicker basket, about 50 centimetres long and half as wide. It is currently unlocked."
+
 Understand "talk to [someone]" as talking to. Understand "talk to [something]" as talking to. Talking to is an action applying to one visible thing.
 Carry out talking to something:
 	if the noun is not a person:
@@ -135,16 +138,16 @@ Carry out talking to something:
 	otherwise:
 		continue the action;
 	 
-Instead of talking to the kingfisher, say "The kingfisher listends but makes no response. It seems to be listening for you to say a specific word."
+Instead of talking to the kingfisher, say "The kingfisher listens but makes no response. It seems to be listening for you to say a specific word."
 
 Instead of answering the kingfisher that something, try telling the kingfisher about it.
 
-The blue feather is an object. "A beautiful, irridescent blue feather lies on top of the wicker basket."
+The blue feather is an object. "A beautiful, iridescent blue feather lies on top of the wicker basket."
 
-The description of the blue feather is "A beautiful, irridescent kingfisher's feather. It feels warm in your hand and seems to glow with a faint energy."
+The description of the blue feather is "A beautiful, iridescent kingfisher's feather. It feels warm in your hand and seems to glow with a faint energy."
 
 instead of telling the kingfisher about "cardinal":
-	say "The kingfisher opens its beak and lets out a keening cry. A feeling of warmth radiates through you as the bird takes to the sky, a solitary blue feather fluttering down to land on top of the basket";
+	say "The kingfisher opens its beak and lets out a keening cry. A feeling of warmth radiates through you as the bird takes to the sky, a solitary blue feather fluttering down to land on top of the basket.";
 	now the blue feather is on the basket lid;
 	now the kingfisher is nowhere;
 
@@ -170,25 +173,30 @@ Whispering to the feather is an action applying to one topic. Understand "whispe
 Whispering is an action applying to nothing. Understand "whisper" as whispering. Carry out whispering: say "You should whisper a word to the feather."
 
 Carry out whispering to the feather:
-	if "[the topic understood in lower case]" is a name listed in the Table of Map Locations:
-		say "The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...";
-		let destination be the room corresponding to the name of "[the topic understood in lower case]" in the Table of Map Locations;
-		move the player to the destination; 
+	if the player is carrying the blue feather:
+		if "[the topic understood in lower case]" is a name listed in the Table of Map Locations:
+			say "The feather seems to glow dimly. Suddenly you are enveloped in ethereal light so bright that you are forced to close your eyes. When the light fades and you open your eyes again, you are elsewhere...";
+			let destination be the room corresponding to the name of "[the topic understood in lower case]" in the Table of Map Locations;
+			move the player to the destination; 
+		otherwise:
+			say "The feather seems to glow dimly and then fade. Perhaps the word you whispered is unknown.";
 	otherwise:
-		say "The feather seems to glow dimly and then fade. Perhaps the word you whispered is unknown.";
+		say "you whisper '[the topic understood in lower case]' to nobody in particular."
 
 
 Chapter Two - The Desert Ruins
 
-The Desert is a region. The Desert ruins, Ozymandias and the Arena of Champions are in the desert. The sand is a backdrop in the desert. "The sand is rough and it's course and it gets everywhere. Seems like the sort of thing an edgelord would hate." The desert can be either solved or unsolved. The desert is unsolved.
+The Desert is a region. The Desert ruins, Ozymandias and the Arena of Champions are in the desert. The sand is a backdrop in the desert. "The sand is rough and it's course and it gets everywhere. Seems like the sort of thing an edgelord would hate." The desert can be either solved or unsolved. The desert is unsolved. The dunes are a backdrop in the desert. "Like some sort of hot yellow ocean, the dunes undulate for miles all around you. Staring out at them, you suddenly feel thirsty."
 
-The Desert Ruins is a room. "You find yourself in the midst of an arid desert, sand stretching all around you and continuing off towards the shimmering horizon while the relentless sun beats down upon you.
+Instead of listening in the desert, say "You hear the strange scraping sound of shifting sand as the hot air blows across the vastness of the dunes. Somewhere in the distance a hawk shrieks."
+
+The Desert Ruins is a room. "You find yourself in the midst of an arid desert, sand stretching all around you and continuing off towards the shimmering horizon while the relentless sun beats down upon you. After a while you become acutely aware of the lack of water and inwardly hope that you don't have to spend too long here.
 
 Some distance to the east is a stone ruin of some sort. It's difficult to make out from here. 
 
 Ahead of you to the north is the crumbling edifice of a once mighty fortress. The huge rusted iron doors[if the control panel is unsolved], though ancient, look powerful and unyielding, filling you with a sense of foreboding.[otherwise] now stand ajar, allowing access into the ruins.[end if][if unvisited]As you gaze in awe and wonder at the immeasurably ancient ruins, you notice a flurry of movement amongst the dunes. Suddenly a weasel bursts out of the sand and scurries away to the east.[end if]" 
 
-The iron door is scenery in the desert ruins. "Vast and unyielding and impossibly ancient, you wonder who could have built this enormous portal. The doors must weigh hundreds of tons; they are covered in thick red rust but you detect no signs of corrosion or structural weakness."
+The iron door is scenery in the desert ruins. "Vast and unyielding and impossibly ancient, you wonder who could have built this enormous portal. The doors must weigh hundreds of tons; they are covered in thick red rust but you detect no signs of corrosion or structural weakness.[if the control panel is solved] They stand open before you." Understand "doors", "gate", "gates" as the iron door.
 
 The weasel is an animal. The description is "A timid yet adorable mustelid [if the weasel is not on the pedestal]scurries too and fro amongst the scattered stones. When she notices you she gives an excited yip and climbs up to the top of the pedestal and... speaks?
 'Claire! come closer and talk to me. I don't have long.'[otherwise]sits atop the pedestal with an urgent look on her face.[end if]"
@@ -202,11 +210,11 @@ After examining the weasel when the weasel is not on the pedestal:
 LED colour is a kind of value. The LED colours are off, red, orange, yellow, green and blue.
 
 Ozymandias is east of the Desert Ruins. "Two vast and trunkless legs of stone stand in the desert. Near them on the sand,
-half sunk, a shattered visage lies. The legs are atop a pedestal.".
+half sunk, a shattered visage lies. The legs are atop a pedestal. 'Vast' is an understatement as well. Each mighty leg must be at least two metres tall. Just looking up at them makes you feel slightly dizzy."
 
 The pedestal is a scenery supporter in Ozymandias. "On the pedestal these words appear: 'My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!' Underneath the plaque sits what appears to be a control panel. You don't remember Shelley writing about this."
 
-The visage is scenery in Ozymandias. "A shattered visage, whose frown, and wrinkled lip, and sneer of cold command, tell that its sculptor well those passions read which yet survive, stamped on these lifeless things, the hand that mocked them, and the heart that fed." Understand "shattered", "shattered visage" as the visage.
+The visage is scenery in Ozymandias. "A shattered visage, whose frown, and wrinkled lip, and sneer of cold command, tell that its sculptor well those passions read which yet survive, stamped on these lifeless things, the hand that mocked them, and the heart that fed." Understand "shattered", "shattered visage", "face", "head" as the visage.
 The legs are scenery in Ozymandias. "Vast stone legs extend upwards, but whatever torso once existed atop them is long gone now, obliterated by the cruel passage of endless ages.[if the weasel is nowhere] Atop the left leg, resplendent in its glory, sits the kingfisher. Atop the right leg, tiny but audacious, sits the goldcrest.[end if]"
 
 The control panel is part of the pedestal. The description is "A small control panel with a row of four buttons and LEDs above them. The LEDs currently look like this:
@@ -243,11 +251,11 @@ Button 4	LED 4
 [colour switch puzzle - blue orange yellow black]
 
 Instead of talking to the weasel when the weasel is on the pedestal:
-	say "The weasel looks at you excitedly, before saying 'Claire, thank you for finding me. Do you recognise me? I am Ottelie. Oh Claire, don't act so surprised. I know I might looks strange in my weasel form, but it was the only way I could escape the cage they have me in.
+	say "The weasel looks at you excitedly, before saying 'Claire, thank you for finding me. Do you recognise me? I am Ottelie. Oh Claire, don't act so surprised. I know I might look strange in my weasel form, but it was the only way I could escape the cage I'm trapped in.
 
-'Look, it's too complicated to explain and I don't have time. My magic can only last so long before I have to return to my body. I need you to come to the Wychwood Forest. That's where I am imprisoned. I know you have the kingfisher's feather. 
+'Look, it's too complicated to explain and I don't have time. My magic can only last so long before I have to return to my body. I need you to come to the Dusklight Forest. That's where I am imprisoned. I know you have the kingfisher's feather. 
 
-'What's that? You don't have all of the map? Oh that will never do... OK listen. You must visit the Old man of the Mountain, but there's a terrible spell making the weather in the Dragonback Mountains absolutely inhospitable. Find a way to get into the Arena of Champions, back up there to the west. Speak to the Shades of the Heros. They might be able to help.'
+'What's that? You don't have all of the map? Oh that will never do... OK listen. You must visit the Old man of the Mountain, but there's a terrible spell making the weather in the Skypeak Mountains absolutely inhospitable. Find a way to get into the Arena of Champions, back up there to the west. Speak to the Shades of the Heroes. They might be able to help.'
 
 Ottelie the weasel starts to flicker and fade before your very eyes.
 
@@ -255,16 +263,18 @@ Ottelie the weasel starts to flicker and fade before your very eyes.
 
 'Help me Claire! I believe in you!'
 
-As the weasel fades from view, you hear the cry of birds from above. 'Kew-ahhh! Kew-ahhh!' You recognise the call of the Kingfisher and look up. Now only is the magnificent blue bird circling above you, but it is joined with a smaller bird, a tiny goldcrest. As you watch, they settle on top of the mighty legs of the ruined statue, the Kingfisher on the left leg, the goldfinch on the right.";
+As the weasel fades from view, you hear the cry of birds from above.
+
+'Kew-ahhh! Kew-ahhh!'
+
+You recognise the call of the Kingfisher and look up. Now only is the magnificent blue bird circling above you, but it is joined with a smaller bird, a tiny goldcrest. As you watch, they settle on top of the mighty legs of the ruined statue, the Kingfisher on the left leg, the goldfinch on the right.";
 	Now the weasel is nowhere.
 	
-The Arena of Champions is north of the Desert Ruins. "You stand inside a vast arena, and for a brief moment experience a vision of an ancient time, the stalls filled with thousands of people cheering on the mighty warriors who clashed on the sands. As suddenly as it appeared, the vision fades, and the stalls lie empty, filling the arena with an unsettling silence. A plinth of alabaster occupies the centre of the arena.[if unvisited]
+The Arena of Champions is north of the Desert Ruins. "You stand inside a vast arena, and for a brief moment experience a vision of an ancient time, the stalls filled with thousands of people cheering on the mighty warriors who clashed on the sands. A rush of adrenaline fills you, the exuberance of the fight making your heart beat faster. As suddenly as it appeared, the vision fades, and the stalls lie empty, filling the arena with an unsettling silence. A plinth of alabaster occupies the centre of the arena.[if unvisited]
 
 Snapping out of your reverie, you notice three ghostly figures standing motionless around the plinth. Atop the plinth is a green chest.[end if]"
 
-
-
-The plinth is scenery supporter in the arena of champions. "A plinth of alabaster occupies the centre of the arena.[if the green box is on the plinth]A small green chest rests on top of the plinth[end if]"
+The plinth is scenery supporter in the arena of champions. "A plinth of smooth white alabaster occupies the centre of the arena.[if the green box is on the plinth]A small green chest rests on top of the plinth[end if]"
 
 The green box is a closed openable container. The green box is on the plinth.
 A gemstone is a kind of thing. a gemstone can be identified or unidentified. a gemstone is normally unidentified. Understand the printed name property as describing a gemstone. understand "stone" as gemstone. Understand "stones" as the plural of gemstones.
@@ -280,7 +290,7 @@ carry out identifying it as:
 	if true name is "[the topic understood in lower case]":
 		say "You're absolutely certain [the noun] is [true name][line break]";
 		now the noun is identified;
-		now the printed name of the noun is true name;
+		now the printed name of the noun is true name in sentence case;
 		now the description of the noun is the description corresponding to the gemstone of the noun in the table of gemstone names in lower case;
 	otherwise:
 		say "Hmmm... no, you don't think [the noun] is [the topic understood]...[line break]";
@@ -294,7 +304,7 @@ red stone		"ruby"			"Fiery and captivating, The jagged red stone is a stone of n
 blue stone		"iolite"			"The smooth blue stone reminds you of a crisp, dark winter sky in shifting shades of violet blue."
 mottled stone	"unakite"		"The stone brings together the abundant, nurturing energy of green with the soft caring passion of pink."
 pink stone		"rose quartz"	"the jagged rosy pink stone is a stone of the heart, a crystal of unconditional love."
-black stone		"obsidian"		"The jagged black stone is a talisman o those who dare to see the own inner demons and darkest truths."
+black stone		"obsidian"		"The jagged black stone is a talisman to those who dare to see the own inner demons and darkest truths."
 
 The green stone is a gemstone. The description is "A smooth, deep green stone with bands of a vibrant jade colour running horizontally across its smooth surface."
 The purple stone is a gemstone. The description is "A smooth purple stone that shimmers gently in the light."
@@ -342,7 +352,7 @@ Instead of giving a gemstone to the ghost on the left:
 	otherwise:
 		say "The ghost takes [the noun] and looks at it inquisitively. He holds it close. His expression does not change. 'I appreciate the offer,' he says, 'but I don't think this helps.' The ghost hands [the noun] back to you."
 	
-the tombstone on the left is an object. It is fixed in place. The description is "An expertly carved granite tombstone. The inscription V is prominently carved into it."	Understand "lefthand tombstone", "first tombstone", "tombstone 1" as the tombstone on the left.
+the tombstone on the left is an object. It is fixed in place. the printed name of the tombstone on the left is "tombstone on the left of the plinth". The description is "An expertly carved granite tombstone. The inscription V is prominently carved into it."	Understand "lefthand tombstone", "first tombstone", "tombstone 1" as the tombstone on the left.
 
 The middle ghost is a ghost in the Arena of Champions. Understand "middle ghost", "second ghost", "ghost 2", "ghost in the middle", "ghost behind the plinth" as the middle ghost. The printed name of middle ghost is "ghost behind the plinth". The description is "The ghost of a lithe gladiator armed with a net and trident skulks behind the plinth. Every so often he appears to psych himself up as if to fight, before shrinking back with a defeated look on his face."
 
@@ -389,7 +399,7 @@ Instead of giving a gemstone to the ghost on the right:
 	otherwise:
 		say "The ghost takes [the noun] and looks at it inquisitively. He holds it close. His expression does not change. 'This is worthless to me!' he spits, 'why don't you give me something useful?.' The ghost throws [the noun] back at you. You pick it up and put it in your pocket."
 	
-the righthand tombstone is an object. It is fixed in place. The description is "An expertly carved slate tombstone. The inscription VI is prominently carved into it." Understand "righthand tombstone", "third tombstone", "tombstone 3", "tombstone on the right" as the righthand tombstone. The printed name of the righthand tombstone is "tombstone on the right of the plinth".
+the righthand tombstone is an object. It is fixed in place. The description is "An expertly carved slate tombstone. The inscription VI is prominently carved into it." Understand "righthand tombstone", "third tombstone", "tombstone 3", "tombstone on the right", "right tombstone" as the righthand tombstone. The printed name of the righthand tombstone is "tombstone on the right of the plinth".
 
 
 instead of taking something when the noun is fixed in place, say "That's far too inconvenient to carry."
@@ -398,8 +408,13 @@ instead of taking something when the noun is fixed in place, say "That's far too
 Chapter 3 - The Mountains
 
 The Mountains is a region. The Mountain Overlook and the Cavern are in the mountains. The mountains can be rainy or clear. The mountains are rainy.
+The sky is a backdrop in the mountains. "[if the mountains are rainy]Deep steel grey clouds fill the sky as they bleed water all over the mountains. It's difficult to seem more than a few metres in front of you, such is the density of the water. You feel cold.[otherwise]The clouds have cleared and the blue sky fades to a vibrant orange as the sun begins to set. Your former chill is replaced by an inner warmth and you smile as you take in the beauty."
 
 The Mountain Overlook is a room. The description is "You stand on the slope of a tall mountain. A sheer drop falls away to the southwest. [if the mountains are rainy]Torrential rain hammers down all around you, leaving the stone floor dangerously slippery and soaking you to the bone.[end if] You can see the entrance to a cavern to the northeast,[if the mountains are rainy]but the downpour has caused the mountain stream to expand into a hazardous deluge which is impossible to cross.[otherwise] on the other side of a shallow mountain stream."
+
+instead of listening in the mountains when the mountains are rainy, say "The sound of the rain and the roaring torrent of water in front of you are almost too much to bear."
+
+instead of listening in the mountains when the mountains are clear, say "You hear the sound of birdsong and the gentle rush of flowing water. There is a certain tranquility to the place that was absent during the storm."
 
 Instead of going northeast from the mountain overlook when the mountains are rainy, say "The stream has become a overflowing cascade.  Stepping into that would surely sweep you over the edge of the cliff. You briefly contemplate how long it would take you to fall to the bottom and decide you do not wish to find out."
 
@@ -407,19 +422,31 @@ The stream is scenery in the mountain overlook. The description is "[if the moun
 
 Yelling is an action applying to one topic. Understand "yell [text]" as yelling.
 Carry out yelling:
-	if the topic understood in lower case is "stop raining":
+	if the location is the mountain overlook and the topic understood in lower case is "stop raining":
 		say "You yell at the clouds, at the sky, at the very gods themselves, and miraculously (or coincidentally, depending on your viewpoint), they seem to listen. The rain eases, then stops. The clouds begin to break, revealing a beautiful fiery orange sunset to the southwest. Gradually, the mountain stream reduces in ferocity. The air feels incredibly still and you are overcome with a sense of tranquility.";
 		now the mountains are clear;
+	otherwise if the location is the hut interior and the topic understood in lower case is "set ottelie free" or the topic understood in lower case is "free ottelie":
+		if ottelie is imprisoned:
+			say "You yell at the top of your lungs '[the topic understood in upper case]!' This seems to catch Ottelie off guard,and she blinks at you with a stunned look on her face. 'I mean, I appreciate the effort, but there's no way that...' The green light enveloping Ottelie starts to fade and dissipate, eventually completely disappearing. The atmosphere inside the shepherd's hut feels noticably less oppressive as Ottelie continues to stare at you. 'It... worked??? How the hell??? Who are you, Melchor the bloody Mystic or something? Well no matter. Thank you. There's one final thing left to do. Talk to me again once you're ready to wrap this whole thing up.";
+			now ottelie is free;
+		otherwise:
+			say "She's already free. no need to get all loud all over again.";
 	otherwise:
 		say "You yell '[the topic understood in upper case]!' It feels somewhat cathartic, but ultimately futile."
 
-instead of yelling when the mountains are clear, say "The rain has stopped; the mountains are peaceful. You see no reason to change that."
+instead of yelling in the mountains when the mountains are clear, say "The rain has stopped; the mountains are peaceful. You see no reason to change that."
 
 The Cavern is northeast of the Mountain Overlook. The description is "The cavern feels surprisingly cosy inside. Instead of bare rock, the walls are covered in a variety of tapestries and paintings. Hessian carpet covers the floor. Around the edges of the cavern walls are pieces of hand-crafted wooden furniture: a bed; a nightstand; a wardrobe. In the centre of the cavern, near a log burning stove, is a luxurious looking chair. An old man sits on the chair, looking out at the sunset to the southwest with a contented smile on his face."
 
+The tapestries are scenery in The cavern. "Great woven masterpieces in a variety of vibrant colours. They add a nice warmth to the cavern. As you look more closely, you notice they appear to be telling a story of some sort, but there appear to be some sections missing."
+
+The paintings are scenery in The cavern. "A variety of works in oil and acrylics. Some are abstract, some appear to be self-portraits of the old man at various stages in his life. The man in the paintings looks strangely familiar, and also rather handsome."
+
+The stove is scenery in the cavern. "A cosy wood burning stove heats the space very efficiently. You can't see where the smoke escapes to, but as the air inside the cavern is crisp and clear, you assume that the smoke must be going SOMEWHERE."
+
 The chair is a scenery supporter in the cavern. The description is "A hand-made wooden chair, complete with plush cushions and a wonderfully soft woollen throw. You can tell from the contented look on the old man's face that the chair is exceptionally comfortable." A man called The Old Man of the Mountain is on the chair. The description of The Old Man of the Mountain is "A wizened old man with a long grey beard sits on his comfy chair in front of the fireplace, gazing out contentedly at the sunset. When he notices you watching him, he smiles and says 'Took you long enough. I was beginning to think you weren't going to come.'"
 
-Instead of talking to The Old Man of the Mountain, say "Before you can say anything, the Old Man waves his hand and says 'Listen, we do not have much time. I can help you, but in exchange you must remind me of things forgotten.' You stare back at him, more than a little confused. He continues, 'My memory is not all it once was. I was instructed to hold onto bits of information in preparation for the day you arrived, but in order to do so I needed to remove some of my own memories. Oh don't worry, I made some notes so that I could remind myself when the time came. I made three cards. Not here. In another place. You know what I mean. On the back of each are clues to the memories I gave up. Well, I mean the memories are probably still in here.' The old man taps the side of his head, smiling. 'I just need to hear a specific word to reactivate them. That's where you come in. Help me regain my memories and in return I will give you the information you need.'"
+Instead of talking to The Old Man of the Mountain, say "Before you can say anything, the Old Man waves his hand and says 'Listen, we do not have much time. I can help you, but in exchange you must remind me of things forgotten.' You stare back at him, more than a little confused. He continues, 'My memory is not all it once was. I was instructed to hold onto bits of information in preparation for the day you arrived, but in order to do so I needed to remove some of my own memories. Oh don't worry, I made some notes so that I could remind myself when the time came. I made three cards. Not here. In another place. You know what I mean. You've probably already found them. On each one are clues to the memories I gave up. Well, I mean the memories are probably still in here.' The old man taps the side of his head, smiling. 'I just need to hear a specific word to reactivate them. That's where you come in. Help me regain my memories and in return I will give you the information you need.'"
 
 Instead of answering the old man of the mountain that something, try telling the old man of the mountain about it.
 
@@ -438,39 +465,46 @@ instead of telling the old man of the mountain about something:
 
 Chapter 4 - The Forest
 
-The Forest is a region. The Forest Glade, The Shepherd's hut and Inside the Shepherd's hut are in the Forest.
+The Dusklight Forest is a region. The Forest Glade, The Shepherd's hut and Hut interior are in the Dusklight Forest.
 
-The Forest Glade is a room. The description is "You stand in a beautiful shaded forest glade. Wonderful gnarled old oak, beech and birch trees surround you on all sides, and you hear the comforting sounds of birdsong all around you. The sunlight casts dappled shadows through the trees as you start to feel your worries slipping away. A narrow path winds through the trees to the south."
+the trees are a backdrop in The Dusklight Forest. The description of the trees is "A sea of vibrant greens and rich browns that just seems to go on and on forever. From your vantage point the forest appears to be endless." Understand "forest" as the trees. Instead of listening in the forest, say "the forest is alive with sound. Chittering birds, the screech of muntjac deer, and all manner of pattering in amongst the undergrowth, signalling the presence of a rich and vibrant tapestry of animal life. All the while, the gentle sway and rustle of the leaves in the wind brings a preternatural calm to your mind."
+
+The Forest Glade is a room. The description is "You stand in a beautiful shaded forest glade. Wonderful gnarled old oak, beech and birch trees surround you on all sides, and you hear the comforting sounds of birdsong all around you. The sunlight filters through the canopy above, casting dappled shadows through the trees. An aura of peace seems to fill the place, and you start to feel your worries slipping away. A narrow path winds through the trees to the south."
 
 Before going south from the Forest Glade, say "You follow the path through the trees. As you do you realise that you are flanked either side by the kingfisher and goldcrest from before. They fly on ahead of you as the trees open out into a clearing."
 
-The Shepherd's Hut is south of the Forest Glade. The description is "The path from the north opens out here into a shady clearing in the centre of the forest. In the shade of a great oak tree is a wooden hut, which might seem modest to a city-dweller but seems a nice place to live".
+The Shepherd's Hut is south of the Forest Glade. The description is "The path from the north opens out here into a shady clearing in the centre of the forest. In the shade of a great oak tree is a wooden hut, which might seem modest to a city-dweller but seems a nice place to live. In front of the hut is a firepit, above which hangs a solitary basket, presumably for cooking food. It doesn't seem like anyone has actually been here for a long time. As your gaze slowly moves across the area you notice the kingfisher and goldcrest take up positions above the entrance to the hut."
 
-a room called Inside the Shepherd's hut is inside from the Shepherd's hut. 
+The oak tree is scenery in the Shepherd's hut. "A mighty oak tree, its beautiful boughs laden with leaves and a wealth of acorns. You feel like this tree has witnessed many generations of people live out their days in its shade." 
+
+The firepit is scenery in The Shepherd's hut. "A firepit containing some mostly-burned charcoal. A basket hangs above it, with a cauldron set atop for cooking. It doesn't look like it's been used in a while."
+
+An object called the hut is scenery in the Shepherd's hut. The description is "This looks like it was possibly once mobile, tiny wheels still barely visible under the wooden cladding. Small steps lead up to an arched entrance, atop which is sat the kingfisher and the goldcrest. A thin line of smoke curls up out of the chimney."
+
+The Hut Interior is inside from the Shepherd's hut. The printed name of the hut interior is "Inside the Shepherd's Hut". The description is "As you enter the shepherd's hut, you freeze in place. The energy of this place feels markedly different to the forest outside. To the left, a raised platform houses a bed. To the right is a small log burner and kitchen area. But in the centre is the source of the strange energy. A swirling vortex of green energy encircles a woman with elfin features, apparently holding her in place.[if unvisited] When she notices you, the elf woman lets out a cry of relief. 'Oh Claire! You found me! Oh thank the goddesses! I feared I might be trapped here forever! It's me, Ottelie!'"
+
+The bed is scenery in the Hut interior. "A raised alcove contains a very comfortable looking bed. It looks easily big enough for two people. Or one person in a starfish configuration."
+
+The kitchen is scenery in the Hut interior. "A small kitchen area containing shelves stocked with reagents. It looks like the perfect place to base a puzzle involving the mixing of ingredients to reverse a spell. Ah well, maybe next time, eh?"
+
+A woman called Ottelie is in the hut interior. Ottelie can be free or imprisoned. Ottelie is imprisoned. The Description of Ottelie is "A woman with elfin features and a mischievous look in her eyes[if ottelie is imprisoned] stands enmeshed is a swirling green vortex of magical energy[end if]. Vibrant orange hair is tied up with a ribbon of thorns, a beautiful contrast with the forest green dress that falls to her knees. White fabric wraps around her forearms and lower legs, offering some protection against the forest while still allowing a closeness to nature that heavier clothes would deny.[if ottelie is imprisoned] You try to reach through the vortex to reach her but the magical barrier is all but impenetrable." Understand "vortex" as ottelie when ottelie is imprisoned.
+
+Instead of talking to Ottelie:
+	 say "[if ottelie is imprisoned]Ottelie looks at you rather sheepishly before saying 'I'd really love to tell you that I was imprisoned here by some evil warlock or something, but... well... It's my own fault. I was brewing up some growth formula for the plants, and I guess I just wasn't really paying attention to what I was tossing in the cauldron and... I... kinda ended up casting a spell of binding?' 
+You stare back blankly, trying desperately to keep your face neutral. 'I can see the corners of your mouth moving,' says Ottelie, 'It's not funny, OK? I've been stuck like this for a week! I was able to escape by shape shifting into a weasel, but I was severely time limited. The birds have obviously been a big help... Are you laughing, Claire?'
+
+ You cover your mouth to hide your grin and apologise profusely. 'Well OK I'll concede it is pretty hilarious now that I think about it,' says Ottelie, 'but I still need to be rescued. The original plan was for you to try to brew up a potion to counteract the binding spell, using reagents in the kitchen area and brewing them int he cauldron outside, but it would appear that we ran out of time. So... I guess if you know any other ways of casting a spell to set me free, I'm all ears.'[otherwise]Ottelie beams at you with a mischievous grin. 'Well I still can't believe that worked, but I am forever in your debt. I'm not sure how much longer I could have survived off the food the birds brought me. Fish gives me an upset stomach and although I do love raspberries, I'm not terribly convinced of their nutritional value.' She closes her eyes and takes a deep breath. 'But it doesn't matter any more because I'm free. And not a moment too soon either; there's a very unique astral alignment which means my world and yours will soon be joined. You get to meet me for real, Claire!' 
+
+You take a step back, expressing disbelief. How can this be possible? As you open your mouth to speak, Ottelie raises her hands in supplication. 'Listen carefully, Claire. There is only a limited window. On the 23rd of October, 2026, you will be able to visit me in this very hut.' As Ottelie finishes her sentence, you start to feel slightly woozy. You look at your hands and they appear almost transparent.
+
+'Oh no! it looks as if your time in my world is coming to an end,' Ottelie smiles reassuringly, 'but don't worry. You have a solid GROUNDING in this world and your own. And although you have been through many ORDEALS, I think a rest is well DESERVED.'
+
+You fixate on the words Ottelie has spoken as you close your eyes and drift off into a peaceful sleep.";
+	if Ottelie is free:
+		end the story saying "You did it. All that remains is to find Ottelie at the time and place she suggested..."
 
 
 
-A woman called Ottelie is in Inside the Shepherd's hut.
-
-[The Forest Glade, Outside the Shepherd's Hut and the Shepherd's Hut are in the forest.]
-
-[Inside the basket is the kingfisher plate and cup (nice tea and biccies?), The box containing the crystals. Each crystal has a coded message (symbols? can I use the old symbols from last year for one of them?) Also make a new necklace for them. The book... how to gate the book? The book code puzzle... Maybe the book doesn't need gating as the book code requires the correct page?
-
-need to make: book mask puzzle
-
-coded messages for crystals
-]
-
-[book - book code? Mask? - have book mask in previous puzzle? Or in the box?
-crystals - some puzzle about getting them in the right order - each one should have a note with a puzzle that can be solved to get a code to unlock in game?
-	- Iolite (motivates, focuses, helps in times of disorientation, brings self-confidence and courage)
-	- Unakite (releases, balances, heals, promotes letting go of negativity)
-	- MAlachite (releases, guides, balances, breaks down emotional blocks)
-	Do I need to make a necklace again? Probably.
-Ottelie - final present? The game is Ottelie trying to speak to you. It's her way of communicating so that she can be freed from her cage.
-Heart box contains the key to Ottelies cage. Book code solves heart box. book mask is in green box with stones.
-
-]
 
 
 

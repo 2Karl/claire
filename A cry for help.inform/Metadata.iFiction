@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>29F41A52-A9B1-49D2-BB7F-0ECDE259BE35</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>A Cry For Help</title>
+            <author>a very silly man</author>
+            <headline>An Interactive Puzzle Experience</headline>
+            <genre>Mystery</genre>
+            <firstpublished>2026</firstpublished>
+            <description>Someone is trapped. Trapped in a world beyond our own. They need your help. Can you solve the puzzles and save them?</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2026-10-15</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>Inform 10.1.2 (build )</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>Inform 10.1.2 (build )</generatorversion>
+            <originated>2026-10-15</originated>
+        </colophon>
+        <glulx>
+            <serial>261015</serial>
+            <release>1</release>
+            <compiler>Inform Inform 10.1.2 (build )</compiler>
+        </glulx>
+    </story>
+</ifindex>
